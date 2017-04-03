@@ -1,0 +1,419 @@
+@prefix dc: <http://dublincore.org/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> a skos:ConceptScheme ;
+    dc:title "Accessibility Features"@en ;
+    dcterms:description """Content features of the resource, such as accessible
+            media and alternatives."""@en ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/alternativeText> a skos:Concept ;
+    skos:prefLabel "Alternative Text"@en ;
+    skos:altLabel "alternativeText"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-alternativeText> ;
+    skos:definition """Text that is programmatically associated with non-text
+            content and that serves the equivalent purpose (WCAG2)."""@en ;
+    dcterms:source <http://www.a11ymetadata.org/the-specification/>,
+        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/annotations> a skos:Concept ;
+    skos:prefLabel "Annotations"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-annotations> ;
+    skos:altLabel "annotations"@en ;
+    skos:definition """The work includes annotations from the author, instructor
+            and/or others."""@en ;
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+    
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/audioDescription> a skos:Concept ;
+    skos:prefLabel "Audio Description"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-audioDescription> ;
+    skos:altLabel "audioDescription"@en ;
+    skos:definition """Narration has been added to the soundtrack to describe important visual details that 
+            cannot be understood from the main soundtrack alone (WCAG2)."""@en ;
+    dcterms:source <http://www.a11ymetadata.org/the-specification/>,
+        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .     
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/bookMarks> a skos:Concept ;
+    skos:prefLabel "Book Marks"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-bookMarks> ;
+    skos:altLabel "bookMarks"@en ;
+    skos:definition """The work includes bookmarks to facilitate navigation to key
+            points."""@en ;
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/braille> a skos:Concept ;
+    skos:prefLabel "Braille"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-braille> ;
+    skos:altLabel "braille"@en ;
+    skos:definition """Indicates that the resource is formatted in an electronic
+            data format for representing braille books. Braille is a tactile system of raised dots
+            representing letters of the alphabet."""@en ;
+    dcterms:source <http://www.a11ymetadata.org/the-specification/>,
+        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719845> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/captions> a skos:Concept ;
+    skos:prefLabel "Captions"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-captions> ;
+    skos:altLabel "captions"@en ;
+    skos:definition """Synchronized visual and/or text alternative for both speech
+            and non-speech audio information needed to understand the media content
+            (WCAG2)."""@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/>,
+        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719846> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/ChemML> a skos:Concept ;
+    skos:prefLabel "Chemical Markup Language"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-ChemML> ;
+    skos:altLabel "ChemML"@en ;
+    skos:definition """Identifies that chemical information is encoded using the
+            ChemML markup language. """@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/>,
+        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719847> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/describedMath> a skos:Concept ;
+    skos:prefLabel "Described Math"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-describedMath> ;
+    skos:altLabel "describedMath"@en ;
+    skos:definition """Textual descriptions of math equations are included, whether
+            in the alt attribute for image-based equations, using the alttext attribute for MathML
+            equations, or by other means."""@en ;
+    vs:term_status "unstable" ;        
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/displayTransformability> a skos:Concept ;
+    skos:prefLabel "Display Transformability"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-displayTransformability> ;    
+    skos:altLabel "displayTransformability"@en ;
+    skos:definition """Display properties are controllable by the user. This
+            property can be set, for example, if custom CSS style sheets can be applied to the
+            content to control the appearance. It can also be used to indicate that styling in
+            document formats like Word and PDF can be modified."""@en ;        
+    dcterms:source <http://www.a11ymetadata.org/the-specification/>,
+        <http://www.w3.org/wiki/WebSchemas/Accessibility#accessibilityFeature_in_detail> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/highContrastAudio> a skos:Concept ;
+    skos:prefLabel "High Contrast Audio"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-highContrastAudio> ;    
+    skos:altLabel "highContrastAudio"@en ;
+    skos:definition """Audio content with speech in the foreground meets the
+            contrast thresholds set out in WCAG Success Criteria 1.4.7."""@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/>,
+        <http://www.w3.org/wiki/WebSchemas/Accessibility#accessibilityFeature_in_detail> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;            
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+    
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/highContrastDisplay> a skos:Concept ;
+    skos:prefLabel "High Contract Display"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-highContrastDisplay> ;
+    skos:altLabel "highContrastDisplay"@en ;
+    skos:definition """Content meets the visual contrast threshold set out in WCAG
+            Success Criteria 1.4.6
+            (http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast7.html)"""@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .    
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/index> a skos:Concept ;
+    skos:prefLabel "Index"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-index> ;
+    skos:altLabel "index"@en ;
+    skos:definition "@@@"@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/largePrint> a skos:Concept ;
+    skos:prefLabel "Large Print"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-largePrint> ; 
+    skos:altLabel "largePrint"@en ;
+    skos:definition """The content has been formatted to meet large print
+            guidelines."""@en ;       
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    skos:note """The concept is not set if the font size can be
+            increased."""@en ;    
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/latex> a skos:Concept ;
+    skos:prefLabel "Latex"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-latex> ;
+    skos:definition """Indicates that the resource is formatted to be machine
+            processable by a LaTeX processor."""@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    skos:altLabel "latex"@en ;
+    vs:term_status "unstable" ;        
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/longDescription> a skos:Concept ;
+    skos:prefLabel "Long Description"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-longDescription> ;
+    skos:altLabel "longDescription"@en ;
+    skos:definition """An alternative text that is longer than a few
+            sentences."""@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/MathML> a skos:Concept ;
+    skos:prefLabel "Math ML"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-MathML> ;
+    skos:altLabel "MathML"@en ;
+    skos:definition """Indicates that the resource is formatted using MathML, an
+            XML-based specification for describing mathematical expressions so that they can be
+            displayed, manipulated and shared over the World Wide Web
+            (http://www.w3.org/Math/)."""@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/none> a skos:Concept ;
+    skos:prefLabel "None"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-none> ;
+    skos:altLabel "none"@en ;
+    skos:definition "@@@"@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/printPageNumbers> a skos:Concept ;
+    skos:prefLabel "Print Page Number"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-printPageNumbers> ;
+    skos:altLabel "printPageNumber"@en ;
+    skos:definition "@@@"@en ;
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/readingOrder> a skos:Concept ;
+    skos:prefLabel "Reading Order"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-readingOrder> ;
+    skos:altLabel "readingOrder"@en ;
+    skos:definition "@@@"@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/signLanguage> a skos:Concept ;
+    skos:prefLabel "Sign Language"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-signLanguage> ;
+    skos:altLabel "signLanguage"@en ;
+    skos:definition """A language using combinations of movements of the hands and arms, facial expressions, or body positions to convey meaning (WCAG2):
+            http://www.w3.org/TR/WCAG20/#sign-languagedef."""@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/structuralNavigation> a skos:Concept ;
+    skos:prefLabel "Structural Navigation"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-structuralNavigation> ;
+        skos:altLabel "structuralNavigation"@en ;
+    skos:definition "@@@"@en ;
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/tableOfContents> a skos:Concept ;
+    skos:prefLabel "Table of Contents"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-tableOfContents> ;
+    skos:altLabel "tableOfContents"@en ;
+    skos:definition "@@@"@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+    
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/tactileGraphic> a skos:Concept ;
+    skos:prefLabel "Tactile Graphic"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-tactileGraphic> ;
+    skos:altLabel "tactileGraphic"@en ;
+    skos:definition "@@@"@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> . 
+    
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/tactileObject> a skos:Concept ;
+    skos:prefLabel "Tactile Object"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-tactileObject> ;
+    skos:altLabel "tactileObject"@en ;
+    skos:definition """@@@"""@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .      
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/taggedPDF> a skos:Concept ;
+    skos:prefLabel "Tagged PDF"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-taggedPDF> ;
+    skos:altLabel "taggedPDF"@en ;
+    skos:definition "@@@"@en ;
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/timingControl> a skos:Concept ;
+    skos:prefLabel "Timing Control"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-timingControl> ;
+    skos:altLabel "timingControl"@en ;
+    skos:definition "@@@"@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/transcript> a skos:Concept ;
+    skos:prefLabel "Transcript"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-transcript> ;
+    skos:altLabel "transcript"@en ;
+    skos:definition "A written, typewritten, or printed copy; something transcribed or made by transcribing: http://dictionary.reference.com/browse/transcript."@en ;
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/ttsMarkup> a skos:Concept ;
+    skos:prefLabel "TTS Markup"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-ttsMarkup> ;
+    skos:altLabel "ttsMarkup"@en ;
+    skos:definition "@@@"@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/unlocked> a skos:Concept ;
+    skos:prefLabel "Unlocked"@en ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-unlocked> ;
+    skos:altLabel "unlocked"@en ;
+    skos:definition "@@@"@en ;    
+    dcterms:source <http://www.a11ymetadata.org/the-specification/> ;
+    rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
+    vs:term_status "unstable" ;
+    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> .
+
+#=====================
+# EXTENDED LABELS
+#=====================
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-alternativeText> a skosxl:label ;
+    skosxl:literalForm "Alternative Text"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-annotations> a skosxl:label ;
+    skosxl:literalForm "Annotations"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-bookMarks> a skosxl:label ;
+    skosxl:literalForm "Book Marks"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-braille> a skosxl:label ;
+    skosxl:literalForm "Braille"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-captions> a skosxl:label ;
+    skosxl:literalForm "Captions"@en .
+    
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-ChemML> a skosxl:label ;
+    skosxl:literalForm "Chemical Markup Language"@en . 
+    
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-describedMath> a skosxl:label ;
+    skosxl:literalForm "Described Math"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-displayTransformability> a skosxl:label ;
+    skosxl:literalForm "Display Transformability"@en .         
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-highContrastAudio> a skosxl:label ;
+    skosxl:literalForm "High Contrast Audio"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-highContrastDisplay> a skosxl:label ;
+    skosxl:literalForm "High Contrast Display"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-index> a skosxl:label ;
+    skosxl:literalForm "Index"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-largePrint> a skosxl:label ;
+    skosxl:literalForm "Large Print"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-latex> a skosxl:label ;
+    skosxl:literalForm "Latex"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-longDescription> a skosxl:label ;
+    skosxl:literalForm "Long Description"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-MathML> a skosxl:label ;
+    skosxl:literalForm "Math ML"@en .    
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-none> a skosxl:label ;
+    skosxl:literalForm "None"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-printPageNumbers> a skosxl:label ;
+    skosxl:literalForm "Print Page Number"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-readingOrder> a skosxl:label ;
+    skosxl:literalForm "Reading Order"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-signLanguage> a skosxl:label ;
+    skosxl:literalForm "Sign Language"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-structuralNavigation> a skosxl:label ;
+    skosxl:literalForm "Structural Navigation"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-tableOfContents> a skosxl:label ;
+    skosxl:literalForm "Table of Contents"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-tactileGraphic> a skosxl:label ;
+    skosxl:literalForm "Tactile Graphic"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-taggedPDF> a skosxl:label ;
+    skosxl:literalForm "Tagged PDF"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-timingControl> a skosxl:label ;
+    skosxl:literalForm "Timing Control"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-transcript> a skosxl:label ;
+    skosxl:literalForm "Transcript"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-ttsMarkup> a skosxl:label ;
+    skosxl:literalForm "TTS Markup"@en .
+
+<http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-unlocked> a skosxl:label ;
+    skosxl:literalForm "Unlocked"@en .

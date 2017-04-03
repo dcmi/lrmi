@@ -1,0 +1,108 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix audRole: <http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/> .
+@prefix bibo: <http://purl.org/ontology/bibo/status/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+audRole: a skos:ConceptScheme;
+  dc:title "LRMI Educational Audience Role Vocabulary" ;
+  dc:creator "LRMI Task Group (DCMI)"@en-US ;
+  dcterms:description "A concept scheme that defines the primary or intended roles of the audience (beneficiary) of the resource being described."@en-US ;
+  dcterms:created "2017-03-01"^^xsd:date ;
+  skos:hasTopConcept audRole:administrator, audRole:generalPublic,
+    audRole:mentor, audRole:parent, audRole:peerTutor, audRole:professional,
+    audRole:student, audRole:teacher ;
+  dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+  adms:status bibo:published .  
+  
+audRole:administrator a skos:Concept;
+  skos:prefLabel "administrator"@en-US;
+  skosxl:prefLabel audRole:xl-administrator ;  
+  skos:definition "A trainer or educator with administrative authority and responsibility."@en-US;
+  skos:inScheme audRole: ;
+  adms:status bibo:published .
+
+audRole:generalPublic a skos:Concept;
+  skos:prefLabel "general public"@en-US;
+  skosxl:prefLabel audRole:xl-generalPublic ;   
+  skos:definition "The Public at large."@en-US;
+  skos:inScheme audRole: ;
+  adms:status bibo:published .
+  
+audRole:mentor a skos:Concept;
+  skos:prefLabel "mentor"@en-US;
+  skosxl:prefLabel audRole:xl-mentor ;   
+  skos:definition "Someone who advises, trains, supports, and/or guides."@en-US;
+  skos:inScheme audRole: ;
+  adms:status bibo:published .  
+
+audRole:parent a skos:Concept;
+  skos:prefLabel "parent"@en-US;
+  skosxl:prefLabel audRole:xl-parent ;   
+  skos:definition "A father, mother, or legal guardian."@en-US;
+  skos:inScheme audRole: ;
+  adms:status bibo:published .
+  
+audRole:peerTutor a skos:Concept;
+  skos:prefLabel "peer tutor"@en-US;
+  skosxl:prefLabel audRole:xl-peerTutor ;   
+  skos:definition "The peer learner serving as tutor of another learner."@en-US;
+  skos:broader audRole:student;
+  skos:inScheme audRole: ;
+  adms:status bibo:published .  
+       
+audRole:professional a skos:Concept;
+  skos:prefLabel "professional"@en-US;
+  skosxl:prefLabel audRole:xl-professional ;   
+  skos:definition "Someone already practicing a profession; an industry partner, or professional development trainer."@en-US;
+  skos:inScheme audRole: ;
+  adms:status bibo:published .
+       
+audRole:student a skos:Concept;
+  skos:prefLabel "student"@en-US;
+  skosxl:prefLabel audRole:xl-student ;   
+  skos:definition "The learner."@en-US;
+  skos:narrower audRole:peerTutor;
+  skos:inScheme audRole: ;
+  adms:status bibo:published .
+       
+audRole:teacher a skos:Concept;
+  skos:prefLabel "teacher"@en-US;
+  skosxl:prefLabel audRole:xl-teacher ;   
+  skos:definition "A person directly involved with student instruction."@en-US ;
+  skos:inScheme audRole: ;
+  adms:status bibo:published .
+  
+#============================= 
+# EXTENDED LABELS
+#=============================    
+    
+audRole:xl-administrator a skosxl:label ;
+    skosxl:literalForm "administrator"@en-US .   
+    
+audRole:xl-mentor a skosxl:label ;
+    skosxl:literalForm "mentor"@en-US .
+    
+audRole:xl-generalPublic a skosxl:label ;
+    skosxl:literalForm "general public"@en-US .
+    
+audRole:xl-parent a skosxl:label ;
+    skosxl:literalForm "parent"@en-US .   
+    
+audRole:xl-professional a skosxl:label ;
+    skosxl:literalForm "professional"@en-US .
+    
+audRole:xl-student a skosxl:label ;
+    skosxl:literalForm "student"@en-US .
+    
+audRole:xl-peerTutor a skosxl:label ;
+    skosxl:literalForm "peer tutor"@en-US .
+    
+audRole:xl-teacher a skosxl:label ;
+    skosxl:literalForm "teacher"@en-US .             

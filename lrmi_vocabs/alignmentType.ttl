@@ -1,0 +1,106 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix alignment: <http://purl.org/dcx/lrmi-vocabs/alignmentType/> .
+@prefix bibo: <http://purl.org/ontology/bibo/status/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+alignment: a skos:ConceptScheme ;
+    dcterms:description "A concept scheme that defines the types of relationships between a learning resource and a node in an educational framework."@en-US ;
+    dc:title "LRMI Alignment Type Vocabulary"@en-US ;
+    dc:creator "LRMI Task Group (DCMI)"@en-US ;
+    skos:hasTopConcept alignment:assesses, alignment:complexityLevel,
+         alignment:educationalLevel, alignment:educationalSubject,
+         alignment:prerequisite, alignment:readingLevel,
+         alignment:teaches ;
+    dcterms:created "2017-03-01"^^xsd:date ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    adms:status bibo:published .
+
+alignment:assesses a skos:Concept ;
+    skos:prefLabel "assesses"@en-US ;
+    skosxl:prefLabel alignment:xl-assesses ;
+    skos:definition "The learning resource being described may be used to assess the competency being referenced."@en-US ;
+    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Assesses."@en-US ;
+    skos:inScheme alignment: ;
+    adms:status bibo:published .
+    
+alignment:complexityLevel a skos:Concept ;
+    skos:prefLabel "complexity level"@en-US ;
+    skosxl:prefLabel alignment:xl-complexityLevel ;
+    skos:definition "The point in the framework being referenced defines a level or range that measures the difficulty or challenge presented by the learning resource being described."@en-US ;
+    skos:scopeNote "Example frameworks include, but are not limited to, Bloom's Taxonomy, Norman Webb's Depth of Knowledge (DOK), Biggs' SOLO taxonomy, Lexile and Quantile frameworks by MetaMetrics by MetaMetrics."@en-US ;
+    skos:inScheme alignment: ;
+    adms:status bibo:published . 
+
+alignment:educationalLevel a skos:Concept ;
+    skos:prefLabel "educational level"@en-US ;
+    skosxl:prefLabel alignment:xl-educationalLevel ;
+    skos:definition "The point in the framework being referenced defines a level or stage within an education system for which the resource being described is intended or useful."@en-US ;
+    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalLevel."@en-US ;
+    skos:inScheme alignment: ;
+    adms:status bibo:published . 
+    
+alignment:educationalSubject a skos:Concept ;
+    skos:prefLabel "educational subject"@en-US ;
+    skosxl:prefLabel alignment:xl-educationalSubject ;
+    skos:definition "The point in the framework being referenced defines the subject context of the learning resource being described."@en-US ;
+    skos:scopeNote "The educational subject identifies the educational context of the resource being described such as \"math\", \"science\", \"physics\", \"algebra\", and \"English language arts\". To identify the particular topic(s), or aboutness, of the resource being described--e.g., \"Pythagorean theorem\", \"Abraham Lincoln\", \"Ayers Rock\"--use the schema.org/about property."@en ;
+    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalSubject."@en-US ;
+    skos:inScheme alignment: ;
+    adms:status bibo:published .
+    
+alignment:prerequisite a skos:Concept ;
+    skos:prefLabel "prerequisite"@en-US ;
+    skosxl:prefLabel alignment:xl-prerequisite ;
+    skos:definition "The competency being referenced is a learning prerequisite to the effective outcome of the learning resource being described."@en-US ;
+    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000715."@en-US ;
+    skos:inScheme alignment: ;
+    adms:status bibo:published .
+    
+alignment:readingLevel a skos:Concept ;
+    skos:prefLabel "reading level"@en-US ;
+    skosxl:prefLabel alignment:xl-readingLevel ;
+    skos:definition "The point in the framework being referenced defines a level or range of reading ability expected for a person using the learning resource being described."@en-US ;
+    skos:scopeNote "Example frameworks include, but are not limited to, Lexile Framework by MetaMetrics, ATOS by Renaissance Learning, Degrees of Reading Power (DRP) by Questar Assessment, Flesch-Kincaid (public domain), Reading Maturity by Pearson Education, SourceRater by Educational Testing Service, Easability Indicator by Coh-Metrix, and the Oxford Reading Tree levels from Oxford University Press."@en-US ;
+    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#ReadingLevel."@en-US ;
+    skos:inScheme alignment: ;
+    adms:status bibo:published .
+
+alignment:teaches a skos:Concept ;
+    skos:prefLabel "teaches"@en-US ;
+    skosxl:prefLabel alignment:xl-teaches ;
+    skos:definition "The learning resource being described may be used to teach the competency being referenced."@en-US ;
+    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Teaches."@en-US ;
+    skos:inScheme alignment: ;
+    adms:status bibo:published .
+    
+#=============================
+# EXTENDED LABELS
+#=============================
+    
+alignment:xl-assesses a skosxl:Label ;
+    skosxl:literalForm "assesses"@en-US .
+    
+alignment:xl-complexityLevel a skosxl:Label ;
+    skosxl:literalForm "complexity level"@en-US . 
+    
+alignment:xl-educationalLevel a skosxl:Label ;
+    skosxl:literalForm "educational level"@en-US .
+    
+alignment:xl-educationalSubject a skosxl:Label ;
+    skosxl:literalForm "educational subject"@en-US .
+    
+alignment:xl-prerequisite a skosxl:Label ;
+    skosxl:literalForm "prerequisite"@en-US .
+    
+alignment:xl-readingLevel a skosxl:Label ;
+    skosxl:literalForm "reading level"@en-US .
+    
+alignment:xl-teaches a skosxl:Label ;
+    skosxl:literalForm "teaches"@en-US .
