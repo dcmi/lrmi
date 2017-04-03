@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "schema": "http://schema.org/"
+  },
+  "@type": "schema:CreativeWork",
+  "schema:datePublished": "October 4, 2006",
+  "schema:description": "In this activity, students will engage in active problem solving as they create a design for a map leading to a hidden treasure. They will work in collaborative groups, explore numerical problems, and explain the strategies they used to solve design problems.",
+  "schema:learningResourceType" : "lesson plan",
+  "schema:audience": [
+    {
+      "@type": "schema:EducationalAudience",
+      "schema:educationalRole": "Teacher"
+    }
+  ],
+  "schema:educationalAlignment": [
+    {
+      "@type": "schema:AlignmentObject",
+      "schema:alignmentType": "Educational level",
+      "schema:educationalFramework": "US Grade Levels",
+      "schema:targetName": "Pre-K",
+      "schema:targetUrl": "http://purl.org/ASN/scheme/ASNEducationLevel/Pre-K"
+    },
+    {
+      "@type": "schema:AlignmentObject",
+      "schema:alignmentType": "Educational level",
+      "schema:educationalFramework": "US Grade Levels",
+      "schema:targetName": "1",
+      "schema:targetUrl": "http://purl.org/ASN/scheme/ASNEducationLevel/1"
+    },
+    {
+      "@type": "schema:AlignmentObject",
+      "schema:alignmentType": "teaches",
+      "schema:educationalFramework": "Common Core State Standards for English Language Arts & Literacy",
+      "schema:targetDescription": "Follow agreed-upon rules for discussions (e.g., listening to others and taking turns speaking about the topics and texts under discussion).",
+      "schema:targetName": "CCSS.ELA-Literacy.SL.K.1a",
+      "schema:targetUrl": [
+        {
+          "@id": "http://purl.org/ASN/resources/S11438E2"
+        },
+        {
+          "@id": "http://www.corestandards.org/ELA-Literacy/SL/K/1/a/"
+        }
+      ]
+    },
+    {
+      "@type": "schema:AlignmentObject",
+      "schema:alignmentType": "teaches",
+      "schema:educationalFramework": "Common Core State Standards for English Language Arts & Literacy",
+      "schema:targetDescription": "Continue a conversation through multiple exchanges.",
+      "schema:targetName": "CCSS.ELA-Literacy.SL.K.1b",
+      "schema:targetUrl": [
+        {
+          "@id": "http://purl.org/ASN/resources/S11438E3"
+        },
+        {
+          "@id": "http://www.corestandards.org/ELA-Literacy/SL/K/1/b/"
+        }
+      ]
+    },
+    {
+      "@type": "schema:AlignmentObject",
+      "schema:alignmentType": "teaches",
+      "schema:educationalFramework": "Common Core State Standards for English Language Arts & Literacy",
+      "schema:targetDescription": "Confirm understanding of a text read aloud or information presented orally or through other media by asking and answering questions about key details and requesting clarification if something is not understood.",
+      "schema:targetName": "CCSS.ELA-Literacy.SL.K.2",
+      "schema:targetUrl": [
+        {
+          "@id": "http://purl.org/ASN/resources/S11438CF"
+        },
+        {
+          "@id": "http://www.corestandards.org/ELA-Literacy/SL/K/2/"
+        }
+      ]
+    }
+  ],
+  "schema:name": "Tiles, Blocks, Sapphires & Gold: Designing a Treasure Map",
+  "schema:publisher": "Cooper-Hewitt National Design Museum",
+  "schema:timeRequired": [
+    "PT2H",
+    "PT1H"
+  ],
+  "schema:url": {
+    "@id": "http://dx.cooperhewitt.org/lessonplan/Tiles-Blocks-Sapphires-Gold-Designing-a-Treasure-Map/"
+  }
+}

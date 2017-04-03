@@ -1,0 +1,203 @@
+{
+    "@context": [
+        {
+            "url": {
+            "@type": "@id"
+            },
+            "@vocab": "http://schema.org/"
+        },
+        {
+            "lrmi": "http://lrmi.net/the-specification#",
+            "useRightsUrl": {
+                "@id": "lrmi:useRightsUrl",
+                "@type": "@id"
+                }
+        }
+        ],
+        "educationalUse": [
+              "Activity",
+              "Discussion/Debate",
+              "Guided questions",
+              "Kinesthetic",
+              "Assessment",
+              "Presentation"
+            ],
+        "AlignmentObject": [
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.K.1a",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.K.1b",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.K.2",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.K.3",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.K.4",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.K.5",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.L.K.1d",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.1.1a",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.1.1b",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.1.1c",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.1.3",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.1.4",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.1.5",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.2.1a",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.2.1b",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.2.1c",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.2.3",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.3.1a",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.3.1b",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.3.1c",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.3.1d",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.3.3",
+                "@type": "AlignmentObject"
+              },
+              {
+                "alignmentType": "teaches",
+                "educationalFramework": "Common Core State Standards",
+                "targetName": "CCSS.ELA-Literacy.SL.3.4",
+                "@type": "AlignmentObject"
+              }
+            ],
+       "inLanguage": "English",
+        "typicalAgeRange": [
+              "2-5",
+              "5-8"
+            ],
+        "keywords": [
+              "teamwork",
+              "collaboration",
+              "classroom",
+              "teacher",
+              "activity"
+            ],
+        "educationalRole": "Teacher",
+        "useRightsUrl": "http://www.si.edu/termsofuse/",
+        "accessibilityFeature": "structuralNavigation",
+        "interactivityType": "Mixed",
+        "accessibilityHazard": [
+              "noFlashingHazard",
+              "noMotionSimulationHazard",
+              "noSoundHazard"
+            ],
+        "description": "Students engage in problem solving as they create a design for a map leading to hidden treasure. Asks students to work in groups, explore numerical problems, and explain their strategies.",
+        "dateCreated": "2006-10-04",
+        "timeRequired": "PT2H",
+        "publisher": [
+              "Cooper-Hewitt",
+              "National Design Museum"
+            ],
+        "about": "Design",
+        "name": "Tiles, Blocks, Sapphires & Gold: Designing a Treasure Map",
+        "url": "http://dx.cooperhewitt.org/lessonplan/Tiles-Blocks-Sapphires-Gold-Designing-a-Treasure-Map",
+        "learningResourceType": [
+              "Activity",
+              "Lesson Plan",
+              "On-Line"
+            ],
+        "accessibilityControl": "fullMouseControl",
+        "@type": "CreativeWork"
+}
