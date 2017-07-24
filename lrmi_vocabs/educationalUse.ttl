@@ -1,5 +1,3 @@
-@prefix adms: <http://www.w3.org/ns/adms#> .
-@prefix bibo: <http://purl.org/ontology/bibo/status/> .
 @prefix dc: <http://dublincore.org/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix edUse: <http://purl.org/dcx/lrmi-vocabs/educationalUse/> .
@@ -15,44 +13,25 @@ edUse: a skos:ConceptScheme ;
     dc:creator "LRMI Task Group (DCMI)"@en-US ;
     dcterms:description "A concept scheme that enumerates the educational uses of a learning resource."@en-US ;
     dcterms:created "2017-03-01"^^xsd:date ;
+    dcterms:modified "2017-07-11"^^xsd:date ;    
     skos:hasTopConcept edUse:assessment, edUse:instruction,
         edUse:professionalSupport ;
-    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
-    adms:status bibo:published .
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> .
     
 edUse:assessment a skos:Concept ;
     skos:prefLabel "assessment"@en-US ;
-    skosxl:prefLabel edUse:xl-assessment ;
     skos:definition "Primary purpose of the resource is to evaluate learning, before, during, or after instruction occurs."@en-US ;
     skos:inScheme edUse: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#Assessment"@en-US ;
-    adms:status bibo:published .           
+    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#Assessment"@en-US .           
 
 edUse:instruction a skos:Concept ;
     skos:prefLabel "instruction"@en-US ;
-    skosxl:prefLabel edUse:xl-instruction ;
     skos:definition "Primary purpose of the resource is to support the instructional process, student learning, or to provide information about the curriculum."@en-US ;
     skos:inScheme edUse: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#CurriculumInstruction"@en-US ;
-    adms:status bibo:published .  
+    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#CurriculumInstruction"@en-US .  
 
 edUse:professionalSupport a skos:Concept ;
     skos:prefLabel "professional support"@en-US ;
-    skosxl:prefLabel edUse:xl-professionalSupport ;
     skos:definition "Primary purpose of the resource is to provide instruction for a teacher or other education professional including porofessional development."@en-US ;
     skos:inScheme edUse: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#ProfessionalDevelopment"@en-US ;  
-    adms:status bibo:published .
-    
-#============================= 
-# EXTENDED LABELS
-#============================= 
-
-edUse:xl-instruction a skosxl:Label ;
-    skosxl:literalForm "instruction"@en-US .
-        
-edUse:xl-assessment a skosxl:Label ;
-    skosxl:literalForm "assessment"@en-US .
-    
-edUse:xl-professionalSupport a skosxl:Label ;
-    skosxl:literalForm "professional support"@en-US .
+    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#ProfessionalDevelopment"@en-US .
