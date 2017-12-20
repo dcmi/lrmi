@@ -14,7 +14,6 @@ interact: a skos:ConceptScheme ;
     dc:creator "LRMI Task Group (DCMI)"@en-US ;
     dcterms:description "A concept scheme that defines the predominate interact mode of the learning resource being described."@en-US ;
     dcterms:source "Based on the IEEE Learning Object Metadata standard (IEEE/LOM - IEEE 1484.12.1-202)."@en-US ;
-    skos:hasTopConcept interact:active, interact:expositive, interact:mixed ;
     dcterms:created "2017-03-01"^^xsd:date ;
     dcterms:modified "2017-07-11"^^xsd:date ; 
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> .

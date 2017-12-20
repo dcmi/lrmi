@@ -14,8 +14,6 @@ edUse: a skos:ConceptScheme ;
     dcterms:description "A concept scheme that enumerates the educational uses of a learning resource."@en-US ;
     dcterms:created "2017-03-01"^^xsd:date ;
     dcterms:modified "2017-07-11"^^xsd:date ;    
-    skos:hasTopConcept edUse:assessment, edUse:instruction,
-        edUse:professionalSupport ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> .
     
 edUse:assessment a skos:Concept ;

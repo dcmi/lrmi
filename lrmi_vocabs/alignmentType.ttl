@@ -12,10 +12,6 @@ alignment: a skos:ConceptScheme ;
     dcterms:description "A concept scheme that defines the types of relationships between a learning resource and a node in an educational framework."@en-US ;
     dc:title "LRMI Alignment Type Vocabulary"@en-US ;
     dc:creator "LRMI Task Group (DCMI)"@en-US ;
-    skos:hasTopConcept alignment:assesses, alignment:complexityLevel,
-         alignment:educationalLevel, alignment:educationalSubject,
-         alignment:prerequisite, alignment:readingLevel,
-         alignment:teaches ;
     dcterms:created "2017-03-01"^^xsd:date ;
     dcterms:modified "2017-07-11"^^xsd:date ;    
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> .

@@ -14,9 +14,6 @@ audRole: a skos:ConceptScheme;
   dcterms:description "A concept scheme that defines the primary or intended roles of the audience (beneficiary) of the resource being described."@en-US ;
   dcterms:created "2017-03-01"^^xsd:date ;
   dcterms:modified "2017-07-11"^^xsd:date ;  
-  skos:hasTopConcept audRole:administrator, audRole:generalPublic,
-    audRole:mentor, audRole:parent, audRole:peerTutor, audRole:professional,
-    audRole:student, audRole:teacher ;
   dcterms:license <http://creativecommons.org/licenses/by/4.0/> .  
   
 audRole:administrator a skos:Concept;
