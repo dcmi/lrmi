@@ -1,0 +1,164 @@
+{
+  "@context": {
+    "audRole": "http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "skosxl": "http://www.w3.org/2008/05/skos-xl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "audRole:",
+      "@type": "skos:ConceptScheme",
+      "dc:creator": {
+        "@language": "en-US",
+        "@value": "LRMI Task Group (DCMI)"
+      },
+      "dc:title": "LRMI Educational Audience Role Vocabulary",
+      "dcterms:created": {
+        "@type": "xsd:date",
+        "@value": "2017-03-01"
+      },
+      "dcterms:description": {
+        "@language": "en-US",
+        "@value": "A concept scheme that defines the primary or intended roles of the audience (beneficiary) of the resource being described."
+      },
+      "dcterms:license": {
+        "@id": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "dcterms:modified": {
+        "@type": "xsd:date",
+        "@value": "2017-12-20"
+      }
+    },
+    {
+      "@id": "audRole:administrator",
+      "@type": "skos:Concept",
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "A trainer or educator with administrative authority and responsibility."
+      },
+      "skos:inScheme": {
+        "@id": "audRole:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "administrator"
+      }
+    },
+    {
+      "@id": "audRole:mentor",
+      "@type": "skos:Concept",
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "Someone who advises, trains, supports, and/or guides."
+      },
+      "skos:inScheme": {
+        "@id": "audRole:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "mentor"
+      }
+    },
+    {
+      "@id": "audRole:teacher",
+      "@type": "skos:Concept",
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "A person who has been trained to implement educational methods and practices"
+      },
+      "skos:inScheme": {
+        "@id": "audRole:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "teacher"
+      }
+    },
+    {
+      "@id": "audRole:generalPublic",
+      "@type": "skos:Concept",
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "The Public at large."
+      },
+      "skos:inScheme": {
+        "@id": "audRole:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "general public"
+      }
+    },
+    {
+      "@id": "audRole:peerTutor",
+      "@type": "skos:Concept",
+      "skos:broader": {
+        "@id": "audRole:student"
+      },
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "The peer learner serving as tutor of another learner."
+      },
+      "skos:inScheme": {
+        "@id": "audRole:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "peer tutor"
+      }
+    },
+    {
+      "@id": "audRole:student",
+      "@type": "skos:Concept",
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "The learner or trainee."
+      },
+      "skos:inScheme": {
+        "@id": "audRole:"
+      },
+      "skos:narrower": {
+        "@id": "audRole:peerTutor"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "student"
+      }
+    },
+    {
+      "@id": "audRole:professional",
+      "@type": "skos:Concept",
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "Someone already practicing a profession; an industry partner, or professional development trainer."
+      },
+      "skos:inScheme": {
+        "@id": "audRole:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "professional"
+      }
+    },
+    {
+      "@id": "audRole:parent",
+      "@type": "skos:Concept",
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "A father, mother, or legal guardian."
+      },
+      "skos:inScheme": {
+        "@id": "audRole:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "parent"
+      }
+    }
+  ]
+}
