@@ -13,7 +13,7 @@ audRole: a skos:ConceptScheme;
   dc:creator "LRMI Task Group (DCMI)"@en-US ;
   dcterms:description "A concept scheme that defines the primary or intended roles of the audience (beneficiary) of the resource being described."@en-US ;
   dcterms:created "2017-03-01"^^xsd:date ;
-  dcterms:modified "2017-07-11"^^xsd:date ;  
+  dcterms:modified "2017-12-20"^^xsd:date ;  
   dcterms:license <http://creativecommons.org/licenses/by/4.0/> .  
   
 audRole:administrator a skos:Concept;
