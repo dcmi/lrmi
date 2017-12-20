@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "dc": "http://dublincore.org/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "interact": "http://purl.org/dcx/lrmi-vocabs/interactivityType/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "skosxl": "http://www.w3.org/2008/05/skos-xl#",
+    "vs": "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "interact:expositive",
+      "@type": "skos:Concept",
+      "dcterms:source": {
+        "@language": "en-US",
+        "@value": "Based on the IEEE Learning Object Metadata standard (IEEE 1484.12.1-202 (LOMv1.0))."
+      },
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "Use of a subject-matter expert to explain a concept or give clear and concise information in a purposeful way to the passive learner."
+      },
+      "skos:inScheme": {
+        "@id": "interact:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "expositive"
+      }
+    },
+    {
+      "@id": "interact:",
+      "@type": "skos:ConceptScheme",
+      "dc:creator": {
+        "@language": "en-US",
+        "@value": "LRMI Task Group (DCMI)"
+      },
+      "dc:title": {
+        "@language": "en-US",
+        "@value": "LRMI Interact Type Vocabulary"
+      },
+      "dcterms:created": {
+        "@type": "xsd:date",
+        "@value": "2017-03-01"
+      },
+      "dcterms:description": {
+        "@language": "en-US",
+        "@value": "A concept scheme that defines the predominate interact mode of the learning resource being described."
+      },
+      "dcterms:license": {
+        "@id": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "dcterms:modified": {
+        "@type": "xsd:date",
+        "@value": "2017-12-20"
+      },
+      "dcterms:source": {
+        "@language": "en-US",
+        "@value": "Based on the IEEE Learning Object Metadata standard (IEEE/LOM - IEEE 1484.12.1-202)."
+      }
+    },
+    {
+      "@id": "interact:active",
+      "@type": "skos:Concept",
+      "dcterms:source": {
+        "@language": "en-US",
+        "@value": "Based on the IEEE Learning Object Metadata standard (IEEE 1484.12.1-202 (LOMv1.0))."
+      },
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "Learning that engages and challenges the learner's thinking using real-life and/or imaginary situations taking advantage of the opportunities for learning presented by investigating, exploring, events, and life experiences."
+      },
+      "skos:inScheme": {
+        "@id": "interact:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "active"
+      }
+    },
+    {
+      "@id": "interact:mixed",
+      "@type": "skos:Concept",
+      "dcterms:source": {
+        "@language": "en-US",
+        "@value": "Based on IEEE Learning Object Metadata standard (IEEE 1484.12.1-202 (LOMv1.0))."
+      },
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "Instructional interactions comprised of a mix of active learning and expositive approaches."
+      },
+      "skos:inScheme": {
+        "@id": "interact:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "mixed"
+      }
+    }
+  ]
+}
