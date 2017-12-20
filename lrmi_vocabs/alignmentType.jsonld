@@ -1,0 +1,182 @@
+{
+  "@context": {
+    "alignment": "http://purl.org/dcx/lrmi-vocabs/alignmentType/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "skosxl": "http://www.w3.org/2008/05/skos-xl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "alignment:",
+      "@type": "skos:ConceptScheme",
+      "dc:creator": {
+        "@language": "en-US",
+        "@value": "LRMI Task Group (DCMI)"
+      },
+      "dc:title": {
+        "@language": "en-US",
+        "@value": "LRMI Alignment Type Vocabulary"
+      },
+      "dcterms:created": {
+        "@type": "xsd:date",
+        "@value": "2017-03-01"
+      },
+      "dcterms:description": {
+        "@language": "en-US",
+        "@value": "A concept scheme that defines the types of relationships between a learning resource and a node in an educational framework."
+      },
+      "dcterms:license": {
+        "@id": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "dcterms:modified": {
+        "@type": "xsd:date",
+        "@value": "2017-12-20"
+      }
+    },  
+    {
+      "@id": "alignment:assesses",
+      "@type": "skos:Concept",
+      "dcterms:source": {
+        "@language": "en-US",
+        "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Assesses."
+      },
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "The learning resource being described may be used to assess the competency being referenced."
+      },
+      "skos:inScheme": {
+        "@id": "alignment:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "assesses"
+      }
+    },
+    {
+      "@id": "alignment:complexityLevel",
+      "@type": "skos:Concept",
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "The point in the framework being referenced defines a level or range that measures the difficulty or challenge presented by the learning resource being described."
+      },
+      "skos:inScheme": {
+        "@id": "alignment:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "complexity level"
+      },
+      "skos:scopeNote": {
+        "@language": "en-US",
+        "@value": "Example frameworks include, but are not limited to, Bloom's Taxonomy, Norman Webb's Depth of Knowledge (DOK), Biggs' SOLO taxonomy, Lexile and Quantile frameworks by MetaMetrics."
+      }
+    },
+    {
+      "@id": "alignment:educationalLevel",
+      "@type": "skos:Concept",
+      "dcterms:source": {
+        "@language": "en-US",
+        "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalLevel."
+      },
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "The point in the framework being referenced defines a level or stage within an education system for which the resource being described is intended or useful."
+      },
+      "skos:inScheme": {
+        "@id": "alignment:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "educational level"
+      }
+    },   
+    {
+      "@id": "alignment:educationalSubject",
+      "@type": "skos:Concept",
+      "dcterms:source": {
+        "@language": "en-US",
+        "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalSubject."
+      },
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "The point in the framework being referenced defines the subject context of the learning resource being described."
+      },
+      "skos:inScheme": {
+        "@id": "alignment:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "educational subject"
+      },
+      "skos:scopeNote": {
+        "@language": "en",
+        "@value": "The educational subject identifies the educational context of the resource being described such as \"math\", \"science\", \"physics\", \"algebra\", and \"English language arts\". To identify the particular topic(s), or aboutness, of the resource being described--e.g., \"Pythagorean theorem\", \"Abraham Lincoln\", \"Ayers Rock\"--use the schema.org/about property."
+      }
+    },
+    {
+      "@id": "alignment:prerequisite",
+      "@type": "skos:Concept",
+      "dcterms:source": {
+        "@language": "en-US",
+        "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000715."
+      },
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "The competency being referenced is a learning prerequisite to the effective outcome of the learning resource being described."
+      },
+      "skos:inScheme": {
+        "@id": "alignment:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "prerequisite"
+      }
+    },
+    {
+      "@id": "alignment:readingLevel",
+      "@type": "skos:Concept",
+      "dcterms:source": {
+        "@language": "en-US",
+        "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#ReadingLevel."
+      },
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "The point in the framework being referenced defines a level or range of reading ability expected for a person using the learning resource being described."
+      },
+      "skos:inScheme": {
+        "@id": "alignment:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "reading level"
+      },
+      "skos:scopeNote": {
+        "@language": "en-US",
+        "@value": "Example frameworks include, but are not limited to, Lexile Framework by MetaMetrics, ATOS by Renaissance Learning, Degrees of Reading Power (DRP) by Questar Assessment, Flesch-Kincaid (public domain), Reading Maturity by Pearson Education, SourceRater by Educational Testing Service, Easability Indicator by Coh-Metrix, and the Oxford Reading Tree levels from Oxford University Press."
+      }
+    },
+    {
+      "@id": "alignment:teaches",
+      "@type": "skos:Concept",
+      "dcterms:source": {
+        "@language": "en-US",
+        "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Teaches."
+      },
+      "skos:definition": {
+        "@language": "en-US",
+        "@value": "The learning resource being described may be used to teach the competency being referenced."
+      },
+      "skos:inScheme": {
+        "@id": "alignment:"
+      },
+      "skos:prefLabel": {
+        "@language": "en-US",
+        "@value": "teaches"
+      }
+    }
+  ]
+}
