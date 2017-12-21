@@ -1,7 +1,7 @@
 {
   "@context": {
     "dc": "http://dublincore.org/elements/1.1/",
-    "dcterms": "http://purl.org/dc/terms/",
+    "dct": "http://purl.org/dc/terms/",
     "edUse": "http://purl.org/dcx/lrmi-vocabs/educationalUse/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
@@ -18,18 +18,18 @@
         "@value": "LRMI Task Group (DCMI)"
       },
       "dc:title": "LRMI Educational Use vocabulary",
-      "dcterms:created": {
+      "dct:created": {
         "@type": "xsd:date",
         "@value": "2017-03-01"
       },
-      "dcterms:description": {
+      "dct:description": {
         "@language": "en-US",
         "@value": "A concept scheme that enumerates the educational uses of a learning resource."
       },
-      "dcterms:license": {
+      "dct:license": {
         "@id": "http://creativecommons.org/licenses/by/4.0/"
       },
-      "dcterms:modified": {
+      "dct:modified": {
         "@type": "xsd:date",
         "@value": "2017-12-20"
       }
@@ -37,7 +37,7 @@
     {
       "@id": "edUse:assessment",
       "@type": "skos:Concept",
-      "dcterms:source": {
+      "dct:source": {
         "@language": "en-US",
         "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#Assessment"
       },
@@ -56,7 +56,7 @@
     {
       "@id": "edUse:professionalSupport",
       "@type": "skos:Concept",
-      "dcterms:source": {
+      "dct:source": {
         "@language": "en-US",
         "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#ProfessionalDevelopment"
       },
@@ -75,7 +75,7 @@
     {
       "@id": "edUse:instruction",
       "@type": "skos:Concept",
-      "dcterms:source": {
+      "dct:source": {
         "@language": "en-US",
         "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#CurriculumInstruction"
       },

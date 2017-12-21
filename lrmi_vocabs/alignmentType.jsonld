@@ -2,7 +2,7 @@
   "@context": {
     "alignment": "http://purl.org/dcx/lrmi-vocabs/alignmentType/",
     "dc": "http://purl.org/dc/elements/1.1/",
-    "dcterms": "http://purl.org/dc/terms/",
+    "dct": "http://purl.org/dc/terms/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
@@ -21,18 +21,18 @@
         "@language": "en-US",
         "@value": "LRMI Alignment Type Vocabulary"
       },
-      "dcterms:created": {
+      "dct:created": {
         "@type": "xsd:date",
         "@value": "2017-03-01"
       },
-      "dcterms:description": {
+      "dct:description": {
         "@language": "en-US",
         "@value": "A concept scheme that defines the types of relationships between a learning resource and a node in an educational framework."
       },
-      "dcterms:license": {
+      "dct:license": {
         "@id": "http://creativecommons.org/licenses/by/4.0/"
       },
-      "dcterms:modified": {
+      "dct:modified": {
         "@type": "xsd:date",
         "@value": "2017-12-20"
       }
@@ -40,7 +40,7 @@
     {
       "@id": "alignment:assesses",
       "@type": "skos:Concept",
-      "dcterms:source": {
+      "dct:source": {
         "@language": "en-US",
         "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Assesses."
       },
@@ -78,7 +78,7 @@
     {
       "@id": "alignment:educationalLevel",
       "@type": "skos:Concept",
-      "dcterms:source": {
+      "dct:source": {
         "@language": "en-US",
         "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalLevel."
       },
@@ -97,7 +97,7 @@
     {
       "@id": "alignment:educationalSubject",
       "@type": "skos:Concept",
-      "dcterms:source": {
+      "dct:source": {
         "@language": "en-US",
         "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalSubject."
       },
@@ -120,7 +120,7 @@
     {
       "@id": "alignment:prerequisite",
       "@type": "skos:Concept",
-      "dcterms:source": {
+      "dct:source": {
         "@language": "en-US",
         "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000715."
       },
@@ -139,7 +139,7 @@
     {
       "@id": "alignment:readingLevel",
       "@type": "skos:Concept",
-      "dcterms:source": {
+      "dct:source": {
         "@language": "en-US",
         "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#ReadingLevel."
       },
@@ -162,7 +162,7 @@
     {
       "@id": "alignment:teaches",
       "@type": "skos:Concept",
-      "dcterms:source": {
+      "dct:source": {
         "@language": "en-US",
         "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Teaches."
       },

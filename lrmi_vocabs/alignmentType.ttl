@@ -1,6 +1,6 @@
 @prefix alignment: <http://purl.org/dcx/lrmi-vocabs/alignmentType/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -9,17 +9,17 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 alignment: a skos:ConceptScheme ;
-    dcterms:description "A concept scheme that defines the types of relationships between a learning resource and a node in an educational framework."@en-US ;
+    dct:description "A concept scheme that defines the types of relationships between a learning resource and a node in an educational framework."@en-US ;
     dc:title "LRMI Alignment Type Vocabulary"@en-US ;
     dc:creator "LRMI Task Group (DCMI)"@en-US ;
-    dcterms:created "2017-03-01"^^xsd:date ;
-    dcterms:modified "2017-12-20"^^xsd:date ;    
-    dcterms:license <http://creativecommons.org/licenses/by/4.0/> .
+    dct:created "2017-03-01"^^xsd:date ;
+    dct:modified "2017-12-20"^^xsd:date ;    
+    dct:license <http://creativecommons.org/licenses/by/4.0/> .
 
 alignment:assesses a skos:Concept ;
     skos:prefLabel "assesses"@en-US ;
     skos:definition "The learning resource being described may be used to assess the competency being referenced."@en-US ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Assesses."@en-US ;
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Assesses."@en-US ;
     skos:inScheme alignment: .
     
 alignment:complexityLevel a skos:Concept ;
@@ -31,31 +31,31 @@ alignment:complexityLevel a skos:Concept ;
 alignment:educationalLevel a skos:Concept ;
     skos:prefLabel "educational level"@en-US ;
     skos:definition "The point in the framework being referenced defines a level or stage within an education system for which the resource being described is intended or useful."@en-US ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalLevel."@en-US ;
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalLevel."@en-US ;
     skos:inScheme alignment: . 
     
 alignment:educationalSubject a skos:Concept ;
     skos:prefLabel "educational subject"@en-US ;
     skos:definition "The point in the framework being referenced defines the subject context of the learning resource being described."@en-US ;
     skos:scopeNote "The educational subject identifies the educational context of the resource being described such as \"math\", \"science\", \"physics\", \"algebra\", and \"English language arts\". To identify the particular topic(s), or aboutness, of the resource being described--e.g., \"Pythagorean theorem\", \"Abraham Lincoln\", \"Ayers Rock\"--use the schema.org/about property."@en ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalSubject."@en-US ;
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalSubject."@en-US ;
     skos:inScheme alignment: .
     
 alignment:prerequisite a skos:Concept ;
     skos:prefLabel "prerequisite"@en-US ;
     skos:definition "The competency being referenced is a learning prerequisite to the effective outcome of the learning resource being described."@en-US ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000715."@en-US ;
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000715."@en-US ;
     skos:inScheme alignment: .
     
 alignment:readingLevel a skos:Concept ;
     skos:prefLabel "reading level"@en-US ;
     skos:definition "The point in the framework being referenced defines a level or range of reading ability expected for a person using the learning resource being described."@en-US ;
     skos:scopeNote "Example frameworks include, but are not limited to, Lexile Framework by MetaMetrics, ATOS by Renaissance Learning, Degrees of Reading Power (DRP) by Questar Assessment, Flesch-Kincaid (public domain), Reading Maturity by Pearson Education, SourceRater by Educational Testing Service, Easability Indicator by Coh-Metrix, and the Oxford Reading Tree levels from Oxford University Press."@en-US ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#ReadingLevel."@en-US ;
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#ReadingLevel."@en-US ;
     skos:inScheme alignment: .
 
 alignment:teaches a skos:Concept ;
     skos:prefLabel "teaches"@en-US ;
     skos:definition "The learning resource being described may be used to teach the competency being referenced."@en-US ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Teaches."@en-US ;
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Teaches."@en-US ;
     skos:inScheme alignment: .

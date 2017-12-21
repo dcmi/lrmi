@@ -2,7 +2,7 @@
   "@context": {
     "audRole": "http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/",
     "dc": "http://purl.org/dc/elements/1.1/",
-    "dcterms": "http://purl.org/dc/terms/",
+    "dct": "http://purl.org/dc/terms/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
@@ -18,18 +18,18 @@
         "@value": "LRMI Task Group (DCMI)"
       },
       "dc:title": "LRMI Educational Audience Role Vocabulary",
-      "dcterms:created": {
+      "dct:created": {
         "@type": "xsd:date",
         "@value": "2017-03-01"
       },
-      "dcterms:description": {
+      "dct:description": {
         "@language": "en-US",
         "@value": "A concept scheme that defines the primary or intended roles of the audience (beneficiary) of the resource being described."
       },
-      "dcterms:license": {
+      "dct:license": {
         "@id": "http://creativecommons.org/licenses/by/4.0/"
       },
-      "dcterms:modified": {
+      "dct:modified": {
         "@type": "xsd:date",
         "@value": "2017-12-20"
       }

@@ -1,7 +1,7 @@
 {
   "@context": {
     "dc": "http://dublincore.org/elements/1.1/",
-    "dcterms": "http://purl.org/dc/terms/",
+    "dct": "http://purl.org/dc/terms/",
     "interact": "http://purl.org/dcx/lrmi-vocabs/interactivityType/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
@@ -12,9 +12,40 @@
   },
   "@graph": [
     {
+      "@id": "interact:",
+      "@type": "skos:ConceptScheme",
+      "dc:creator": {
+        "@language": "en-US",
+        "@value": "LRMI Task Group (DCMI)"
+      },
+      "dc:title": {
+        "@language": "en-US",
+        "@value": "LRMI Interact Type Vocabulary"
+      },
+      "dct:created": {
+        "@type": "xsd:date",
+        "@value": "2017-03-01"
+      },
+      "dct:description": {
+        "@language": "en-US",
+        "@value": "A concept scheme that defines the predominate interact mode of the learning resource being described."
+      },
+      "dct:license": {
+        "@id": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:modified": {
+        "@type": "xsd:date",
+        "@value": "2017-12-20"
+      },
+      "dct:source": {
+        "@language": "en-US",
+        "@value": "Based on the IEEE Learning Object Metadata standard (IEEE/LOM - IEEE 1484.12.1-202)."
+      }
+    },  
+    {
       "@id": "interact:expositive",
       "@type": "skos:Concept",
-      "dcterms:source": {
+      "dct:source": {
         "@language": "en-US",
         "@value": "Based on the IEEE Learning Object Metadata standard (IEEE 1484.12.1-202 (LOMv1.0))."
       },
@@ -31,40 +62,9 @@
       }
     },
     {
-      "@id": "interact:",
-      "@type": "skos:ConceptScheme",
-      "dc:creator": {
-        "@language": "en-US",
-        "@value": "LRMI Task Group (DCMI)"
-      },
-      "dc:title": {
-        "@language": "en-US",
-        "@value": "LRMI Interact Type Vocabulary"
-      },
-      "dcterms:created": {
-        "@type": "xsd:date",
-        "@value": "2017-03-01"
-      },
-      "dcterms:description": {
-        "@language": "en-US",
-        "@value": "A concept scheme that defines the predominate interact mode of the learning resource being described."
-      },
-      "dcterms:license": {
-        "@id": "http://creativecommons.org/licenses/by/4.0/"
-      },
-      "dcterms:modified": {
-        "@type": "xsd:date",
-        "@value": "2017-12-20"
-      },
-      "dcterms:source": {
-        "@language": "en-US",
-        "@value": "Based on the IEEE Learning Object Metadata standard (IEEE/LOM - IEEE 1484.12.1-202)."
-      }
-    },
-    {
       "@id": "interact:active",
       "@type": "skos:Concept",
-      "dcterms:source": {
+      "dct:source": {
         "@language": "en-US",
         "@value": "Based on the IEEE Learning Object Metadata standard (IEEE 1484.12.1-202 (LOMv1.0))."
       },
@@ -83,7 +83,7 @@
     {
       "@id": "interact:mixed",
       "@type": "skos:Concept",
-      "dcterms:source": {
+      "dct:source": {
         "@language": "en-US",
         "@value": "Based on IEEE Learning Object Metadata standard (IEEE 1484.12.1-202 (LOMv1.0))."
       },
