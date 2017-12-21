@@ -23,7 +23,7 @@ audRole:administrator a skos:Concept;
 
 audRole:generalPublic a skos:Concept;
   skos:prefLabel "general public"@en-US;  
-  skos:definition "The Public at large."@en-US;
+  skos:definition "The public at large."@en-US;
   skos:inScheme audRole: .
   
 audRole:mentor a skos:Concept;
@@ -55,5 +55,5 @@ audRole:student a skos:Concept;
        
 audRole:teacher a skos:Concept;
   skos:prefLabel "teacher"@en-US;  
-  skos:definition "A person who has been trained to implement educational methods and practices"@en-US ;
+  skos:definition "A person who has been trained to implement educational methods and practices."@en-US ;
   skos:inScheme audRole: .            
