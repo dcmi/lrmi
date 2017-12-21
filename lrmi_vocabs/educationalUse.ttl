@@ -30,6 +30,6 @@ edUse:instruction a skos:Concept ;
 
 edUse:professionalSupport a skos:Concept ;
     skos:prefLabel "professional support"@en-US ;
-    skos:definition "Primary purpose of the resource is to provide instruction for a teacher or other education professional including porofessional development."@en-US ;
+    skos:definition "Primary purpose of the resource is to provide instruction for a teacher or other education professional including professional development."@en-US ;
     skos:inScheme edUse: ;
     dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#ProfessionalDevelopment"@en-US .
