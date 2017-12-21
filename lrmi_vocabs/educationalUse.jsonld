@@ -62,7 +62,7 @@
       },
       "skos:definition": {
         "@language": "en-US",
-        "@value": "Primary purpose of the resource is to provide instruction for a teacher or other education professional including porofessional development."
+        "@value": "Primary purpose of the resource is to provide instruction for a teacher or other education professional including professional development."
       },
       "skos:inScheme": {
         "@id": "edUse:"
