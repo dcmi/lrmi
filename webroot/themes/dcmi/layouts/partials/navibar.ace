@@ -1,0 +1,22 @@
+div.row-fluid
+  div class="col-xs-12 text-right"
+    div.navbar
+      div.navbar-inner
+        ul class="nav nav-pills"
+          li
+            a.navbar-link href="/" Home
+          li
+            a.navbar-link href="/news/" News
+          // li
+          //   a.navbar-link href="/metadata-basics/" Metadata Basics
+          // li
+          //   a.navbar-link href="/specifications/" DCMI Specifications
+          // li
+          //   a.navbar-link href="/community-and-events/" Community and Events
+          // li
+          //   a.navbar-link href="/support/" Join / Support
+          li
+            a.navbar-link href="/about/" About
+          // form class="navbar-form pull-right form-inline input-sm" action="/search" method="get"
+          //   input class="form-control input-sm" type="text" name="q" placeholder="quick search...."
+    hr

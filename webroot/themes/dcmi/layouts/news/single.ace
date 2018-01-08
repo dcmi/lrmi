@@ -1,0 +1,10 @@
+{{ partial "header" . }}
+div.row-fluid
+  div class="col-xs-12"
+    h1 {{.Title}}
+    h4
+      i {{.Date.Format "Monday, January 02, 2006"}}
+    {{.Content}}
+    // = include partials/share_buttons.html .
+    // = include _internal/disqus.html .
+{{ partial "footer" . }}

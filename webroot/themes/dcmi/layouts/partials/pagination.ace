@@ -1,0 +1,12 @@
+.pager
+  nav
+    ul.pager
+    {{if .Paginator.Prev}}
+      li
+        a href="{{.Paginator.Prev.URL}}" prev
+    {{end}}
+    | &nbsp;&nbsp;
+    {{if .Paginator.Next}}
+    li
+      a href="{{.Paginator.Next.URL}}" next
+    {{end}}
