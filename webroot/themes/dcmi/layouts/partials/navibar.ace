@@ -6,7 +6,7 @@ div.row-fluid
           li
             a.navbar-link href="/" Home
           li
-            a.navbar-link href="/news/" News
+            a.navbar-link href="/concept_schemes/" Concept Schemes
           // li
           //   a.navbar-link href="/metadata-basics/" Metadata Basics
           // li
