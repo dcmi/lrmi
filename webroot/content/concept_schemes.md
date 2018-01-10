@@ -133,7 +133,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | License: | http://creativecommons.org/licenses/by/4.0/ |
 
 <a name="assesses"></a>
-**Assesses**
+#### **Assesses**
 
 | URI: | [http://purl.org/dcx/lrmi-vocabs/alignmentType/assesses](http://purl.org/dcx/lrmi-vocabs/alignmentType/assesses) |
 | --- | --- |
