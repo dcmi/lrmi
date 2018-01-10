@@ -85,6 +85,8 @@ This document is an up-to-date specification of the LRMI concept schemes maintai
 
 A subset of attributes from the following table are used in defining the concept schemes and their associated concepts. These attributes are drawn from the _Simple Knowledge Organization System_ (SKOS) and other namespaces identified in Section 2.
 
+| Attribute | Description |
+| --- | --- |
 | Alternative Label: | An alternative lexical label for a concept. Acronyms, abbreviations, spelling variants, and irregular plural/singular forms may be included among the alternative labels for a concept. Mis-spelled terms are normally included as hidden labels (see hiddenLabel). |
 | Broader Concept: | Relates a concept to a concept that is more general in meaning. Broader concepts are typically rendered as parents in a concept hierarchy (tree). By convention, skos:broader is only used to assert an immediate (i.e. direct) hierarchical link between two conceptual resources. |
 | Date Created: | Date of creation of the resource. |
