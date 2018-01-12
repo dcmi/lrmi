@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{partial "head" .}}
+  <body>
+  	<div class="container-fluid">
+	  	{{partial "header" .}}
+	  	{{partial "navbar" .}}
+
+	  	{{ block "main" . }}
+
+			{{end}}
+
+			{{partial "footer" .}}
+		</div>
+  </body>
+</html>
+
+			
