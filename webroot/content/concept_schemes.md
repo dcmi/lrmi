@@ -115,6 +115,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | dct | http://purl.org/dc/terms/ |
 | rdf | http://www.w3.org/2000/01/rdf-schema# |
 | skos | http://www.w3.org/2008/05/skos# |
+<p>&nbsp;</p>
 
 <a name="concept_schemes"></a>
 ## 3. Concept Schemes
@@ -122,37 +123,40 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 <a name="alignment_type"></a>
 ### 3.1. Alignment Type
 
+| Title: | LRMI Alignment Type Vocabulary |
 | --- | --- |
 | URI: | [http://purl.org/dcx/lrmi-vocabs/alignmentType/](http://purl.org/dcx/lrmi-vocabs/alignmentType/) |
 | Type: | [skos:ConceptScheme](http://www.w3.org/2008/05/skos#ConceptScheme) |
-| Title: | LRMI Alignment Type Vocabulary |
 | Description: | A concept scheme that defines the types of relationships between a learning resource and a node in an educational framework. |
 | Creator: | LRMI Task Group (DCMI) |
 | Date Created: | 2017-03-01 |
 | Date Modified: | 2017-12-20 |
 | License: | http://creativecommons.org/licenses/by/4.0/ |
+<p>&nbsp;</p>
 
 <a name="assesses"></a>
-#### **Assesses**
+### Assesses
 
-| URI: | [http://purl.org/dcx/lrmi-vocabs/alignmentType/assesses](http://purl.org/dcx/lrmi-vocabs/alignmentType/assesses) |
-| --- | --- |
-| Type: | [skos:Concept](http://www.w3.org/2008/05/skos#Concept) |
 | Preferred Label: | assesses |
+| --- | --- |
 | Definition: | The learning resource being described may be used to assess the competency being referenced. |
+| URI: | [http://purl.org/dcx/lrmi-vocabs/alignmentType/assesses](http://purl.org/dcx/lrmi-vocabs/alignmentType/assesses) |
+| Type: | [skos:Concept](http://www.w3.org/2008/05/skos#Concept) |
 | Source: | Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Assesses. |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/alignmentType/](http://purl.org/dcx/lrmi-vocabs/alignmentType/) |
+<p>&nbsp;</p>
 
 <a name="complexity_level"></a>
-**Complexity Level**
+### Complexity Level
 
-| URI: | [http://purl.org/dcx/lrmi-vocabs/alignmentType/complexityLevel](http://purl.org/dcx/lrmi-vocabs/alignmentType/assesses) |
-| --- | --- |
-| Type: | [skos:Concept](http://www.w3.org/2008/05/skos#Concept) |
 | Preferred Label: | complexity level |
+| --- | --- |
 | Definition: | The point in the framework being referenced defines a level or range that measures the difficulty or challenge presented by the learning resource being described. |
+| URI: | [http://purl.org/dcx/lrmi-vocabs/alignmentType/complexityLevel](http://purl.org/dcx/lrmi-vocabs/alignmentType/assesses) |
+| Type: | [skos:Concept](http://www.w3.org/2008/05/skos#Concept) |
 | Scope Note: | Example frameworks include, but are not limited to, Bloom's Taxonomy, Norman Webb's Depth of Knowledge (DOK), Biggs' SOLO taxonomy, Lexile and Quantile frameworks by MetaMetrics. |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/alignmentType/](http://purl.org/dcx/lrmi-vocabs/alignmentType/) |
+<p>&nbsp;</p>
 
 <a name="educational_level"></a>
 **Educational Level**
