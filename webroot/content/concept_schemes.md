@@ -325,9 +325,8 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 
 | Preferred Label: | student |
 | --- | --- |
-educationalAudienceRole/student) |
 | Definition: | The learner or trainee. |
-| URI: | [http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/student](http://purl.org/dcx/lrmi-vocabs |
+| URI: | [http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/student](http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/student) |
 | Type: | [skos:Concept](http://www.w3.org/2008/05/skos#Concept) |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/](http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/) |
 
