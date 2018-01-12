@@ -116,13 +116,13 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | rdf | http://www.w3.org/2000/01/rdf-schema# |
 | skos | http://www.w3.org/2008/05/skos# |
 
-&nbsp;>
+&nbsp;
 
 <a name="concept_schemes"></a>
 ## 3. Concept Schemes
 
 <a name="alignment_type"></a>
-### 3.1. Alignment Type
+### 3.1. Alignment Type Vocabulary
 
 | Title: | LRMI Alignment Type Vocabulary |
 | --- | --- |
@@ -134,7 +134,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | Date Modified: | 2017-12-20 |
 | License: | http://creativecommons.org/licenses/by/4.0/ |
 
-&nbsp;>
+&nbsp;
 
 <a name="assesses"></a>
 ### Assesses
@@ -147,7 +147,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | Source: | Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Assesses. |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/alignmentType/](http://purl.org/dcx/lrmi-vocabs/alignmentType/) |
 
-&nbsp;>
+&nbsp;
 
 <a name="complexity_level"></a>
 ### Complexity Level
@@ -160,7 +160,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | Scope Note: | Example frameworks include, but are not limited to, Bloom's Taxonomy, Norman Webb's Depth of Knowledge (DOK), Biggs' SOLO taxonomy, Lexile and Quantile frameworks by MetaMetrics. |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/alignmentType/](http://purl.org/dcx/lrmi-vocabs/alignmentType/) |
 
-&nbsp;>
+&nbsp;
 
 <a name="educational_level"></a>
 ### Educational Level
@@ -174,7 +174,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | Source: | Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalLevel. |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/alignmentType/](http://purl.org/dcx/lrmi-vocabs/alignmentType/) |
 
-&nbsp;>
+&nbsp;
 
 <a name="educational_subject"></a>
 ### Educational Subject
@@ -188,7 +188,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | Source: | Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalSubject. |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/alignmentType/](http://purl.org/dcx/lrmi-vocabs/alignmentType/) |
 
-&nbsp;>
+&nbsp;
 
 <a name="prerequisite"></a>
 ### Prerequisite
@@ -201,7 +201,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | Source: | Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000715. |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/alignmentType/](http://purl.org/dcx/lrmi-vocabs/alignmentType/) |
 
-&nbsp;>
+&nbsp;
 
 <a name="reading_level"></a>
 ### Reading Level
@@ -215,7 +215,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | Source: | Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#ReadingLevel. |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/alignmentType/](http://purl.org/dcx/lrmi-vocabs/alignmentType/) |
 
-&nbsp;>
+&nbsp;
 
 <a name="teaches"></a>
 ###Teaches
@@ -228,11 +228,11 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | Source: | Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Teaches. |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/alignmentType/](http://purl.org/dcx/lrmi-vocabs/alignmentType/) |
 
-&nbsp;>
+&nbsp;
 <hr />
 
 <a name="educational_audience_role"></a>
-### 3.2. Educational Audience Role
+### 3.2. Educational Audience Role Vocabulary
 
 | Title: | LRMI Educational Audience Role Vocabulary |
 | --- | --- |
@@ -244,7 +244,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | Date Modified: | 2017-12-20 |
 | License: | http://creativecommons.org/licenses/by/4.0/ |
 
-&nbsp;>
+&nbsp;
 
 <a name="administrator"></a>
 ### Administrator
@@ -256,7 +256,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | Type: | [skos:Concept](http://www.w3.org/2008/05/skos#Concept) |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/](http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/) |
 
-&nbsp;>
+&nbsp;
 
 <a name="general_public"></a>
 ### General Public
@@ -268,7 +268,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | Type: | [skos:Concept](http://www.w3.org/2008/05/skos#Concept) |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/](http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/) |
 
-&nbsp;>
+&nbsp;
 
 <a name="mentor"></a>
 ### Mentor
@@ -280,7 +280,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | Type: | [skos:Concept](http://www.w3.org/2008/05/skos#Concept) |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/](http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/) |
 
-&nbsp;>
+&nbsp;
 
 <a name="parent"></a>
 ### Parent
@@ -292,7 +292,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | Type: | [skos:Concept](http://www.w3.org/2008/05/skos#Concept) |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/](http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/) |
 
-&nbsp;>
+&nbsp;
 
 <a name="peer_tutor"></a>
 ### Peer Tutor
@@ -306,7 +306,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | Definition: | The peer learner serving as tutor of another learner. |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/](http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/) |
 
-&nbsp;>
+&nbsp;
 
 <a name="professional"></a>
 ### Professional
@@ -318,7 +318,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 | Type: | [skos:Concept](http://www.w3.org/2008/05/skos#Concept) |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/](http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/) |
 
-&nbsp;>
+&nbsp;
 
 <a name="student"></a>
 ### Student
@@ -331,7 +331,7 @@ educationalAudienceRole/student) |
 | Type: | [skos:Concept](http://www.w3.org/2008/05/skos#Concept) |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/](http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/) |
 
-&nbsp;>
+&nbsp;
 
 <a name="teacher"></a>
 ### Teacher
@@ -343,11 +343,11 @@ educationalAudienceRole/student) |
 | Type: | [skos:Concept](http://www.w3.org/2008/05/skos#Concept) |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/](http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/) |
 
-&nbsp;>
+&nbsp;
 <hr/>
 
 <a name="educational_use"></a>
-### 3.3. Educational Use
+### 3.3. Educational Use Vocabulary
 
 | Title: | LRMI Educational Use Vocabulary |
 | --- | --- |
@@ -371,7 +371,7 @@ educationalAudienceRole/student) |
 | Source: | Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#Assessment |
 | In Scheme: | [http://purl.org/dcx/lrmi-vocabs/educationalUse/](http://purl.org/dcx/lrmi-vocabs/educationalUse/) |
 
-&nbsp;>
+&nbsp;
 
 <a name="instruction"></a>
 ### Instruction
@@ -401,7 +401,7 @@ educationalAudienceRole/student) |
 <hr />
 
 <a name="interactivity_type"></a>
-### 3.4. Interactivity Type
+### 3.4. Interactivity Type Vocabulary
 
 | Title: | LRMI Interactivity Type Vocabulary |
 | --- | --- |
