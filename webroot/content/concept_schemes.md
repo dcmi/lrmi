@@ -14,34 +14,17 @@ draft: false
 
 <img src="/images/DCMI_logo_cropped.jpg" style="max-width: 25px; margin-right: 5px;" name="DCMI Logo"/>DCMI Home&nbsp;&nbsp;&nbsp; <img src="/images/DCMI_logo_cropped.jpg" style="max-width: 25px; margin-right: 5px;" name="DCMI Logo"/>[LRMI 1.1](/dcx/lrmi-terms/1.1/)&nbsp;&nbsp;&nbsp; <img src="/images/DCMI_logo_cropped.jpg" style="max-width: 25px; margin-right: 5px;" name="DCMI Logo"/>[Return to Community Specifications TOC](/documents/#communityspecifications)
 
-<dl class="frontmatter">
-<dt><strong>Title:</strong></dt>
-<dd>LRMI Concept Schemes</dd>
-<dt><strong>Creator:</strong></dt>
-<dd>LRMI Task Group (DC-Education Community)</dd>
-<dt><strong>Editors</strong></dt>
-<dd>Phil Barker<br>Stuart Sutton</dd>
-<dt><strong>Identifier:</strong></dt>
-<dd><a href="@@@">@@@</a></dd>
-<dt><strong>Current Version:</strong></dt>
-<dd><a href="@@@">@@@</a></dd>
-<dt><strong>Previous Version:</strong></dt>
-<dd>--</dd>
-<dt><strong>Date Issued:</strong></dt>
-<dd>2018-01-15</dd>
-<dt><strong>Document Status:</strong></dt>
-<dd>Community Specification</dd>
-<dt><strong>Description:</strong></dt>
-<dd>The LRMI concept schemes are small sets of concepts for use as values with the LRMI properties in learning resource description and Web markup. Since the properties for which these concepts are intended <u>also exists</u> as <a href="https://schema.org">Schema.org properties</a>, the concepts in this concept scheme can be used with a level of certainty in Web markup. The concepts in the vocabularies have been declared in RDF using the W3C's <a href="https://www.w3.org/2004/02/skos/"><em>Simple Knowledge Organization System</em></a> (SKOS).</dd>
-<dt>
-<strong>Serializations:</strong> </dt>
-<dd>RDF Turtle: <a href="@@@" target="_blank">@@@</a>
-</dd>
-<dd>JSONLD: <a href="@@@" target="_blank">@@@</a>
-</dd>
-<dt><strong>Further Development:</strong></dt>
-<dd>Refinement of, and additions to, these SKOS concept schemes are managed through the DCMI/LRMI Github (<a href="https://github.com/dcmi/lrmi/blob/master/lrmi_vocabs/a">https://github.com/dcmi/lrmi/blob/master/lrmi_vocabs/</a>)</dd>
-</dl>
+| Title: | LRMI Concept Schemes |
+|--------|----------|
+| Creator: | LRMI Task Group (DC-Education Community) |
+| Editors: | Phil Barker and Stuart Sutton |
+| Identifier: | @@@ |
+| Current Version: | @@@ |
+| Previous Version: | -- |
+| Date Issued:| 2018-01-15 |
+| Document Status: | Community Specification |
+| Description: | The LRMI concept schemes are small sets of concepts for use as values with the LRMI properties in learning resource description and Web markup. Since the properties for which these concepts are intended <u>also exists</u> as [Schema.org properties](https://schema.org), the concepts in this concept scheme can be used with a level of certainty in Web markup. The concepts in the vocabularies have been declared in RDF using the W3C's [*Simple Knowledge Organization System (SKOS)*](https://www.w3.org/2004/02/skos/). |
+| Further Development: | Refinement of, and additions to, these SKOS concept schemes are managed through the DCMI/LRMI Github (https://github.com/dcmi/lrmi/blob/master/lrmi_vocabs/) |
 
 <small>Licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</small>
 
