@@ -1,22 +1,17 @@
 ---
-title: "Concept Schemes"
+title: "LRMI Concept Schemes"
 date: 2018-01-12T18:19:06Z
 draft: false
 ---
 
-# LRMI Concept Schemes
-
 ![](/images/LRMI_400w.png)
-
-# LRMI Concept Schemes
 
 ![](/images/Specifications_logo.png)
 
 <img src="/images/DCMI_logo_cropped.jpg" style="max-width: 25px; margin-right: 5px;" name="DCMI Logo"/>DCMI Home&nbsp;&nbsp;&nbsp; <img src="/images/DCMI_logo_cropped.jpg" style="max-width: 25px; margin-right: 5px;" name="DCMI Logo"/>[LRMI 1.1](/dcx/lrmi-terms/1.1/)&nbsp;&nbsp;&nbsp; <img src="/images/DCMI_logo_cropped.jpg" style="max-width: 25px; margin-right: 5px;" name="DCMI Logo"/>[Return to Community Specifications TOC](/documents/#communityspecifications)
 
-| Title: | LRMI Concept Schemes |
-|--------|----------|
 | Creator: | LRMI Task Group (DC-Education Community) |
+|--------|----------|
 | Editors: | Phil Barker and Stuart Sutton |
 | Identifier: | @@@ |
 | Current Version: | @@@ |
