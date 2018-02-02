@@ -5,12 +5,19 @@ draft: false
 ---
 Home page!
 
-* LRMI Specifications
-* * LRMI Metadata Terms v1.1
-* * LRMI Terms in RDF
-* * LRMI Concept Schemes
-* LRMI discussion
-* * email
-* * github
-* DCMI LRMI Task Group
-* LRMI History
+1. Specifications
+   * LRMI Metadata Terms v1.1
+   * LRMI Terms in RDF
+   * LRMI Concept Schemes
+   * Example Encodings
+2. Task Group
+   * email
+   * github
+3. Communications
+4. About
+   * History
+   * Presentations
+   * Reports
+   * Implementations
+   * Media Coverage
+   
