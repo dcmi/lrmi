@@ -1,6 +1,6 @@
 ---
 title: "LRMI Reports"
-date: 2018-02-03T06:41
+date: 2018-02-03T06:41:17Z
 draft: false
 ---
 <p><em><a href="http://lrmi.dublincore.net/wp-content/uploads/sites/3/2014/07/Smart-Publishers-Guide-FINAL-for-Web1.pdf">The Smart Publisher's Guide to LRMI Tagging</a>. </em>The newly updated edition of this practical guide jncludes best practices for organizing the metatagging process and workflow and a helpful tagging checklist. This new edition also features an expanded appendix that walks the user through a step-by-step application of the LRMI tagging process,  using content examples from Rosen Publishing tagged through the Illinois Shared Learning Environment (ISLE) tagger portal.</p>
