@@ -5,7 +5,7 @@ draft: false
 ---
     	
 
-<p><img src="/images/LRMI_400w.png" width="300"></p>
+<p><img src="/images/lrmi-dcmi_project.png" alt="LRMI Logo" width="350" /></p>
 
 <hr />
 

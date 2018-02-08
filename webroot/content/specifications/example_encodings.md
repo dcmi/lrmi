@@ -3,6 +3,9 @@ title: "Serialization Examples of LRMI/Schema.org Markup"
 date: 2018-02-03T09:18:17Z
 draft: false
 ---
+
+<p><img src="/images/lrmi-dcmi_project.png" alt="LRMI Logo" width="350" /></p>
+
 <p>Below you will find examples of schema.org markup of learning resources using LRMI properties and types. Each example begins with simple HTML markup of a learning resource as you might find on the Web. The HTML markup is followed by semantic markup using LRMI types and properties in three of the most common serializations: (1) Microdata, (2) RDFa, and (3) JSON-LD.</p>
 <p>The canonical versions of these examples can be found as annotations to the properties and classes on the <a href="schema.org" target="_blank">schema.org website</a>.</p>
 <h2>EXAMPLE #1</h2>

@@ -4,7 +4,7 @@ date: 2018-02-03T07:57:17Z
 draft: false
 ---
 
-<p><img src="/images/LRMI_400w.png" width="300" alt="LRMI logo"></p>
+<p><img src="/images/lrmi-dcmi_project.png" alt="LRMI Logo" width="350" /></p>
 
 <ul>
 <li><a href="http://dublincore.org/archive/mediawiki_wiki/AB-Comm/ed/LRMI/TG">Task Group Wiki</a></li>
