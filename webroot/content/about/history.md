@@ -21,7 +21,7 @@ draft: false
 <a name="today" />
 <h2>1. Today&mdash;2014 to Present</h2>
 
-<p>Effective 23 October 2014, the <a href="http://dublincore.org/dcx/lrmi-terms/1.1/">LRMI 1.1 specification</a> was transferred to the Dublin Core Metadata Initiative</a> (DCMI). A full description of the terms of the transfer <strong><a href="Transfer_announcement.html">is available</a></strong>. The responsibility of stewardship and the further development of the LRMI specification belongs to a new permanent LRMI Task Group (LTG) as an adjunct to DCMI's long-standing Education Community. The work of the LTG is advanced through the definition of specific work packages with specific tasks, goals, and timeframes.</p>
+Effective 23 October 2014, the <a href="/specifications/lrmi_1">LRMI 1.1 specification</a> was transferred to the Dublin Core Metadata Initiative (DCMI). A full description of the terms of the transfer <a href="/transfer_announcement">is available</a>. The responsibility of stewardship and the further development of the LRMI specification belongs to a new permanent LRMI Task Group (LTG) as an adjunct to DCMI's long-standing Education Community. The work of the LTG is advanced through the definition of specific work packages with specific tasks, goals, and timeframes.
 
 <hr  />
 <p><nbsp;></p>
@@ -78,7 +78,7 @@ draft: false
 <a name="twg" />
 <h2>3. Founding Technical Working Group</h2>
 
-<p>For phase 1 of the LRMI project, in 2011, a Technical Working Group was formed and was charged with producing—with the input of an official <span style="text-decoration: underline;"><a href="http://lrmi.dublincore.net/leadership/advisory-group/">Advisory Group</a></span> and informed by <span style="text-decoration: underline;"><a href="http://lrmi.dublincore.net/discuss/">public comment and feedback</a></span>—a common metadata vocabulary for learning resources. The group submitted this framework to Schema.org (a project by Bing, Google, and Yahoo! to develop and encourage use of metadata vocabularies), and it was accepted in April 2013. The group also has worked on recommendations for long-term governance of the standard.</p>
+<p>For phase 1 of the LRMI project, in 2011, a Technical Working Group was formed and was charged with producing—with the input of an official <span style="text-decoration: underline;"><a href="#fag">Advisory Group</a></span> and informed by public comment and feedback—a common metadata vocabulary for learning resources. The group submitted this framework to Schema.org (a project by Bing, Google, and Yahoo! to develop and encourage use of metadata vocabularies), and it was accepted in April 2013. The group also has worked on recommendations for long-term governance of the standard.</p>
 
 <h3>Membership (2011-2014):</h3>
 
@@ -218,12 +218,13 @@ PCI Educational Publishing</strong></p>
 
 <hr  />
 <p><nbsp;></p>
+<a name="fag" />
 
 <h2>4. Founding Advisory Group</h2>
 
 <p>The Technical Working Group has drawn on both the technical and practical knowledge of the LRMI Advisory Group to ensure the outcome of the project meets the needs of all constituencies. The Advisory Group was designed to be comprised of representatives from the project's initial launch partners. The designations below were current as of the time the Advisory Group was constituted.</p>
 
-<a name="fag" />
+
 <h3>Membership (2011-2014):</h2>
 		
 <p><strong>Emilio Bernabei</strong><br />

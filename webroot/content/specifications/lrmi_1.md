@@ -1,29 +1,11 @@
 ---
-title: "LRMI 1.1"
+title: "LRMI Version 1.1"
 date: 2018-02-03T07:57:17Z
 draft: false
 ---
 
 <p><img src="/images/lrmi-dcmi_project.png" alt="LRMI Logo" width="350" /></p>
 
-<ul>
-<li><a href="http://dublincore.org/archive/mediawiki_wiki/AB-Comm/ed/LRMI/TG">Task Group Wiki</a></li>
-<li><a href="https://groups.google.com/forum/#!forum/lrmi">LRMI Google Group</a></li>
-<li><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-education&amp;A=1">DC-Ed Community Forum</a>
-
-<ul>
-<li><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-education&amp;A=1">Join/Leave</a></li>
-<li><a href="http://www.jiscmail.ac.uk/lists/DC-EDUCATION.html">Archive</a></li>
-</ul></li>
-</ul>
-
-<p>The LRMI Task Group (TG) will supplant the current <a href="http://www.lrmi.net/leadership/technical-working-group">LRMI Technical Working Group</a> (although current members may express interest in serving). It is anticipated that this TG will be permanent within the DC-Education Community and assigned discrete, clearly stated work packages that define the scope and timeline of work at any point in time. Particular work packages may require shifts in TG personnel including both chairs and contributing members depending on the mix of needed expertise and interests given work package content and context. Future TG work is dependent on expressed needs through community input on the education community forums and is subject to: (a) a clear demonstration of interest, expertise and commitment by volunteer members of the community sufficient to execute the proposed work; (b) transparent, consensus-driven decision processes; and (c) open public review and comment of pending outcomes.</p>
-
-<p>AEP <a href="http://www.lrmi.net/lrmi-transfers-stewardship">Press Release</a> on transfer of stewardship of LRMI to DCMI</p>
-
-<p><!-- END TEXT FOR LEFT COLUMN--><!-- START Main Content --></p>
-
-<h1 id="lrmi-version-1-1">LRMI Version 1.1</h1>
 
 <table>
   <tr>
@@ -33,24 +15,6 @@ draft: false
   <tr>
     <th scope="row">Creator:</th>
     <td property="dcterms:creator" label="AEP and CC">Association of Educational Publishers &amp; Creative Commons</td>
-  </tr>
-  <tr>
-    <th scope="row">Identifier:</th>
-    <td>
-      <a href="/dcx/lrmi-terms/1.1/2014-10-24/" property="dcterms:identifier">http://dublincore.org/dcx/lrmi-terms/1.1/2014-10-24/</a>
-    </td>
-  </tr>
-  <tr>
-    <th scope="row">Latest Version:</th>
-    <td>
-      <a href="/dcx/lrmi-terms/1.1/" property="dcterms:isVersionOf">http://dublincore.org/dcx/lrmi-terms/1.1/</a>
-    </td>
-  </tr>
-  <tr>
-    <th scope="row">Replaces:</th>
-    <td>
-      <a href="/dcx/lrmi-terms/1.1/2012-05-14/" property="dcterms:identifier">http://dublincore.org/dcx/lrmi-terms/1.1/2012-05-14/</a>
-    </td>
   </tr>
   <tr>
     <th scope="row">Date Issued/AEP-CC:</th>
@@ -78,25 +42,8 @@ draft: false
     <th scope="row">Description:</th>
     <td property="dcterms:description">The LRMI specification is a collection of classes and properties for markup and description of educational resources. The specification builds on the extensive vocabulary provided by Schema.org and other standards.</td>
   </tr>
-  <tr>
-    <th scope="row"><a href="/dcx/lrmi-terms/" target="_blank"><img border="0" src="/images/rdf_w3c_button.48.gif" alt="RDF Resource Description Framework Icon"></a></th>
-     
-  </tr>
+
 </table>
-
-<p><img src="/images/DCMI_logo_cropped.jpg" width="15" alt="DCMI logo" title="DCMI logo">&nbsp;Background&nbsp;&nbsp;<img src="/images/DCMI_logo_cropped.jpg" width="15" alt="DCMI logo" title="DCMI logo">&nbsp;The Specification&nbsp;&nbsp;<img src="/images/DCMI_logo_cropped.jpg" width="15" alt="DCMI logo" title="DCMI logo">&nbsp; <a href="/dcx/lrmi-terms/">Latest RDF Version</a></p>
-
-<p><a name="background"></a></p>
-
-<h2 id="background">Background</h2>
-
-<blockquote>
-<p><em>&quot;Co-led by the Association of Educational Publishers --the 501(c)(3) division of the Association of American Publishers-- and Creative Commons, and funded by the Bill &amp; Melinda Gates Foundation and the William and Flora Hewlett Foundation, the LRMI has developed a common metadata framework for describing or 'tagging' learning resources on the web. This framework is a key first step in developing a richer, more fruitful search experience for educators and learners. ... The LRMI was spurred by the announcement in 2011 of Schema.org, a project by Bing, Google, and Yahoo! to create a standard way of tagging online content. ... The metadata schema developed by the LRMI was adopted by Schema.org in April 2013, meaning that anyone who publishes or curates educational content can now use LRMI markup to provide rich, education-specific metadata about their resources with the confidence that this metadata will be recognized by major search engines.&quot;</em> — <a href="http://www.lrmi.net/about">http://www.lrmi.net/about</a></p>
-</blockquote>
-
-<p>Work on the LRMI specification began in 2011 with the creation of a <a href="http://www.lrmi.net/leadership/advisory-group">LRMI Advisory Board</a>, and a <a href="http://www.lrmi.net/leadership/technical-working-group">Technical Working Group</a> charged with developing a community-based specification as the education extension for schema.org. Engagement of the broader education metadata community was handled during development through a <a href="https://groups.google.com/forum/#!forum/lrmi">Google Group</a>. Stuart Sutton, DCMI Managing Director &amp; DC-Education Community co-chair served on the Technical Working Group. Others on the Technical Working Group with close ties to DCMI include Dan Brickley (schema.org) and Phil Barker (Cetis, UK).</p>
-
-<p>The Association of Educational Publishers (AEP) and Creative Commons (CC) have asked that stewardship of the LRMI specification be placed with DCMI at the September closure of Gates funding for LRMI development. From inception, the overall planning for the LRMI specification included the orderly transition of development outcomes from its grant-funded beginnings under the leadership of AEP and Creative Commons to a permanent context managed by an organization with the capacity to provide ongoing stewardship for long-term sustainability, access, and orderly future development. As the funded start-up phase of LRMI was coming to a close, an exploratory team comprised of representatives from AEP, Creative Commons, and the LRMI community was formed and has been actively and systematically engaged in evaluating an array of potential candidates for such stewardship. The exploratory team recommended DCMI because it's open community goals and processes are congruent with those that have emerged within LRMI during its short development history and because of DCMI's reputation and track record in development and principled stewardship of metadata specifications used in the Web context.</p>
 
 <p><a name="specification"></a></p>
 
@@ -105,8 +52,6 @@ draft: false
 <p><em>version 1.1</em></p>
 
 <p>The LRMI specification is a collection of properties to describe educational resources. It builds on the extensive vocabulary provided by <a href="http://schema.org">Schema.org</a>. Predominantly it uses properties of resources of type <a href="http://schema.org/CreativeWork">schema.org/CreativeWork</a> that were proposed to Schema.org by the LRMI to describe the educational characteristics of learning resources. For some of these properties it uses the LRMI-created types <a href="http://schema.org/AlignmentObject">schema.org/AlignmentObject</a> and <a href="http://schema.org/EducationalAudience">schema.org/EducationalAudience</a>.</p>
-
-<p>Version 1.1 of the LRMI specification has been accepted into Schema.org with the exception of useRightsUrl [<a href="http://www.lrmi.net/discuss?place=msg%2Flrmi%2F2MS95ox79i0%2FMVvQ3VdlRCcJ" title="useRightsUrl discussion">see discussion here</a>]. Subsequently Schema.org adopted a property called license which encompasses the same function as useRightsUrl.</p>
 
 <p><a name="interoperability"></a>
 The LRMI project looked for inspiration, ideas, and learnings from other projects with similar visions in furtherance of its goal of interoperating with other specifications. As much as possible, contributors on those works were invited to participate in LRMI specification development. We wish to acknowledge and thank these initiatives for informing our work:</p>

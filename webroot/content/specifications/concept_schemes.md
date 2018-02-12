@@ -11,9 +11,6 @@ draft: false
 | Creator: | LRMI Task Group (DC-Education Community) |
 |--------|----------|
 | Editors: | Phil Barker and Stuart Sutton |
-| Identifier: | @@@ |
-| Current Version: | @@@ |
-| Previous Version: | -- |
 | Date Issued:| 2018-01-15 |
 | Document Status: | Community Specification |
 | Description: | The LRMI concept schemes are small sets of concepts for use as values with the LRMI properties in learning resource description and Web markup. Since the properties for which these concepts are intended <u>also exists</u> as [Schema.org properties](https://schema.org), the concepts in this concept scheme can be used with a level of certainty in Web markup. The concepts in the vocabularies have been declared in RDF using the W3C's [*Simple Knowledge Organization System (SKOS)*](https://www.w3.org/2004/02/skos/). |
@@ -99,6 +96,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 
 <a name="alignment_type"></a>
 ### 3.1. Alignment Type Vocabulary
+Turtle: [http://purl.org/dcx/lrmi-vocabs/alignmentType/](https://raw.githubusercontent.com/dcmi/lrmi/master/lrmi_vocabs/alignmentType.ttl)
 
 | Title: | LRMI Alignment Type Vocabulary |
 | --- | --- |
@@ -194,7 +192,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 &nbsp;
 
 <a name="teaches"></a>
-###Teaches
+### Teaches
 
 | Preferred Label: | teaches |
 | --- | --- |
@@ -209,6 +207,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 
 <a name="educational_audience_role"></a>
 ### 3.2. Educational Audience Role Vocabulary
+Turtle: [http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/](https://raw.githubusercontent.com/dcmi/lrmi/master/lrmi_vocabs/educationalAudienceRole.ttl)
 
 | Title: | LRMI Educational Audience Role Vocabulary |
 | --- | --- |
@@ -323,6 +322,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 
 <a name="educational_use"></a>
 ### 3.3. Educational Use Vocabulary
+Turtle: [http://purl.org/dcx/lrmi-vocabs/educationalUse/](https://raw.githubusercontent.com/dcmi/lrmi/master/lrmi_vocabs/educationalUse.ttl)
 
 | Title: | LRMI Educational Use Vocabulary |
 | --- | --- |
@@ -377,6 +377,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 
 <a name="interactivity_type"></a>
 ### 3.4. Interactivity Type Vocabulary
+Turtle: [http://purl.org/dcx/lrmi-vocabs/interactivityLevel/](https://raw.githubusercontent.com/dcmi/lrmi/master/lrmi_vocabs/interactivityType.ttl)
 
 | Title: | LRMI Interactivity Type Vocabulary |
 | --- | --- |
