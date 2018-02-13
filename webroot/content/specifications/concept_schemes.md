@@ -4,8 +4,6 @@ date: 2018-01-12T18:19:06Z
 draft: false
 ---
 
-<p><img src="/images/lrmi-dcmi_project.png" alt="LRMI Logo" width="350" /></p>
-
 <!-- <img src="/images/DCMI_logo_cropped.jpg" style="max-width: 25px; margin-right: 5px;" name="DCMI Logo"/>DCMI Home&nbsp;&nbsp;&nbsp; <img src="/images/DCMI_logo_cropped.jpg" style="max-width: 25px; margin-right: 5px;" name="DCMI Logo"/>[LRMI 1.1](/dcx/lrmi-terms/1.1/)&nbsp;&nbsp;&nbsp; <img src="/images/DCMI_logo_cropped.jpg" style="max-width: 25px; margin-right: 5px;" name="DCMI Logo"/>[Return to Community Specifications TOC](/documents/#communityspecifications) -->
 
 | Creator: | LRMI Task Group (DC-Education Community) |

@@ -1,0 +1,59 @@
+@prefix audRole: <http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+audRole: a skos:ConceptScheme;
+  dc:title "LRMI Educational Audience Role Vocabulary" ;
+  dc:creator "LRMI Task Group (DCMI)"@en-US ;
+  dct:description "A concept scheme that defines the primary or intended roles of the audience (beneficiary) of the resource being described."@en-US ;
+  dct:created "2017-03-01"^^xsd:date ;
+  dct:modified "2017-12-20"^^xsd:date ;  
+  dct:license <http://creativecommons.org/licenses/by/4.0/> .  
+  
+audRole:administrator a skos:Concept;
+  skos:prefLabel "administrator"@en-US;
+  skos:definition "A trainer or educator with administrative authority and responsibility."@en-US;
+  skos:inScheme audRole: .
+
+audRole:generalPublic a skos:Concept;
+  skos:prefLabel "general public"@en-US;  
+  skos:definition "The public at large."@en-US;
+  skos:inScheme audRole: .
+  
+audRole:mentor a skos:Concept;
+  skos:prefLabel "mentor"@en-US;  
+  skos:definition "Someone who advises, trains, supports, and/or guides."@en-US;
+  skos:inScheme audRole: .  
+
+audRole:parent a skos:Concept;
+  skos:prefLabel "parent"@en-US;  
+  skos:definition "A father, mother, or legal guardian."@en-US;
+  skos:inScheme audRole: .
+  
+audRole:peerTutor a skos:Concept;
+  skos:prefLabel "peer tutor"@en-US;   
+  skos:definition "The peer learner serving as tutor of another learner."@en-US;
+  skos:broader audRole:student;
+  skos:inScheme audRole: .  
+       
+audRole:professional a skos:Concept;
+  skos:prefLabel "professional"@en-US;  
+  skos:definition "Someone already practicing a profession; an industry partner, or professional development trainer."@en-US;
+  skos:inScheme audRole: .
+       
+audRole:student a skos:Concept;
+  skos:prefLabel "student"@en-US;   
+  skos:definition "The learner or trainee."@en-US;
+  skos:narrower audRole:peerTutor;
+  skos:inScheme audRole: .
+       
+audRole:teacher a skos:Concept;
+  skos:prefLabel "teacher"@en-US;  
+  skos:definition "A person who has been trained to implement educational methods and practices."@en-US ;
+  skos:inScheme audRole: .            

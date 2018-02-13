@@ -4,8 +4,6 @@ date: 2018-02-02T03:30:19.667
 draft: false
 ---
 
-<p><img src="/images/lrmi-dcmi_project.png" alt="LRMI Logo" width="350" /></p>
-
 <p>Your interest in LRMI is very important for us. We value any comments, questions, and suggestions that you might have either on the LRMI project itself or on the LRMI metadata specifications for describing learning resources and related entities. If you don’t have any question or comment, but you feel you can contribute to the development of LRMI, we would like to hear from you as well. Please feel free to contact us using the links below. All contributions are welcome. The more feedback we get, the better we can enrich the LRMI specifications. Suggestion on refining the specifications can be entered as GitHub issues</p>
 
 ### LRMI Communitations

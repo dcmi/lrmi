@@ -4,7 +4,6 @@ date: 2018-02-03T07:57:17Z
 draft: false
 ---
 
-<p><img src="/images/lrmi-dcmi_project.png" alt="LRMI Logo" width="350" /></p>
 
 
 <table>

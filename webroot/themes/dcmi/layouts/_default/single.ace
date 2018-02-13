@@ -1,6 +1,0 @@
-{{ partial "header" . }}
-div.row-fluid
-  div.col-xs-12
-    {{.Content}}
-
-{{ partial "footer" . }}
