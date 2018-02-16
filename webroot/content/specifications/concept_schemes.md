@@ -94,7 +94,7 @@ In the following definitions of the _Alignment Type Concept Scheme_ and it's com
 
 <a name="alignment_type"></a>
 ### 3.1. Alignment Type Vocabulary
-Turtle: [http://purl.org/dcx/lrmi-vocabs/alignmentType/](https://raw.githubusercontent.com/dcmi/lrmi/master/lrmi_vocabs/alignmentType.ttl)
+Turtle: [http://purl.org/dcx/lrmi-vocabs/alignmentType/](http://purl.org/dcx/lrmi-vocabs/alignmentType/)
 
 | Title: | LRMI Alignment Type Vocabulary |
 | --- | --- |

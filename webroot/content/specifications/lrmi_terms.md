@@ -12,7 +12,7 @@ draft: false
 <tr><td><strong>Creator</strong></td><td>LRMI Task Group (DC-Education Community)</td></tr>
 <tr><td><strong>Editors</strong></td><td>Phil Barker<br />Stuart Sutton</td></tr>
 <tr><td><strong>Description</strong></td><td>The LRMI specification is a collection of classes and properties for markup and description of educational resources. The specification builds on the extensive vocabulary provided by Schema.org and other standards. LRMI terms not included in schema.org may nevertheless be used to augment and enrich Schema.org markup.</td></tr>
-<tr><td><strong>Current Version (Turtle)</strong></td><td><a href="https://raw.githubusercontent.com/dcmi/lrmi/master/lrmi_terms/lrmi-terms.ttl">http://purl.org/dcx/lrmi_terms/</a></td></tr>
+<tr><td><strong>Current Version (Turtle)</strong></td><td><a href="/terms/2015/02/29/lrmi-terms.ttl">http://purl.org/dcx/lrmi_terms/</a></td></tr>
 <tr><td><strong>Date Published</strong></td><td>2015-02-09</td></tr>
 <tr><td><strong>Document Status</strong></td><td>DCMI Community Specification</td></tr>
 </table>
