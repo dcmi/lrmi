@@ -84,7 +84,7 @@ Effective 23 October 2014, the <a href="/specifications/lrmi_1">LRMI 1.1 specifi
 
 
 <p><img src="/images/Abshire-New-200x300.jpg" alt="Sheryl Abshire " width="100" /></p>
-<p><strong>Sheryl Abshire><br />
+<p><strong>Sheryl Abshire<br />
 Calcasieu Parish Public School System</strong></p>
 <p>Sheryl Abshire is the Chief Technology Officer for the Calcasieu Parish School System in Lake Charles, Louisiana, and is Assistant professor at Lamar University in Beaumont, Texas. She has been involved in diverse staff development programs throughout the United States and Great Britain, which involved restructuring schools through the infusion of technology and curriculum enhancements. Considered a leader in technology integration, she serves as the catalyst to initiate the integration of technology into all curriculum areas throughout her school district, the state, and internationally.Abshire has served in an educational capacity for 38 years. Prior to joining Calcasieu Parish School System, she worked as a school principal, K-5 teacher, library/media specialist, and adjunct professor at McNeese State University and Louisiana Tech University.</p>
 
@@ -127,7 +127,7 @@ Creative Commons</strong></p>
 <hr />
 
 <p><img src="/images/greggrossmeier1.jpg" alt="Greg Grossmeier" width="100" /></strong>
-<p><strong>Greg Grossmeier><br />
+<p><strong>Greg Grossmeier<br />
 Creative Commons (Co-Chair)</strong></p>
 
 <p>Grossmeier has served as the Education Technology and Policy Coordinator at Creative Commons since July 2011. He focuses on how Open Education projects can better create, disseminate, and reuse educational materials.Prior to joining Creative Commons, Grossmeier served as a Copyright Specialist at the University of Michigan Library. He has also worked with Open.Michigan, an initiative related to open sharing of academic research, outreach, and policy.He holds a Master's of Science in Information Policy and Library and Information Services from the University of Michigan.</p>
