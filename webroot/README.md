@@ -7,7 +7,7 @@
 Any changes committed to this repository, or pushed to this repository from a remote checked out copy, will **automatically** rebuild the website at: http://lrmi.dublincore.org
 
 ### Serving the website on your local machine with Hugo
-1. Install Hugo ([instructions](https://gohugo.io/getting-started/installing/))
+1. Install Hugo ([instructions](https://gohugo.io/getting-started/installing/)). It is probably worth installing a version of Hugo that is the same as, or close to, the version that the server is using to comoile the LRMI pages. You can find out what that is by looking at the footer of the website at [http://lrmi.dublincore.org](http://lrmi.dublincore.org). This is updated from time to time (Hugo is still being very actively developed).
 2. `git clone git@github.com:dcmi/lrmi.git <LOCAL_FOLDER>`
 3. `cd <LOCAL_FOLDER>/webroot`
 4. `hugo server`
