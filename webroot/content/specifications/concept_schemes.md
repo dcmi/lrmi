@@ -214,6 +214,7 @@ draft: false
     <td><a href="<http://creativecommons.org/licenses/by/4.0/>">http://creativecommons.org/licenses/by/4.0/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="assesses"><strong>Assesses</strong></a></p>
 
@@ -243,6 +244,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/alignmentType/">http://purl.org/dcx/lrmi-vocabs/alignmentType/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="complexity-level"><strong>Complexity Level</strong></a></p>
 
@@ -272,6 +274,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/alignmentType/">http://purl.org/dcx/lrmi-vocabs/alignmentType/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="educational-level"><strong>Educational Level</strong></a></p>
 
@@ -301,6 +304,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/alignmentType/">http://purl.org/dcx/lrmi-vocabs/alignmentType/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="educational-subject"><strong>Educational Subject</strong></a></p>
 
@@ -334,6 +338,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/alignmentType/">http://purl.org/dcx/lrmi-vocabs/alignmentType/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="prerequisite"><strong>Prerequisite</strong></a></p>
 
@@ -363,6 +368,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/alignmentType/">http://purl.org/dcx/lrmi-vocabs/alignmentType/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="reading-level"><strong>Reading Level</strong></a></p>
 
@@ -396,6 +402,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/alignmentType/">http://purl.org/dcx/lrmi-vocabs/alignmentType/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="teaches"><strong>Teaches</strong></a></p>
 
@@ -425,6 +432,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/alignmentType/">http://purl.org/dcx/lrmi-vocabs/alignmentType/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a id="educational-audience-role" name="educational-audience-role"></a></p>
 
@@ -464,6 +472,7 @@ draft: false
     <td><a href="<http://creativecommons.org/licenses/by/4.0/>">http://creativecommons.org/licenses/by/4.0/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="administrator"><strong>Administrator</strong></a></p>
 
@@ -489,6 +498,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/">http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="general-public"><strong>General Public</strong></a></p>
 
@@ -514,6 +524,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/">http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="mentor"><strong>Mentor</strong></a></p>
 
@@ -539,6 +550,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/">http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="parent"><strong>Parent</strong></a></p>
 
@@ -564,6 +576,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/">http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="peer-tutor"><strong>Peer Tutor</strong></a></p>
 
@@ -589,6 +602,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/">http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="professional"><strong>Professional</strong></a></p>
 
@@ -614,6 +628,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/">http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="student"><strong>Student</strong></a></p>
 
@@ -639,6 +654,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/">http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="teacher"><strong>Teacher</strong></a></p>
 
@@ -664,6 +680,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/">http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a id="educational-use" name="educational-use"></a></p>
 
@@ -703,6 +720,7 @@ draft: false
     <td><a href="<http://creativecommons.org/licenses/by/4.0/>">http://creativecommons.org/licenses/by/4.0/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="assessment"><strong>Assessment</strong></a></p>
 
@@ -732,6 +750,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/educationalUse/">http://purl.org/dcx/lrmi-vocabs/educationalUse/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="instruction"><strong>Instruction</strong></a></p>
 
@@ -761,6 +780,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/educationalUse/">http://purl.org/dcx/lrmi-vocabs/educationalUse/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="professional-support"><strong>Professional Support</strong></a></p>
 
@@ -790,6 +810,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/educationalUse/">http://purl.org/dcx/lrmi-vocabs/educationalUse/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a id="interactivity-type" name="interactivity-type"></a></p>
 
@@ -833,6 +854,7 @@ draft: false
     <td><a href="<http://creativecommons.org/licenses/by/4.0/>">http://creativecommons.org/licenses/by/4.0/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="active"><strong>Active</strong></a></p>
 
@@ -862,6 +884,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/interactivityType/">http://purl.org/dcx/lrmi-vocabs/interactivity type/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="expositive"><strong>Expositive</strong></a></p>
 
@@ -891,6 +914,7 @@ draft: false
     <td><a href="http://purl.org/dcx/lrmi-vocabs/interactivityType/">http://purl.org/dcx/lrmi-vocabs/interactivityType/</a></td>
   </tr>
 </table>
+<p></p>
 
 <p><a name="mixed"><strong>Mixed</strong></a></p>
 
