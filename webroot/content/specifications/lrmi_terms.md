@@ -76,27 +76,27 @@ draft: false
 
 <table cellpadding="5" width="85%">
   <tr>
-  	<td width="175" align="left"><strong>Name:</strong></td>
+  	<td width="175" align="right"><strong>Name:</strong></td>
     <td>A token appended to the URI of the LRMI namespace to create the URI of the term.</td>
   </tr>
   <tr>
-  	<td align="left"><strong>Label:</strong></td>
+  	<td align="right"><strong>Label:</strong></td>
     <td>The human-readable label assigned to the term.</td>
   </tr>
   <tr>
-  	<td align="left"><strong>URI:</strong></td>
+  	<td align="right"><strong>URI:</strong></td>
     <td>The Uniform Resource Identifier used to uniquely identify a term.</td>
   </tr>
   <tr>
-  	<td align="left"><strong>Definition:</strong></td>
+  	<td align="right"><strong>Definition:</strong></td>
     <td>A statement that represents the concept and essential nature of the term.</td>
   </tr>
   <tr>
-  	<td align="left"><strong>Type of Term:</strong></td>
+  	<td align="right"><strong>Type of Term:</strong></td>
     <td>The type of term—class or property.</td>
   </tr>
   <tr>
-  	<td align="left"><strong>Date Issued/Modified:</strong></td>
+  	<td align="right"><strong>Date Issued/Modified:</strong></td>
     <td>The date the term was created or modified.</td>
   </tr>
 </table>
@@ -106,42 +106,42 @@ draft: false
 <p>&nbsp;</p>
 
 <table cellpadding="5" width="85%">
-	<td width="175" align="left"><strong>Description:</strong></td>
+	<td width="175" align="right"><strong>Description:</strong></td>
   <td>Additional information about the term or its application.</td>
   <tr>
-  	<td align="left"><strong>Subproperty Of:</strong></td>
+  	<td align="right"><strong>Subproperty Of:</strong></td>
     <td>A property of which the described term is a subproperty.</td>
   </tr>
   <tr>
-  	<td align="left"><strong>Equivalent Property:</strong></td>
+  	<td align="right"><strong>Equivalent Property:</strong></td>
     <td>A property to which the described term is equivalent (<a href="http://www.w3.org/TR/owl-ref/#equivalentProperty-def" target="_blank">owl:equivalentProperty</a>).</td>
   </tr>
   <tr>
-  	<td align="left"><strong>Subclass Of:</strong></td>
+  	<td align="right"><strong>Subclass Of:</strong></td>
     <td>A class of which the described term is a subclass.</td>
   </tr>
   <tr>
-  	<td align="left"><strong>Equivalent Class:</strong></td>
+  	<td align="right"><strong>Equivalent Class:</strong></td>
     <td>A class to which the described term is equivalent (<a href="http://www.w3.org/TR/owl-ref/#equivalentClass-def" target="_blank">owl:equivalentClass</a>).</td>
   </tr>
   <tr>
-  	<td align="left"><strong>Has Domain:</strong></td>
+  	<td align="right"><strong>Has Domain:</strong></td>
     <td>Any resource that has a given property is [inferred to be] an instance of one or more classes (<a href="http://www.w3.org/TR/rdf-schema/#ch_domain" target="_blank">rdfs:domain</a>).</td>
   </tr>
   <tr>
-  	<td align="left"><strong>Has Range:</strong></td>
+  	<td align="right"><strong>Has Range:</strong></td>
     <td>The values of a property are [inferred to be] instances of one or more classes. (<a href="http://www.w3.org/TR/rdf-schema/#ch_range" target="_blank">rdfs:range</a>)</td>
   </tr>
   <tr>
-  	<td align="left"><strong>Domain Includes:</strong></td>
+  	<td align="right"><strong>Domain Includes:</strong></td>
     <td>Relates a property to a class that is (one of) the type(s) the property is expected to be used on. (<a href="https://schema.org/domainIncludes" target="_blank">https://schema.org/domainIncludes</a>).</td>
   </tr>
   <tr>
-  	<td align="left"><strong>Range Includes:</strong></td>
+  	<td align="right"><strong>Range Includes:</strong></td>
     <td>Relates a property to a class that constitutes (one of) the expected type(s) for values of the property. (<a href="https://schema.org/rangeIncludes" target="_blank">https://schema.org/rangeIncludes</a>).</td>
   </tr>
   <tr>
-  	<td align="left"><strong>Usage Note:</strong></td>
+  	<td align="right"><strong>Usage Note:</strong></td>
     <td>A reference to a resource that provides information on how this resource is to be used. (<a href="http://purl.org/vocab/vann/usageNote" target="_blank">http://purl.org/vocab/vann/usageNote</a>).</td>
   </tr>
 </table>
@@ -357,11 +357,11 @@ draft: false
 
 <table cellpadding="5" width="85%">
   <tr>
-    <td width="150" align="right">Name</td>
+    <td width="150" align="right">Name:</td>
     <td>educationalFramework</td>
   </tr>
   <tr>
-    <td align="right">Label</td>
+    <td align="right">Label:</td>
     <td>Educational Framework</td>
   </tr>
   <tr>
@@ -405,11 +405,11 @@ draft: false
 
 <table cellpadding="5" width="85%">
   <tr>
-    <td width="150" align="right">Name</td>
+    <td width="150" align="right">Name:</td>
     <td>educationalRole</td>
   </tr>
   <tr>
-    <td align="right">Label</td>
+    <td align="right">Label:</td>
     <td>Educational Role</td>
   </tr>
   <tr>
@@ -457,7 +457,7 @@ draft: false
 
 <table cellpadding="5" width="85%">
   <tr>
-    <td width="150" align="right">Name</td>
+    <td width="150" align="right">Name:</td>
     <td>educationalUse</td>
   </tr>
   <tr>
@@ -506,11 +506,11 @@ draft: false
 
 <table cellpadding="5" width="85%">
   <tr>
-    <td width="150" align="right">Name</td>
+    <td width="150" align="right">Name:</td>
     <td>interactivityType</td>
   </tr>
   <tr>
-    <td align="right">Label</td>
+    <td align="right">Label:</td>
     <td>Interactivity Type</td>
   </tr>
   <tr>
@@ -563,11 +563,11 @@ draft: false
 
 <table cellpadding="5" width="85%">
   <tr>
-    <td width="150" align="right">Name</td>
+    <td width="150" align="right">Name:</td>
     <td>isBasedOnUrl</td>
   </tr>
   <tr>
-    <td align="right">Label</td>
+    <td align="right">Label:</td>
     <td>Is Based On URL</td>
   </tr>
   <tr>
@@ -612,11 +612,11 @@ draft: false
 
 <table cellpadding="5" width="85%">
   <tr>
-    <td width="150" align="right">Name</td>
+    <td width="150" align="right">Name:</td>
     <td>learningResourceType</td>
   </tr>
   <tr>
-    <td align="right">Label</td>
+    <td align="right">Label:</td>
     <td>Learning Resource Type</td>
   </tr>
   <tr>
@@ -661,11 +661,11 @@ draft: false
 
 <table cellpadding="5" width="85%">
   <tr>
-    <td width="150" align="right">Name</td>
+    <td width="150" align="right">Name:</td>
     <td>targetDescription</td>
   </tr>
   <tr>
-    <td align="right">Label</td>
+    <td align="right">Label:</td>
     <td>Target Description</td>
   </tr>
   <tr>
@@ -709,11 +709,11 @@ draft: false
 
 <table cellpadding="5" width="85%">
   <tr>
-    <td width="150" align="right">Name</td>
+    <td width="150" align="right">Name:</td>
     <td>targetName</td>
   </tr>
   <tr>
-    <td align="right">Label</td>
+    <td align="right">Label:</td>
     <td>Target Name</td>
   </tr>
   <tr>
@@ -757,11 +757,11 @@ draft: false
 
 <table cellpadding="5" width="85%">
   <tr>
-    <td width="150" align="right">Name</td>
+    <td width="150" align="right">Name:</td>
     <td>targetURL</td>
   </tr>
   <tr>
-    <td align="right">Label</td>
+    <td align="right">Label:</td>
     <td>Target URL</td>
   </tr>
   <tr>
@@ -805,51 +805,51 @@ draft: false
 
 <table cellpadding="5" width="85%">
   <tr>
-    <td width="150" align="left">Name</td>
+    <td width="150" align="right">Name:</td>
     <td>timeRequired</td>
   </tr>
   <tr>
-    <td align="left">Label</td>
+    <td align="right">Label:</td>
     <td>Time Required</td>
   </tr>
   <tr>
-    <td align="leftt">URI:</td>
+    <td align="right">URI:</td>
     <td><a href="http://purl.org/dcx/lrmi-terms/timeRequired">http://purl.org/dcx/lrmi-terms/timeRequired</a></td>
   </tr>
   <tr>
-    <td align="left">Definition:</td>
+    <td align="right">Definition:</td>
     <td>Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience.</td>
   </tr>
   <tr>
-    <td align="leftt">Description:</td>
+    <td align="right">Description:</td>
     <td>Based on, and mappable from, IEEE LOM 5.9: Typical Learning Time.</td>
   </tr>
   <tr>
-    <td align="left">Description:</td>
+    <td align="right">Description:</td>
     <td>For example, 'PT30M' and 'PT1H25M'</td>
   </tr>
   <tr>
-    <td align="left">Type of Term:</td>
+    <td align="right">Type of Term:</td>
     <td><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">rdf:Property</a></td>
   </tr>
   <tr>
-    <td align="left">Domain Includes:</td>
+    <td align="right">Domain Includes:</td>
     <td><a href="http://schema.org/CreativeWork">http://schema.org/CreativeWork</a></td>
   </tr>
   <tr>
-    <td align="left">Range Includes:</td>
+    <td align="right">Range Includes:</td>
     <td><a href="http://schema.org/Duration">http://schema.org/Duration</a></td>
   </tr>
   <tr>
-    <td align="left">Equivalent Property:</td>
+    <td align="right">Equivalent Property:</td>
     <td><a href="http://schema.org/timeRequired">http://schema.org/timeRequired</a></td>
   </tr>
   <tr>
-    <td align="left">Is Defined By:</td>
+    <td align="right">Is Defined By:</td>
     <td><a href="http://purl.org/dcx/lrmi-terms/">http://purl.org/dcx/lrmi-terms/</a></td>
   </tr>
   <tr>
-    <td align="left">Date Issued:</td>
+    <td align="right">Date Issued:</td>
     <td>2015-01-12</td>
   </tr>
 </table>
@@ -858,35 +858,35 @@ draft: false
 
 <table cellpadding="5" width="85%">
   <tr>
-    <td width="150" align="leftt">Name</td>
+    <td width="150" align="right">Name:</td>
     <td>typicalAgeRange</td>
   </tr>
   <tr>
-    <td align="left">Label</td>
+    <td align="right">Label:</td>
     <td>Typical Age Range</td>
   </tr>
   <tr>
-    <td align="left">URI:</td>
+    <td align="right">URI:</td>
     <td><a href="http://purl.org/dcx/lrmi-terms/typicalAgeRange">http://purl.org/dcx/lrmi-terms/typicalAgeRange</a></td>
   </tr>
   <tr>
-    <td align="left">Definition:</td>
+    <td align="right">Definition:</td>
     <td>The typical range of ages the content's intended end user.</td>
   </tr>
   <tr>
-    <td align="left">Description:</td>
+    <td align="right">Description:</td>
     <td axis="Description" property="dct:description">For example, '7-9', '18+'.</td>
   </tr>
   <tr>
-    <td align="left">Description:</td>
+    <td align="right">Description:</td>
     <td>Based on, and mappable from, IEEE LOM 5.7: Typical Age Range.</td>
   </tr>
   <tr>
-    <td align="left">Type of Term:</td>
+    <td align="right">Type of Term:</td>
     <td><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">rdf:Property</a></td>
   </tr>
   <tr>
-    <td align="left">Domain Includes:</td>
+    <td align="right">Domain Includes:</td>
     <td><a href="http://schema.org/CreativeWork">http://schema.org/CreativeWork</a></td>
   </tr>
   <tr>
@@ -894,15 +894,15 @@ draft: false
     <td><a href="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</a></td>
   </tr>
   <tr>
-    <td align="left">Equivalent Property:</td>
+    <td align="right">Equivalent Property:</td>
     <td><a href="http://schema.org/typicalAgeRange">http://schema.org/typicalAgeRange</a></td>
   </tr>
   <tr>
-    <td align="left">Is Defined By:</td>
+    <td align="right">Is Defined By:</td>
     <td><a href="http://purl.org/dcx/lrmi-terms/">http://purl.org/dcx/lrmi-terms/</a></td>
   </tr>
   <tr>
-    <td align="left">Date Issued:</td>
+    <td align="right">Date Issued:</td>
     <td>2015-01-12</td>
   </tr>
 </table>
@@ -911,43 +911,43 @@ draft: false
 
 <table cellpadding="5" width="85%">
   <tr>
-    <td width="150" align="left">Name</td>
+    <td width="150" align="right">Name:</td>
     <td>useRightsURL</td>
   </tr>
   <tr>
-    <td align="left">Label</td>
+    <td align="right">Label:</td>
     <td>Use Rights URL</td>
   </tr>
   <tr>
-    <td align="left">URI:</td>
+    <td align="right">URI:</td>
     <td><a href="http://purl.org/dcx/lrmi-terms/useRightsUrl">http://purl.org/dcx/lrmi-terms/useRightsUrl</a></td>
   </tr>
   <tr>
-    <td align="left">Definition:</td>
+    <td align="right">Definition:</td>
     <td>The URL where the owner specifies permissions for using the resource.</td>
   </tr>
   <tr>
-    <td align="left">Description:</td>
+    <td align="right">Description:</td>
     <td>For example: 'http://creativecommons.org/licenses/by/3.0/, &amp; 'http://publisher.com/content-use-description'.</td>
   </tr>
   <tr>
-    <td align="left">Type of Term:</td>
+    <td align="right">Type of Term:</td>
     <td axis="Type-of-Term"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">rdf:Property</a></td>
   </tr>
   <tr>
-    <td align="left">Subproperty Of:</td>
+    <td align="right">Subproperty Of:</td>
     <td><a href="http://schema.org/license">http://schema.org/license</a></td>
   </tr>
   <tr>
-    <td align="left">Domain Includes:</td>
+    <td align="right">Domain Includes:</td>
     <td><a href="http://schema.org/CreativeWork">http://schema.org/CreativeWork</a></td>
   </tr>
   <tr>
-    <td align="left">Range Includes:</td>
+    <td align="right">Range Includes:</td>
     <td><a href="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/2001/XMLSchema#anyURI</a></td>
   </tr>
   <tr>
-    <td align="left">Date Issued:</td>
+    <td align="right">Date Issued:</td>
     <td>2015-01-12</td>
   </tr>
 </table>
