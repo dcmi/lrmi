@@ -146,7 +146,7 @@ draft: false
 
 <h2 id="2-namespaces">2. Namespaces</h2>
 
-<p>In the following definitions of the <em>Alignment Type Concept Scheme</em> and it's component concepts, the namespaces in the table below are referenced:</p>
+<p>The namespaces in the table below are referenced in the definitions of the concept schemes and their component concepts:</p>
 
 <table cellpadding="5" width="85%">
   <tr>
