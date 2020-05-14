@@ -1,7 +1,9 @@
 # lrmi
-Resources for LRMI Project.
+Resources for [LRMI](https://www.dublincore.org/about/lrmi/).
+* lrmi_terms : development versions of RDF definitions of LRMI Terms in Turtle
+* lrmi_vocabs : development versions of RDF definitions of concept schemes relevant to LRMI terms
+* LRMI Examples
 
-2018-01-10: This repo is transitioning to serve as the back-end for a Hugo-driven website.
-* The directory webroot/ is the new top-level directory for LRMI content - see [webroot/README.md](https://github.com/dcmi/lrmi/blob/master/webroot/README.md).
-* The directories lrmi_examples/, lrmi_terms/, and lrmi_vocabs/ will become superseded by webroot/.
+For the stable versions of these, see [LRMI Specifications](https://www.dublincore.org/specifications/lrmi/) on the DCMI website.
 
+To contribute to the development of LRMI please join the [DCMI LRMI Task Group](https://www.dublincore.org/groups/lrmi-task-group/)
