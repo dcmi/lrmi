@@ -176,7 +176,7 @@ lrmi:timeRequired a rdf:Property ;
     rdfs:comment "Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience."@en ;
     dcterms:description "Based on, and mappable from, IEEE LOM 5.9: Typical Learning   Time."@en, "For example, 'PT30M' and 'PT1H25M'"@en ;
     dcterms:issued "2015-02-09"^^xsd:date ;
-    schema:domainIncludes lrmi:CreativeWork, schema:CreativeWork ;
+    schema:domainIncludes schema:CreativeWork ;
     schema:rangeIncludes schema:Duration ;
     owl:equivalentProperty schema:timeRequired ;
     rdfs:isDefinedBy <http://purl.org/dcx/lrmi-terms/> .
