@@ -16,7 +16,8 @@
     dcterms:isVersionOf <http://purl.org/dcx/lrmi-terms/1.1/> ;
     dcterms:issued "2015-02-09"^^xsd:date ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:title "LRMI RDF Specification"@en .
+    dcterms:title "LRMI RDF Specification"@en ;
+    skos:historyNote "Sept 2020 changes made reflecting developments in schema.org: added class LearningResource; added properties assesses, educationalLevel, teaches; fixed error in domain of timerequired; updated label and definition of isBasedOnUrl; skos:scopeNote used instead of dcterms:description for additional non-normative information; note added that rdfs:label is not considered normative." .
 
 # CLASSES
 lrmi:AlignmentObject a rdfs:Class ;
@@ -49,7 +50,7 @@ lrmi:LearningResource a rdfs:Class ;
 lrmi:alignmentType a rdf:Property ;
     rdfs:label "Alignment Type"@en ;
     rdfs:comment "A category of alignment between the learning resource and the framework node."@en ;
-    skos:scopeNote "Recommended values include: 'assesses', 'teaches', 'requires', 'textComplexity', 'readingLevel', 'educationalSubject', and 'educationLevel'."@en ;
+    skos:scopeNote "Recommended values include: 'requires', 'textComplexity', 'readingLevel', and 'educationalSubject'. For 'assesses', 'teaches', and 'educationLevel' the specific properties with those names should be used."@en ;
     dcterms:issued "2015-02-09"^^xsd:date ;
     schema:domainIncludes lrmi:AlignmentObject, schema:AlignmentObject ;
     schema:rangeIncludes xsd:string ;
@@ -69,6 +70,7 @@ lrmi:educationalAlignment a rdf:Property ;
     rdfs:label "Educational Alignment"@en ;
     rdfs:comment "An alignment to an established educational framework."@en ;
     dcterms:issued "2015-02-09"^^xsd:date ;
+    skos:changeNote "Sept 2020: added lrmi:LearningResource, schema:LearningResource to domain" ;
     schema:domainIncludes schema:CreativeWork, lrmi:LearningResource, schema:LearningResource ;
     schema:rangeIncludes lrmi:AlignmentObject, schema:AlignmentObject ;
     owl:equivalentProperty schema:educationalAlignment ;
@@ -108,6 +110,7 @@ lrmi:educationalUse a rdf:Property ;
     rdfs:comment "The purpose of a work in the context of education."@en ;
     skos:scopeNote "For example, 'assignment', 'group work'."@en ;
     dcterms:issued "2015-02-09"^^xsd:date ;
+    skos:changeNote "Sept 2020: added lrmi:LearningResource, schema:LearningResource to domain" ;
     schema:domainIncludes schema:CreativeWork, lrmi:LearningResource, schema:LearningResource ;
     schema:rangeIncludes xsd:string ;
     owl:equivalentProperty schema:educationalUse ;
@@ -119,6 +122,7 @@ lrmi:interactivityType a rdf:Property ;
     skos:scopeNote "Acceptable values are 'active', 'expositive', or 'mixed'."@en,
         "Based on, and mappable from, IEEE LOM 5.1: Interactivity Type."@en ;
     dcterms:issued "2015-02-09"^^xsd:date ;
+    skos:changeNote "Sept 2020: added lrmi:LearningResource, schema:LearningResource to domain" ;
     schema:domainIncludes schema:CreativeWork, lrmi:LearningResource, schema:LearningResource ;
     schema:rangeIncludes xsd:string ;
     owl:equivalentProperty schema:interactivityType ;
@@ -139,6 +143,7 @@ lrmi:learningResourceType a rdf:Property ;
     rdfs:comment "The predominant type or kind characterizing the learning resource."@en ;
     skos:scopeNote "For example, 'presentation', 'handout'."@en ;
     dcterms:issued "2015-02-09"^^xsd:date ;
+    skos:changeNote "Sept 2020: added lrmi:LearningResource, schema:LearningResource to domain" ;
     schema:domainIncludes schema:CreativeWork, lrmi:LearningResource, schema:LearningResource ;
     schema:rangeIncludes xsd:string ;
     owl:equivalentProperty schema:learningResourceType ;
@@ -176,6 +181,7 @@ lrmi:timeRequired a rdf:Property ;
     rdfs:comment "Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience."@en ;
     skos:scopeNote "Based on, and mappable from, IEEE LOM 5.9: Typical Learning   Time."@en, "For example, 'PT30M' and 'PT1H25M'"@en ;
     dcterms:issued "2015-02-09"^^xsd:date ;
+    skos:changeNote "Sept 2020: error in domain fixed, changed from lrmi:AlignmentObject to schema:CreativeWork" ;
     schema:domainIncludes schema:CreativeWork ;
     schema:rangeIncludes schema:Duration ;
     owl:equivalentProperty schema:timeRequired ;
