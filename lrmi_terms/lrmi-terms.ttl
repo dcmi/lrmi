@@ -39,7 +39,7 @@ lrmi:LearningResource a rdfs:Class ;
     rdfs:label "Learning Resource"@en ;
     dcterms:issued "2020-08-31"^^xsd:date ;
     rdfs:comment "A persistent resource that has one or more physical or digital representations, and that explicitly involves, specifies or entails a learning activity or learning experience."@en ;
-    dcterms:description "The LearningResource type can be used to indicate creative works (whether physical or digital) that have a particular and explicit orientation towards learning, education, skill acquisition, and other educational purposes. LearningResource is expected to be used as an addition to a primary type such as http://purl.org/ontology/bibo/Book, https://schema.org/Video, http://purl.org/dc/terms/PhysicalResource etc."@en ;
+    dcterms:description "The LearningResource type can be used to indicate creative works (whether physical or digital) that have a particular and explicit orientation towards learning, education, training, skill acquisition, and other learning purposes. LearningResource is expected to be used as an addition to a primary type such as http://purl.org/ontology/bibo/Book, https://schema.org/Video, http://purl.org/dc/terms/PhysicalResource etc."@en ;
     rdfs:subClassOf schema:CreativeWork ;
     owl:equivalentClass schema:LearningResource ;
     rdfs:isDefinedBy <http://purl.org/dcx/lrmi-terms/> .
