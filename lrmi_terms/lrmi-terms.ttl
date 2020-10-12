@@ -56,7 +56,7 @@ lrmi:alignmentType a rdf:Property ;
     dcterms:issued "2015-02-09"^^xsd:date ;
     skos:changeNote "Added scopeNote; added skos:Concept to rangeIncludes." ;
     schema:domainIncludes lrmi:AlignmentObject, schema:AlignmentObject ;
-    schema:rangeIncludes xsd:string skos:Concept ;
+    schema:rangeIncludes xsd:string, skos:Concept ;
     owl:equivalentProperty schema:alignmentType ;
     rdfs:isDefinedBy <http://purl.org/dcx/lrmi-terms/> .
 
@@ -72,7 +72,7 @@ lrmi:assesses a rdf:Property ;
 lrmi:educationalAlignment a rdf:Property ;
     rdfs:label "Educational Alignment"@en ;
     rdfs:comment "An alignment to an established educational framework."@en ;
-    skos:scopeNote "This property should not be used where the nature of the alignment can be described using a simple property, for example to express that a resource teaches or assesses a competency."
+    skos:scopeNote "This property should not be used where the nature of the alignment can be described using a simple property, for example to express that a resource teaches or assesses a competency." ;
     dcterms:issued "2015-02-09"^^xsd:date ;
     skos:changeNote "Oct 2020: added lrmi:LearningResource, schema:LearningResource to domain; added scopeNote" ;
     schema:domainIncludes schema:CreativeWork, lrmi:LearningResource, schema:LearningResource ;
