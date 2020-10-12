@@ -62,7 +62,7 @@ lrmi:assesses a rdf:Property ;
     rdfs:comment "The item being described is intended to assess the competency or learning outcome defined by the referenced term."@en ;
     dcterms:issued "2020-08-31"^^xsd:date ;
     schema:domainIncludes schema:CreativeWork, lrmi:LearningResource, schema:LearningResource ;
-    schema:rangeIncludes schema:DefinedTerm ;
+    schema:rangeIncludes schema:DefinedTerm, skos:Concept ;
     owl:equivalentProperty schema:assesses ;
     rdfs:isDefinedBy <http://purl.org/dcx/lrmi-terms/> .
 
@@ -91,7 +91,7 @@ lrmi:educationalLevel a rdf:Property ;
     skos:scopeNote "Examples of educational levels include 'beginner', 'intermediate' or 'advanced', and formal sets of level indicators."@en ;
     dcterms:issued "2020-08-31"^^xsd:date ;
     schema:domainIncludes schema:CreativeWork, lrmi:LearningResource, schema:LearningResource ;
-    schema:rangeIncludes schema:DefinedTerm, xsd:string, xsd:anyURI ;
+    schema:rangeIncludes schema:DefinedTerm, skos:Concept ;
     owl:equivalentProperty schema:assesses ;
     rdfs:isDefinedBy <http://purl.org/dcx/lrmi-terms/> .
 
@@ -192,7 +192,7 @@ lrmi:teaches a rdf:Property ;
     rdfs:comment "The item being described is intended to help a person learn the competency or learning outcome defined by the referenced term."@en ;
     dcterms:issued "2020-08-31"^^xsd:date ;
     schema:domainIncludes schema:CreativeWork, lrmi:LearningResource, schema:LearningResource ;
-    schema:rangeIncludes schema:DefinedTerm ;
+    schema:rangeIncludes schema:DefinedTerm, skos:Concept;
     owl:equivalentProperty schema:teaches ;
     rdfs:isDefinedBy <http://purl.org/dcx/lrmi-terms/> .
 
