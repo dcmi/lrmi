@@ -24,6 +24,7 @@ lrmi:AlignmentObject a rdfs:Class ;
     rdfs:label "Alignment Object"@en ;
     dcterms:issued "2015-02-09"^^xsd:date ;
     rdfs:comment "An intangible item that describes an alignment between a learning resource and a node in an educational framework."@en ;
+    skos:scopeNote "This class should not be used where the nature of the alignment can be described using a simple property, for example to express that a resource teaches or assesses a competency."
     rdfs:subClassOf schema:Intangible ;
     owl:equivalentClass schema:AlignmentObject ;
     rdfs:isDefinedBy <http://purl.org/dcx/lrmi-terms/> .
@@ -69,6 +70,7 @@ lrmi:assesses a rdf:Property ;
 lrmi:educationalAlignment a rdf:Property ;
     rdfs:label "Educational Alignment"@en ;
     rdfs:comment "An alignment to an established educational framework."@en ;
+    skos:scopeNote "This property should not be used where the nature of the alignment can be described using a simple property, for example to express that a resource teaches or assesses a competency."
     dcterms:issued "2015-02-09"^^xsd:date ;
     skos:changeNote "Sept 2020: added lrmi:LearningResource, schema:LearningResource to domain" ;
     schema:domainIncludes schema:CreativeWork, lrmi:LearningResource, schema:LearningResource ;
