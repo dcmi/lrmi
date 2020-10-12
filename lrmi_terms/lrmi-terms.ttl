@@ -17,7 +17,7 @@
     dcterms:issued "2015-02-09"^^xsd:date ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:title "LRMI RDF Specification"@en ;
-    skos:historyNote "Sept 2020 changes made reflecting developments in schema.org: added class LearningResource; added properties assesses, educationalLevel, teaches; fixed error in domain of timerequired; updated label and definition of isBasedOnUrl; skos:scopeNote used instead of dcterms:description for additional non-normative information; note added that rdfs:label is not considered normative." .
+    skos:historyNote "Sept 2020 changes made reflecting developments in schema.org: added class LearningResource; added properties assesses, educationalLevel, teaches; fixed error in domain of timerequired; updated label and definition of isBasedOnUrl; skos:scopeNote used instead of dcterms:description for additional non-normative information; note added that rdfs:label is not considered normative; rangeIncludes statements updated to include skos:Concept for terms where there is an LRMI Concept Scheme or that reference a competence." .
 
 # CLASSES
 lrmi:AlignmentObject a rdfs:Class ;
@@ -53,7 +53,7 @@ lrmi:alignmentType a rdf:Property ;
     skos:scopeNote "Recommended values include: 'requires', 'textComplexity', 'readingLevel', and 'educationalSubject'. For 'assesses', 'teaches', and 'educationLevel' the specific properties with those names should be used."@en ;
     dcterms:issued "2015-02-09"^^xsd:date ;
     schema:domainIncludes lrmi:AlignmentObject, schema:AlignmentObject ;
-    schema:rangeIncludes xsd:string ;
+    schema:rangeIncludes xsd:string skos:Concept;
     owl:equivalentProperty schema:alignmentType ;
     rdfs:isDefinedBy <http://purl.org/dcx/lrmi-terms/> .
 
@@ -101,7 +101,7 @@ lrmi:educationalRole a rdf:Property ;
     skos:scopeNote "The educational function assumed or part played by the group for whom the resource is intended."@en ;
     dcterms:issued "2015-02-09"^^xsd:date ;
     schema:domainIncludes lrmi:EducationalAudience, schema:EducationalAudience ;
-    schema:rangeIncludes xsd:string ;
+    schema:rangeIncludes xsd:string, skos:Concept ;
     owl:equivalentProperty schema:educationalRole ;
     rdfs:isDefinedBy <http://purl.org/dcx/lrmi-terms/> .
 
@@ -113,7 +113,7 @@ lrmi:educationalUse a rdf:Property ;
     skos:changeNote "Sept 2020: added lrmi:LearningResource, schema:LearningResource to domain" ;
     schema:domainIncludes schema:CreativeWork, lrmi:LearningResource, schema:LearningResource ;
     schema:rangeIncludes xsd:string ;
-    owl:equivalentProperty schema:educationalUse ;
+    owl:equivalentProperty schema:educationalUse, skos:Concept ;
     rdfs:isDefinedBy <http://purl.org/dcx/lrmi-terms/> .
 
 lrmi:interactivityType a rdf:Property ;
@@ -124,7 +124,7 @@ lrmi:interactivityType a rdf:Property ;
     dcterms:issued "2015-02-09"^^xsd:date ;
     skos:changeNote "Sept 2020: added lrmi:LearningResource, schema:LearningResource to domain" ;
     schema:domainIncludes schema:CreativeWork, lrmi:LearningResource, schema:LearningResource ;
-    schema:rangeIncludes xsd:string ;
+    schema:rangeIncludes xsd:string, skos:Concept ;
     owl:equivalentProperty schema:interactivityType ;
     rdfs:isDefinedBy <http://purl.org/dcx/lrmi-terms/> .
 
