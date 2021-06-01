@@ -1,8 +1,8 @@
 # lrmi
 This repository provides in-development and informative resources about [LRMI](https://www.dublincore.org/about/lrmi/).
-* [lrmi_terms](terms/) : development versions of RDF definitions of LRMI Terms in Turtle
-* lrmi_vocabs : development versions of RDF definitions of concept schemes relevant to LRMI terms
-* LRMI Examples
+* [LRMI Terms](lrmi_terms/) : development versions of RDF definitions of LRMI Terms in Turtle
+* [LRMI Vocabs](lrmi_vocabs) : development versions of RDF definitions of concept schemes relevant to LRMI terms
+* [LRMI Examples](lrmi_examples) : high level examples of LRMI
 
 For the stable, normative versions of the terms and concept schemes, see [LRMI Specifications](https://www.dublincore.org/specifications/lrmi/) on the DCMI website.
 
