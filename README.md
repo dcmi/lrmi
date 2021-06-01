@@ -1,4 +1,4 @@
-# lrmi
+# Learning Resource Metadata Initiative Development & Guidance
 This repository provides in-development and informative resources about [LRMI](https://www.dublincore.org/about/lrmi/), including:
 * [LRMI Terms](lrmi_terms/): development versions of RDF definitions of LRMI Terms in Turtle;
 * [LRMI Vocabs](lrmi_vocabs): development versions of RDF definitions of concept schemes relevant to LRMI terms;
