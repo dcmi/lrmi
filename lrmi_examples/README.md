@@ -1,7 +1,7 @@
 # LRMI Examples
 Examples of LRMI learning resource descriptions.
 
-See [current issues](issues?q=is%3Aissue+is%3Aopen+label%3Aexamples) relating to examples.
+See [current issues](https://github.com/dcmi/lrmi/issues?q=is%3Aissue+is%3Aopen+label%3Aexamples) relating to examples.
 
 ## Contents:
 ### LRexample01
