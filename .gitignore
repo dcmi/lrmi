@@ -1,2 +1,6 @@
+.git
+*~
+.temp
+.tmp
 .DS_Store
 webroot/resources/*
