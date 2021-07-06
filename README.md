@@ -1,4 +1,4 @@
-# Learning Resource Metadata Initiative Development & Guidance ![LRMI Logo](images/LRMI_400w.png)
+# Learning Resource Metadata Initiative Development & Guidance ![LRMI Logo](images/LRMI_400w.png =200x130)
 
 The [LRMI specification](https://www.dublincore.org/specifications/lrmi/) is a collection of classes, properties and concept schemes for markup and description of educational resources. This vocabulary is designed to be used alongside other resource description vocabularies such as those provided by DCMI, [Schema.org](https://schema.org) and other standards. A significant part of the LRMI specification is mirrored under the [schema.org/LearningResource](https://schema.org/LearningResource) class.
 
