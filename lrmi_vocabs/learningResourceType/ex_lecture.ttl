@@ -1,0 +1,28 @@
+@base <http://example.org/> .
+@prefix lrt: <http://purl.org/dcx/lrmi-vocabs/learningResourceType/> .
+@prefix dc: <http://dublincore.org/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcmiType: <http://purl.org/dc/dcmitype/> .
+@prefix sdo: <http://schema.org/> .
+
+<Lecture1_plan> a sdo:CreativeWork ;
+    sdo:learningResourceType lrt:LessonPlan .
+<Lecture1> a sdo:EducationalEvent ;
+    sdo:workPerformed <Lecture1_plan> ;
+    sdo:recordedIn <Lecture1_video>, <Lecture1_audio>, <Lecture1_transcript> .
+<Lecture1_video> a sdo:VideoObject ;
+    sdo:description "A video of lecture 1" ;
+    sdo:learningResourceType lrt:RecordedLesson ;
+    sdo:isBasedOn <Lecture1_plan> ;
+    sdo:recordedAt <Lecture1> .
+<Lecture1_audio> a sdo:AudioObject ;
+    sdo:description "An audio recording of lecture 1" ;
+    sdo:recordedAt <Lecture1> ;
+    sdo:learningResourceType lrt:RecordedLesson  ;
+    sdo:isBasedOn <Lecture1_plan> ;
+    sdo:recordedAt <Lecture1> .
+<Lecture1_transcript> a sdo:DigitalDocument ;
+    sdo:description "A transcript of lecture 1" ;
+    sdo:learningResourceType lrt:RecordedLesson  ;
+    sdo:isBasedOn <Lecture1_plan> ;
+    sdo:recordedAt <Lecture1> ;
