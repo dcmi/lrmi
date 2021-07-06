@@ -13,9 +13,9 @@
 @prefix bibo: <http://purl.org/ontology/bibo/status/> .
 
 resourceType: a skos:ConceptScheme ;
-    dc:title "LRMI Learning Resource Type Vocabulary"@en-US ;
+    dc:title "LRMI Learning Resource Type Concept Scheme"@en-US ;
     dc:creator "LRMI Task Group (DCMI)"@en-US ;
-    dcterms:dateSubmitted "2015-01-21"^^xsd:date ; 
+    dcterms:dateSubmitted "2015-01-21"^^xsd:date ;
     dc:description "A concept scheme defining the predominant genre, type or kind characterizing a learning resource"@en-US ;
     dc:source "Based in part on the CEDS Learning Resource Type vocabulary found at https://ceds.ed.gov/element/000928"@en-US ;
     adms:status bibo:draft .
@@ -30,7 +30,7 @@ resourceType:alternateAssessment a skos:Concept ;
 
 resourceType:assessmentItem a skos:Concept ;
     skos:prefLabel "assessment item"@en-US ;
-    skosxl:prefLabel resourceType:label-assessmentItem ; 
+    skosxl:prefLabel resourceType:label-assessmentItem ;
     skos:definition "A specific prompt, that defines a question or protocol for a measurable activity that triggers a response from a person used to determine whether the person has mastered a learning objective."@en-US ;
     skos:inScheme resourceType: ;
     dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#AssessmentItem"@en-US ;
@@ -46,7 +46,7 @@ resourceType:course a skos:Concept ;
 
 resourceType:demonstration-simulation a skos:Concept ;
     skos:prefLabel "demonstration/simulation"@en-US ;
-    skosxl:prefLabel resourceType:label-demonstration-simulation ; 
+    skosxl:prefLabel resourceType:label-demonstration-simulation ;
     skos:definition "An imitation or modeling of a real-world process."@en-US ;
     skos:inScheme resourceType: ;
     dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#DemonstrationSimulation"@en-US ;
@@ -75,7 +75,7 @@ resourceType:images-visuals a skos:Concept ;
     skos:inScheme resourceType: ;
     dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#ImagesVisuals"@en-US ;
     vs:term_status "unstable" .
-    
+
 resourceType:interim-summativeAssessment a skos:Concept ;
     skos:prefLabel "interim/summative assessment"@en-US ;
     skosxl:prefLabel resourceType:label-interim-summativeAssessment ;
@@ -131,7 +131,7 @@ resourceType:text a skos:Concept ;
     skos:definition "The body of a printed work, to include reading passages."@en-US ;
     skos:inScheme resourceType: ;
     dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#Text"@en-US ;
-    vs:term_status "unstable" . 
+    vs:term_status "unstable" .
 
 resourceType:textbook a skos:Concept ;
     skos:prefLabel "textbook"@en-US ;
@@ -140,7 +140,7 @@ resourceType:textbook a skos:Concept ;
     skos:inScheme resourceType: ;
     dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#Textbook"@en-US ;
     vs:term_status "unstable" .
- 
+
 resourceType:unit a skos:Concept ;
     skos:prefLabel "unit"@en-US ;
     skosxl:prefLabel resourceType:label-unit ;
@@ -148,7 +148,7 @@ resourceType:unit a skos:Concept ;
     skos:inScheme resourceType: ;
     dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#Unit"@en-US ;
     vs:term_status "unstable" .
-    
+
 #=============================
 # EXTENDED LABELS
 #=============================
@@ -157,7 +157,7 @@ resourceType:label-alternateAssessment a skosxl:label ;
     skosxl:literalForm "alternate assessment"@en-US .
 
 resourceType:label-assessmentItem a skosxl:label ;
-    skosxl:literalForm "assessment item"@en-US . 
+    skosxl:literalForm "assessment item"@en-US .
 
 resourceType:label-course a skosxl:label ;
     skosxl:literalForm "course"@en-US .
