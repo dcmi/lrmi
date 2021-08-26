@@ -29,4 +29,7 @@ No hierarchy is hard-wired into the concept names or identifiers. Relationships 
 The concept identifiers and definitions defined here are normative; labels and scope notes are not normative.
 
 ### Suggesting new concepts
-It is not the aim to provide a comprehensive list of every possible category of learning resource, the aim is to provide a limited number of broad categories such that the type of any learning resource can be specified. If there is a broad type of learning resource that you think is not covered and which meets the definitions provided in notes above, please contact the Dublin Core Metadata Initiative LRMI Task Group at lrmi-contact@dublincore.net
+It is not the aim to provide a comprehensive list of every possible category of learning resource, the aim is to provide a limited number of broad categories such that the type of any learning resource can be specified.
+
+If there is a broad type of learning resource that you think is not covered and which meets the definitions provided in notes above, please open an issue using the [new learning resource type](https://github.com/dcmi/lrmi/issues/new?assignees=philbarker&labels=enhancement%2C+LearningResourceTypes&template=new-learning-resource-type.md&title=%5BNew+learning+resource+type%5D) template.
+(Alternatively you may contact the Dublin Core Metadata Initiative LRMI Task Group at lrmi-contact@dublincore.net)
