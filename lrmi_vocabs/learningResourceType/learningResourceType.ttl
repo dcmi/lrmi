@@ -1,12 +1,8 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix resourceType: <http://purl.org/dcx/lrmi-vocabs/learningResourceType/> .
@@ -15,188 +11,65 @@
 resourceType: a skos:ConceptScheme ;
     dc:title "LRMI Learning Resource Type Concept Scheme"@en-US ;
     dc:creator "LRMI Task Group (DCMI)"@en-US ;
-    dcterms:dateSubmitted "2015-01-21"^^xsd:date ;
-    dc:description "A concept scheme defining the predominant genre, type or kind characterizing a learning resource"@en-US ;
-    dc:source "Based in part on the CEDS Learning Resource Type vocabulary found at https://ceds.ed.gov/element/000928"@en-US ;
+    dcterms:dateSubmitted "2021-08-26"^^xsd:date ;
+    dc:description "A concept scheme that enumerates different types of learning resource. By learning resource we mean a persistent resource that has one or more physical or digital representation, and that explicitly involves, specifies or entails a learning activity or learning experience."@en-US ;
+    dc:source <https://ceds.ed.gov/element/000928> ;
     adms:status bibo:draft .
 
-resourceType:alternateAssessment a skos:Concept ;
-    skos:prefLabel "alternate assessment"@en-US ;
-    skosxl:prefLabel resourceType:label-alternateAssessment ;
-    skos:definition "An assessment that is used to evaluate the performance of students who are unable to participate in general assessments even with accommodations."@en-US ;
+resourceType:actvityPlan a skos:Concept ;
+    skos:prefLabel "activity plan"@en-US ;
+    skos:definition "A detailed description of an activity engaged in by the learner for the purpose of acquiring certain skills, concepts, or knowledge, whether guided by an instructor or not."@en-US ;
+    skos:scopeNote "There may be several activities in a lesson or an activity may take place outside of a lesson." ;
     skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#AlternateAssessment"@en-US ;
+    dcterms:source <https://ceds.ed.gov/element/000928#LearningActivity> ;
+    vs:term_status "unstable" .
+
+resourceType:assessment a skos:Concept ;
+    skos:prefLabel "assessment"@en-US ;
+    skos:definition "A set of assessment items used to evaluate or promote learning."@en-US ;
+    skos:inScheme resourceType: ;
+    dcterms:source <https://ceds.ed.gov/element/000928#Assessment> ;
     vs:term_status "unstable" .
 
 resourceType:assessmentItem a skos:Concept ;
     skos:prefLabel "assessment item"@en-US ;
-    skosxl:prefLabel resourceType:label-assessmentItem ;
     skos:definition "A specific prompt, that defines a question or protocol for a measurable activity that triggers a response from a person used to determine whether the person has mastered a learning objective."@en-US ;
     skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#AssessmentItem"@en-US ;
-    vs:term_status "unstable" .
-
-resourceType:course a skos:Concept ;
-    skos:prefLabel "course"@en-US ;
-    skosxl:prefLabel resourceType:label-course ;
-    skos:definition "A series of units and lessons used to teach the skills and knowledge required by its curriculum."@en-US ;
-    skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#Course"@en-us ;
-    vs:term_status "unstable" .
-
-resourceType:demonstration-simulation a skos:Concept ;
-    skos:prefLabel "demonstration/simulation"@en-US ;
-    skosxl:prefLabel resourceType:label-demonstration-simulation ;
-    skos:definition "An imitation or modeling of a real-world process."@en-US ;
-    skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#DemonstrationSimulation"@en-US ;
+    dcterms:source "https://ceds.ed.gov/element/000928#AssessmentItem" ;
     vs:term_status "unstable" .
 
 resourceType:educatorCurriculumGuide a skos:Concept ;
     skos:prefLabel "educator curriculum guide"@en-US ;
-    skosxl:prefLabel resourceType:label-educatorCurriculum ;
     skos:definition "A document that defines what concepts should be taught and/or how a concept should be taught effectively."@en-US ;
     skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#EducatorCurriculumGuide"@en-US ;
+    dcterms:source <https://ceds.ed.gov/element/000928#EducatorCurriculumGuide> ;
     vs:term_status "unstable" .
 
-resourceType:formativeAssessment a skos:Concept ;
-    skos:prefLabel "formative assessment"@en-US ;
-    skosxl:prefLabel resourceType:label-formativeAssessment ;
-    skos:definition "A process used by teachers and students during instruction that provides feedback to adjust ongoing teaching and learning to improve students' achievement of intended instructional outcomes. (CCSSO FAST SCASS, 2006)"@en-US ;
+resourceType:lessonPlan a skos:Concept ;
+    skos:prefLabel "lesson plan"@en-US ;
+    skos:definition "A detailed description of the course of instruction for a ­short period of time that is used by a teacher to guide class instruction."@en-US ;
+    skos:usageNote "Several lessons on the same topic would be a Unit. A lesson may include one or more learning activities." ;
     skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#FormativeAssessment"@en-US ;
+    dcterms:source <https://ceds.ed.gov/element/000928#Lesson> ;
     vs:term_status "unstable" .
 
-resourceType:images-visuals a skos:Concept ;
-    skos:prefLabel "images/visuals"@en-US ;
-    skosxl:prefLabel resourceType:label-images-visuals ;
-    skos:definition "Visual media, including but not limited to pictures, graphics, diagrams, figures, illustrations, charts, and maps."@en-US ;
+resourceType:recordedLesson a skos:Concept ;
+    skos:prefLabel "lesson plan"@en-US ;
+    skos:definition "An audio or video recording, or a textual record (e.g. transcript or edited script) of a lesson, lecture or similar short instructional event."@en-US ;
     skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#ImagesVisuals"@en-US ;
-    vs:term_status "unstable" .
-
-resourceType:interim-summativeAssessment a skos:Concept ;
-    skos:prefLabel "interim/summative assessment"@en-US ;
-    skosxl:prefLabel resourceType:label-interim-summativeAssessment ;
-    skos:definition "An assessment instrument used to evaluate student learning at the end of an instructional unit by comparing it against some standard or benchmark."@en-US ;
-    skos:note "A learning resource of this type may be an \"assessment form,\" i.e. one instance of the assessment instrument that can equate scores with another instance of the same assessment."@en-US ;
-    skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#InterimSummativeAssessment"@en-US ;
-    vs:term_status "unstable" .
-
-resourceType:learningActivity a skos:Concept ;
-    skos:prefLabel "learning activity"@en-US ;
-    skosxl:prefLabel resourceType:label-learningActivity ;
-    skos:definition "Activities engaged in by the learner for the purpose of acquiring certain skills, concepts, or knowledge, whether guided by an instructor or not. A Lesson may define one or more learning activities."@en-US ;
-    skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#LearningActivity"@en-US ;
-    vs:term_status "unstable" .
-
-resourceType:lesson a skos:Concept ;
-    skos:prefLabel "lesson"@en-US ;
-    skosxl:prefLabel resourceType:label-lesson ;
-    skos:definition "A detailed description of the course of instruction for a short period of time that is used by a teacher to guide class instruction. A unit contains one or more lessons."@en-US ;
-    skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#Lesson"@en-US ;
-    vs:term_status "unstable" .
-
-resourceType:primarySource a skos:Concept ;
-    skos:prefLabel "primary source"@en-US ;
-    skosxl:prefLabel resourceType:label-primarySource ;
-    skos:definition "An artifact, document, recording, or other source of information that was created at the time under study and provides first-hand testimony or direct evidence concerning a topic under investigation."@en-US ;
-    skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#PrimarySource"@en-US ;
-    vs:term_status "unstable" .
-
-resourceType:rubricScoringGuide a skos:Concept ;
-    skos:prefLabel "rubric scoring guide"@en-US ;
-    skosxl:prefLabel resourceType:label-rubricScoringGuide ;
-    skos:definition "A document or guide that is used to delineate consistent criteria for grading."@en-US ;
-    skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#RubricScoringGuide"@en-US ;
-    vs:term_status "unstable" .
-
-resourceType:selfAssessment a skos:Concept ;
-    skos:prefLabel "self assessment"@en-US ;
-    skosxl:prefLabel resourceType:label-selfAssessment ;
-    skos:definition "An assessment in which the user gathers information about and reflects on his or her own knowledge, skills, learning, or attitudes."@en-US ;
-    skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#SelfAssessment"@en-US ;
-    vs:term_status "unstable" .
-
-resourceType:text a skos:Concept ;
-    skos:prefLabel "text"@en-US ;
-    skosxl:prefLabel resourceType:label-text ;
-    skos:definition "The body of a printed work, to include reading passages."@en-US ;
-    skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#Text"@en-US ;
     vs:term_status "unstable" .
 
 resourceType:textbook a skos:Concept ;
     skos:prefLabel "textbook"@en-US ;
-    skosxl:prefLabel resourceType:label-textbook ;
-    skos:definition "A book used as a standard source of information on a particular subject."@en-US ;
+    skos:definition "A book designed to be used as a standard source of information to facilitate learning of  a particular subject."@en-US ;
     skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#Textbook"@en-US ;
+    dcterms:source <https://ceds.ed.gov/element/000928#Textbook> ;
     vs:term_status "unstable" .
 
-resourceType:unit a skos:Concept ;
-    skos:prefLabel "unit"@en-US ;
-    skosxl:prefLabel resourceType:label-unit ;
-    skos:definition "A long-range plan of instruction on a particular concept; it contains multiple lessons that are related."@en-US ;
+resourceType:unitPlan a skos:Concept ;
+    skos:prefLabel "unit plan"@en-US ;
+    skos:definition "A long-range plan of instruction on a particular concept. "@en-US ;
+    skos:scopeNote "A Unit contains several lessons, activities and or assessments that are related."@en-US ;
     skos:inScheme resourceType: ;
-    dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#Unit"@en-US ;
+    dcterms:source <https://ceds.ed.gov/element/000928#Unit> ;
     vs:term_status "unstable" .
-
-#=============================
-# EXTENDED LABELS
-#=============================
-
-resourceType:label-alternateAssessment a skosxl:label ;
-    skosxl:literalForm "alternate assessment"@en-US .
-
-resourceType:label-assessmentItem a skosxl:label ;
-    skosxl:literalForm "assessment item"@en-US .
-
-resourceType:label-course a skosxl:label ;
-    skosxl:literalForm "course"@en-US .
-
-resourceType:label-demonstration-simulation a skosxl:label ;
-    skosxl:literalForm "demonstration/simulation"@en-US .
-
-resourceType:label-educatorCurriculumGuide a skosxl:label ;
-    skosxl:literalForm "educator curriculum"@en-US .
-
-resourceType:label-formativeAssessment a skosxl:label ;
-    skosxl:literalForm "formative assessment"@en-US .
-
-resourceType:label-images-visuals a skosxl:label ;
-    skosxl:literalForm "images/visuals"@en-US .
-
-resourceType:label-interim-summativeAssessment a skosxl:label ;
-    skosxl:literalForm "interim/summative assessment"@en-US .
-
-resourceType:label-learningActivity a skosxl:label ;
-    skosxl:literalForm "learning activity"@en-US .
-
-resourceType:label-lesson a skosxl:label ;
-    skosxl:literalForm "lesson"@en-US .
-
-resourceType:label-primarySource a skosxl:label ;
-    skosxl:literalForm "primary source"@en-US .
-
-resourceType:label-rubricScoringGuide a skosxl:label ;
-    skosxl:literalForm "rubric scoring guide"@en-US .
-
-resourceType:label-selfAssessment a skosxl:label ;
-    skosxl:literalForm "self assessment"@en-US .
-
-resourceType:label-text a skosxl:label ;
-    skosxl:literalForm "text"@en-US .
-
-resourceType:label-textbook a skosxl:label ;
-    skosxl:literalForm "textbook"@en-US .
-
-resourceType:label-unit a skosxl:label ;
-    skosxl:literalForm "unit"@en-US .
