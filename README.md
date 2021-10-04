@@ -13,7 +13,7 @@ For the stable, normative versions of the terms and concept schemes, see [LRMI S
 
 ## Show that you use LRMI 
 
-If you use LRMI metadata in your project or on your website you can help spread the word by displaying one of our "LRMI used here" badges. These are available in a range of pallets and sizes.<img src="images/usedHereLong_small+bright.png" align="right" />
+If you use LRMI metadata in your project or on your website you can help spread the word by displaying one of our "LRMI used here" badges. These are available in a range of pallettes and sizes.<img src="images/usedHereLong_small+bright.png" align="right" />
 
 For more information see [usedHere](usedHere.md).
 
