@@ -3,11 +3,14 @@
 In this folder, images relating to LRMI as PNG files. The source files (.xcf format, used by GIMP) are in the src/ folder.
 
 ### LRMI Logo
-LRMI_400[t|w] is the main logo, 400px wide, available with transparent or white background:
+logo_160[t|w] is the LRMI logo on its own, 160x160px, available with transparent or white background;
+
+LRMI_400[t|w] is the main logo with text, 400px wide, available with transparent or white background:
 
 | File | Transparent background | White background |
 |------|------------------------|------------------|
-| logo | ![LRMI logo with transparent background](LRMI_400t.png) | LRMI_400w: ![LRMI logo with white background](LRMI_400w.png) |
+| logo | ![LRMI logo with transparent background](logo_160t.png) | ![LRMI logo with white background](logo_160w.png) |
+| LRMI | ![LRMI logo + text with transparent background](LRMI_400t.png) | LRMI_400w: ![LRMI logo + text with white background](LRMI_400w.png) |
 
 
 ### LRMI used here badge
