@@ -8,7 +8,7 @@ you can tell us by dropping us an email: phil [at] pjjk.co.uk
 You can help spread the word by displaying one of our "LRMI used here" badges. These are available in a range of pallettes and sizes, with html snippets that you can copy and paste into your site. The HTML comes with a link to the "[About LRMI](https://www.dublincore.org/about/lrmi/)" page on the DCMI website. Of course you may if you prefer download the image to your own site and display it from there. 
 
 | Shape & pallet |     image (not full size)                     |   HTML code   |
-|----------------|-----------------------------------------------|---------------|
+|----------------|-------------------------------------------------------------------------------------------|---------------|
 | tiny, bright   | ![Tiny, bright version of LRMI used here badge](images/usedHereLong_tiny+bright.png)   | `<a href="https://www.dublincore.org/about/lrmi/"><img src="https://raw.githubusercontent.com/dcmi/lrmi/main/images/usedHereLong_tiny+bright.png" alt ="LRMI used here" /></a>` |
 | tiny, dark   | ![Tiny, dark version of LRMI used here badge](images/usedHereLong_tiny+dark.png)   | `<a href="https://www.dublincore.org/about/lrmi/"><img src="https://raw.githubusercontent.com/dcmi/lrmi/main/images/usedHereLong_tiny+dark.png" alt ="LRMI used here" /></a>` |
 | small, bright   | ![Small, bright version of LRMI used here badge](images/usedHereLong_small+bright.png)   | `<a href="https://www.dublincore.org/about/lrmi/"><img src="https://raw.githubusercontent.com/dcmi/lrmi/main/images/usedHereLong_small+bright.png" alt ="LRMI used here" /></a>` |
