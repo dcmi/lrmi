@@ -28,6 +28,8 @@ No hierarchy is hard-wired into the concept names or identifiers. Relationships 
 
 The concept identifiers and definitions defined here are normative; labels and scope notes are not normative.
 
+Edge cases will always exist and require thoughtful application of these properties that best addresses use of the resource in its learning context.
+
 ### Suggesting new concepts
 It is not the aim to provide a comprehensive list of every possible category of learning resource, the aim is to provide a limited number of broad categories such that the type of any learning resource can be specified.
 
