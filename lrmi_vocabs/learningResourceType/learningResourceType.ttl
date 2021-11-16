@@ -53,6 +53,13 @@ resourceType:lessonPlan a skos:Concept ;
     dcterms:source <https://ceds.ed.gov/element/000928#Lesson> ;
     vs:term_status "unstable" .
 
+resourceType:physicalLearningResource a skos:Concept ;
+    skos:prefLabel "physical learning resource"@en-US ;
+    skos:definition "A physical object, hardware or device designed to help a learner achieve some learning objective."@en-US ;
+    skos:scopeNote "Examples include educational toys, programmable robots, manipulables used by learners. This does not include auxiliary resources (e.g. pencil, paper, scissors, soldering iron) required for a learning activity." ;
+    skos:inScheme resourceType: ;
+    vs:term_status "unstable" .
+
 resourceType:recordedLesson a skos:Concept ;
     skos:prefLabel "recorded lesson"@en-US ;
     skos:definition "An audio or video recording, or a textual record (e.g. transcript or edited script) of a lesson, lecture or similar short instructional event."@en-US ;
@@ -64,7 +71,6 @@ resourceType:supportingDocument a skos:Concept ;
     skos:definition "Document with an instructional component designed to help a learner achieve some learning objective."@en-US ;
     skos:scopeNote "These are typically static text and or images that may be physical or online. Examples include training manuals, infographics, explainers, textbook chapters, slides from a lesson in whatever form. For textbooks use Textbook. This does not include supplementary/auxilliary resources (e.g. the text being studied in a language class) required for a learning activity."
     skos:inScheme resourceType: ;
-    dcterms:source <https://ceds.ed.gov/element/000928#Textbook> ;
     vs:term_status "unstable" .
 
 resourceType:textbook a skos:Concept ;
