@@ -54,7 +54,7 @@ resourceType:lessonPlan a skos:Concept ;
     vs:term_status "unstable" .
 
 resourceType:recordedLesson a skos:Concept ;
-    skos:prefLabel "lesson plan"@en-US ;
+    skos:prefLabel "recorded lesson"@en-US ;
     skos:definition "An audio or video recording, or a textual record (e.g. transcript or edited script) of a lesson, lecture or similar short instructional event."@en-US ;
     skos:inScheme resourceType: ;
     vs:term_status "unstable" .
