@@ -69,7 +69,7 @@ resourceType:recordedLesson a skos:Concept ;
 resourceType:supportingDocument a skos:Concept ;
     skos:prefLabel "supporting document"@en-US ;
     skos:definition "Document with an instructional component designed to help a learner achieve some learning objective."@en-US ;
-    skos:scopeNote "These are typically static text and or images that may be physical or online. Examples include training manuals, infographics, explainers, textbook chapters, slides from a lesson in whatever form. For textbooks use Textbook. This does not include supplementary/auxilliary resources (e.g. the text being studied in a language class) required for a learning activity."
+    skos:scopeNote "These are typically static text and or images that may be physical or online. Examples include training manuals, infographics, explainers, textbook chapters, slides from a lesson in whatever form. For textbooks use Textbook. This does not include supplementary/auxilliary resources (e.g. the text being studied in a language class) required for a learning activity." ;
     skos:inScheme resourceType: ;
     vs:term_status "unstable" .
 
