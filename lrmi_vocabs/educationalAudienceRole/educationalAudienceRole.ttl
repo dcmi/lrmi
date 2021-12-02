@@ -22,7 +22,7 @@ audRole:administrator a skos:Concept;
   skos:inScheme audRole: .
 
 audRole:generalPublic a skos:Concept;
-  skos:prefLabel "general public"@en-US, "Bevölkerung allgemein"@de;
+  skos:prefLabel "general public"@en-US, "Allgemeine Öffentlichkeit"@de;
   skos:definition "The public at large."@en-US, "Die breite Öffentlichkeit"@de;
   skos:inScheme audRole: .
   
@@ -55,5 +55,5 @@ audRole:student a skos:Concept;
        
 audRole:teacher a skos:Concept;
   skos:prefLabel "teacher"@en-US, "Lehrperson"@de;
-  skos:definition "A person who has been trained to implement educational methods and practices."@en-US, "Eine Person, die ausgebildet wurde, pädagogische Methoden und Praktiken umzusetzen"@de ;
+  skos:definition "A person who has been trained to implement educational methods and practices."@en-US, "Eine Person, die ausgebildet wurde, pädagogische Methoden und Praktiken umzusetzen."@de ;
   skos:inScheme audRole: .            
