@@ -10,158 +10,158 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> a skos:ConceptScheme ;
-    dc:title "Accessibility API"@en ;
-    dcterms:description """Indicates that the resource is compatible with the referenced accessibility API."""@en ;
+    dc:title "Accessibility API"@en, "Barrierefreiheit-API"@de ;
+    dcterms:description "Indicates that the resource is compatible with the referenced accessibility API."@en, "Zeigt an, dass die Ressource mit der angegebenen Barrierefreiheit-API kompatibel ist."@de ;
     dcterms:publisher "@@@"@en ;
-    dcterms:license <http://creativecommons.org/licenses/by/4.0/> .   
-        
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> .
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/AndroidAccessibility> a skos:Concept ;
-    skos:prefLabel "Android Accessibility"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-AndroidAccessibility> ;    
-    skos:altLabel "AndroidAccessibility"@en ;
+    skos:prefLabel "Android Accessibility"@en, "Android Accessibility"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-AndroidAccessibility> ;
+    skos:altLabel "AndroidAccessibility"@en, "AndroidAccessibility"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-AndroidAccessibility> a skosxl:label ;
-    skosxl:literalForm "Android Accessibility"@en . 
-    
+    skosxl:literalForm "Android Accessibility"@en, "Android Accessibility"@de .
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/ARIA> a skos:Concept ;
-    skos:prefLabel "ARIA"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-ARIA> ;    
+    skos:prefLabel "ARIA"@en, "ARIA"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-ARIA> ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-ARIA> a skosxl:label ;
-    skosxl:literalForm "ARIA"@en .   
-        
+    skosxl:literalForm "ARIA"@en, "ARIA"@de .
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/ATK> a skos:Concept ;
-    skos:prefLabel "ATK"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-ATK> ;    
+    skos:prefLabel "ATK"@en, "ATK"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-ATK> ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-ATK> a skosxl:label ;
-    skosxl:literalForm "ATK"@en . 
-        
+    skosxl:literalForm "ATK"@en, "ATK"@de .
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/AT-SPI> a skos:Concept ;
-    skos:prefLabel "AT-SPI"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-AT-SPI> ;    
+    skos:prefLabel "AT-SPI"@en, "AT-SPI"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-AT-SPI> ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-AT-SPI> a skosxl:label ;
-    skosxl:literalForm "AT-SPI"@en . 
-       
+    skosxl:literalForm "AT-SPI"@en, "AT-SPI"@de .
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/BlackberryAccessibility> a skos:Concept ;
-    skos:prefLabel "Blackberry Accessibility"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-BlackberryAccessibility> ;    
-    skos:altLabel "BlackberryAccessibility"@en ;
+    skos:prefLabel "Blackberry Accessibility"@en, "Blackberry-Accessibility"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-BlackberryAccessibility> ;
+    skos:altLabel "BlackberryAccessibility"@en, "BlackberryAccessibility"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-BlackberryAccessibility> a skosxl:label ;
-    skosxl:literalForm "Blackberry Accessibility"@en . 
-           
+    skosxl:literalForm "Blackberry Accessibility"@en, "Blackberry-Accessibility"@de .
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/iAccessible2> a skos:Concept ;
-    skos:prefLabel "iAccessible2"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-iAccessible2> ;    
-    skos:altLabel "iAccessible2"@en ;
+    skos:prefLabel "iAccessible2"@en, "iAccessible2"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-iAccessible2> ;
+    skos:altLabel "iAccessible2"@en, "iAccessible2"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-iAccessible2> a skosxl:label ;
-    skosxl:literalForm "iAccessible2"@en .
-      
+    skosxl:literalForm "iAccessible2"@en, "iAccessible2"@de .
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/iOSAccessibility> a skos:Concept ;
-    skos:prefLabel "iOS Accessibility"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-iOSAccessibility> ; 
-    skos:altLabel "iOSAccessibility"@en ;   
+    skos:prefLabel "iOS Accessibility"@en, "iOS-Accessibility"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-iOSAccessibility> ;
+    skos:altLabel "iOSAccessibility"@en, "iOSAccessibility"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-iOSAccessibility> a skosxl:label ;
-    skosxl:literalForm "iOS Accessibility"@en .   
-     
+    skosxl:literalForm "iOS Accessibility"@en, "iOS-Accessibility"@de .
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/JavaAccessibility> a skos:Concept ;
-    skos:prefLabel "Java Accessibility"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-JavaAccessibility> ;    
-    skos:altLabel "JavaAccessibility"@en ;
+    skos:prefLabel "Java Accessibility"@en, "Java-Accessibility"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-JavaAccessibility> ;
+    skos:altLabel "JavaAccessibility"@en, "JavaAccessibility"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-JavaAccessibility> a skosxl:label ;
-    skosxl:literalForm "Java Accessibility"@en . 
-      
+    skosxl:literalForm "Java Accessibility"@en, "Java-Accessibility"@de .
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/MacOSXAccessibility> a skos:Concept ;
-    skos:prefLabel "Mac OSX Accessibility"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-MacOSXAccessibility> ; 
-    skos:altLabel "MacOSXAccessibility"@en;   
+    skos:prefLabel "Mac OSX Accessibility"@en, "MAC OSX-Accessibility"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-MacOSXAccessibility> ;
+    skos:altLabel "MacOSXAccessibility"@en, "MACOSXAccessibility"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-MacOSXAccessibility> a skosxl:label ;
-    skosxl:literalForm "Mac OSX Accessibility"@en . 
-       
+    skosxl:literalForm "Mac OSX Accessibility"@en, "MAC OSX-Accessibility"@de .
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/MSAA> a skos:Concept ;
-    skos:prefLabel "MSAA"@en ;
+    skos:prefLabel "MSAA"@en, "MSAA"@de ;
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-MSAA> ;
-    skos:altLabel "Microsoft Active Accessibility" ;   
+    skos:altLabel "Microsoft Active Accessibility"@en, "Microsoft Active Accessibility"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-MSAA> a skosxl:label ;
-    skosxl:literalForm "MSAA"@en . 
-       
+    skosxl:literalForm "MSAA"@en, "MSAA"@de .
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/UIAutomation> a skos:Concept ;
-    skos:prefLabel "UI Automation"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-UIAutomation> ;    
-    skos:altLabel "UIAutomation"@en ;
+    skos:prefLabel "UI Automation"@en, "UI Automation"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-UIAutomation> ;
+    skos:altLabel "UIAutomation"@en, "UIAutomation"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-UIAutomation> a skosxl:label ;
-    skosxl:literalForm "UI Automation"@en .                            
+    skosxl:literalForm "UI Automation"@en, "UI Automation"@de .

@@ -11,95 +11,95 @@
 #TEST
 
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/> a skos:ConceptScheme ;
-    dc:title "Accessibility Control"@en ;
-    dcterms:description """The Accessibility Control vocabulary identifies one or more input methods that allow access to all of the application functionality."""@en ;
+    dc:title "Accessibility Control"@en, "Barrierefreie Steuerung"@de ;
+    dcterms:description "The Accessibility Control vocabulary identifies one or more input methods that allow access to all of the application functionality."@en, "Das Vokabular zur barrierenfreien Steuerung bestimmt eine oder mehrere Eingabemethoden, die den Zugang zu allen Funktionen der Anwendung ermöglichen."@de ;
     dcterms:publisher "@@@"@en ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullKeyboardControl> a skos:Concept ;
-    skos:prefLabel "Full Keyboard Control"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullKeyboardControl> ;    
-    skos:altLabel "fullKeyboardControl"@en ;
+    skos:prefLabel "Full Keyboard Control"@en, "Vollständige Tastatursteuerung"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullKeyboardControl> ;
+    skos:altLabel "fullKeyboardControl"@en, "vollständigeTastatursteuerung"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullKeyboardControl> a skosxl:label ;
-    skosxl:literalForm "Full Keyboard Control"@en .
-    
+    skosxl:literalForm "Full Keyboard Control"@en, "Vollständige Tastatursteuerung"@de .
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullMouseControl> a skos:Concept ;
-    skos:prefLabel "Full Mouse Control"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullMouseControl> ;    
-    skos:altLabel "fullMouseControl"@en ;
+    skos:prefLabel "Full Mouse Control"@en, "Vollständige Maussteuerung"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullMouseControl> ;
+    skos:altLabel "fullMouseControl"@en, "vollständigeMaussteuerung"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullMouseControl> a skosxl:label ;
-    skosxl:literalForm "Full Mouse Control"@en .   
-    
-    
+    skosxl:literalForm "Full Mouse Control"@en, "Vollständige Maussteuerung"@de .
+
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullSwitchControl> a skos:Concept ;
-    skos:prefLabel "Full Switch Control"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullSwitchControl> ;    
-    skos:altLabel "fullSwitchControl"@en ;
+    skos:prefLabel "Full Switch Control"@en, "Vollständige Controllersteuerung"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullSwitchControl> ;
+    skos:altLabel "fullSwitchControl"@en, "vollständigeControllersteuerung"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullSwitchControl> a skosxl:label ;
-    skosxl:literalForm "Full Switch Control"@en . 
-    
-    
+    skosxl:literalForm "Full Switch Control"@en, "Vollständige Controllersteuerung"@de .
+
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullTouchControl> a skos:Concept ;
-    skos:prefLabel "Full Touch Control"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullTouchControl> ;    
-    skos:altLabel "fullTouchControl"@en ;
+    skos:prefLabel "Full Touch Control"@en, "Vollständige Berührungssteuerung"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullTouchControl> ;
+    skos:altLabel "fullTouchControl"@en, "vollständigeBerührungssteuerung"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullTouchControl> a skosxl:label ;
-    skosxl:literalForm "Full Touch Control"@en . 
-    
-    
+    skosxl:literalForm "Full Touch Control"@en, "Vollständige Berührungssteuerung"@de .
+
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullVideoControl> a skos:Concept ;
-    skos:prefLabel "Full Video Control"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullVideoControl> ;    
-    skos:altLabel "fullVideoControl"@en ;
+    skos:prefLabel "Full Video Control"@en, "Vollständige Videosteuerung"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullVideoControl> ;
+    skos:altLabel "fullVideoControl"@en, "vollständigeVideosteuerung"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/label-accessibilityControl/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullVideoControl> a skosxl:label ;
-    skosxl:literalForm "Full Video Control"@en . 
-    
-    
+    skosxl:literalForm "Full Video Control"@en, "Vollständige Videosteuerung"@de .
+
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullVoiceControl> a skos:Concept ;
-    skos:prefLabel "Full Voice Control"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullVoiceControl> ;    
-    skos:altLabel "fullVoiceControl"@en ;
+    skos:prefLabel "Full Voice Control"@en, "Vollständige Sprachsteuerung"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullVoiceControl> ;
+    skos:altLabel "fullVoiceControl"@en, "vollständigeSprachsteuerung"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullVoiceControl> a skosxl:label ;
-    skosxl:literalForm "Full Voice Control"@en .                           
+    skosxl:literalForm "Full Voice Control"@en, "Vollständige Sprachsteuerung"@de .

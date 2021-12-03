@@ -10,101 +10,101 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/> a skos:ConceptScheme ;
-    dc:title "Accessibility Hazard"@en ;
-    dcterms:description """Characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3."""@en ;
+    dc:title "Accessibility Hazard"@en, "ZugänglichkeitsGefährdung"@de ;
+    dcterms:description """Characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3."""@en, "Eigenschaft der beschriebenen Ressource, die für einige Nutzer physiologisch gefährlich ist. Bezogen auf die WCAG 2.0-Richtlinie 2.3."@de ;
     dcterms:publisher "@@@"@en ;
-    vann:usageNote """The negative properties should be set if none of the hazards are known to exist. If the 
-          content has hazard(s), include positive assertions for the hazards it has and negative assertions 
-          for the others. If the property is not set in the positive or negative, the state of hazards is 
-          not known."""@en ;
+    vann:usageNote """The negative properties should be set if none of the hazards are known to exist. If the
+          content has hazard(s), include positive assertions for the hazards it has and negative assertions
+          for the others. If the property is not set in the positive or negative, the state of hazards is
+          not known."""@en, "Die negativen Werte sollten eingestellt werden, wenn keine der Gefahren bekannt sind. Wenn der Inhalt eine oder mehrere Gefährdungen aufweist, sind positive Werte für die vorhandenen Gefährdungen und negative Werte für die anderen zu verwenden. Wenn die Eigenschaft weder positiv noch negativ gesetzt ist, ist der Zustand der Gefährdungen nicht bekannt."@de ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> .
-    
-        
+
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/flashing> a skos:Concept ;
-    skos:prefLabel "Flashing"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-flashing> ;    
-    skos:altLabel "flashing"@en ;
+    skos:prefLabel "Flashing"@en, "Lichtblitz"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-flashing> ;
+    skos:altLabel "flashing"@en, "Lichtblitz"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-flashing> a skosxl:label ;
-    skosxl:literalForm "Flashing"@en .
-   
-    
+    skosxl:literalForm "Flashing"@en, "Lichtblitz"@de .
+
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noFlashingHazard> a skos:Concept ;
-    skos:prefLabel "No Flashing Hazard"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-noFlashingHazard> ;    
-    skos:altLabel "noFlashingHazard"@en ;
+    skos:prefLabel "No Flashing Hazard"@en, "Keine Gefährdung durch Lichtblitze"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-noFlashingHazard> ;
+    skos:altLabel "noFlashingHazard"@en, "keineLichtblitze"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-noFlashingHazard> a skosxl:label ;
-    skosxl:literalForm "No Flashing Hazard"@en .   
-    
-    
+    skosxl:literalForm "No Flashing Hazard"@en, "Keine Gefährdung durch Lichtblitze"@de .
+
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/motionSimulation> a skos:Concept ;
-    skos:prefLabel "Motion Simulation"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-motionSimulation> ;    
-    skos:altLabel "motionSimulation"@en ;
+    skos:prefLabel "Motion Simulation"@en, "Bewegungssimulation"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-motionSimulation> ;
+    skos:altLabel "motionSimulation"@en, "bewegungssimulation"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-motionSimulation> a skosxl:label ;
-    skosxl:literalForm "Motion Simulation"@en . 
-    
-    
+    skosxl:literalForm "Motion Simulation"@en, "Bewegungssimulation"@de .
+
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noMotionSimulationHazard> a skos:Concept ;
-    skos:prefLabel "No Motion Simulation Hazard"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-noMotionSimulationHazard> ;    
-    skos:altLabel "noMotionSimulationHazard"@en ;
+    skos:prefLabel "No Motion Simulation Hazard"@en, "Keine Bewegungssimulation"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-noMotionSimulationHazard> ;
+    skos:altLabel "noMotionSimulationHazard"@en, "keineBewegungssimulation"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-noMotionSimulationHazard> a skosxl:label ;
-    skosxl:literalForm "No Motion Simulation Hazard"@en . 
-    
-    
+    skosxl:literalForm "No Motion Simulation Hazard"@en, "keine Bewegungssimulation"@de .
+
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/sound> a skos:Concept ;
-    skos:prefLabel "Sound"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-sound> ;    
-    skos:altLabel "sound"@en ;
+    skos:prefLabel "Sound"@en, "Geräusche"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-sound> ;
+    skos:altLabel "sound"@en, "geräusche"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-sound> a skosxl:label ;
-    skosxl:literalForm "Sound"@en . 
-    
-    
+    skosxl:literalForm "Sound"@en, "Geräusche"@de .
+
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noSoundHazard> a skos:Concept ;
-    skos:prefLabel "No Sound Hazard"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-noSoundHazard> ;    
-    skos:altLabel "noSoundHazard"@en ;
+    skos:prefLabel "No Sound Hazard"@en, "keine Gefährdung durch Geräusche"@de ;
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-noSoundHazard> ;
+    skos:altLabel "noSoundHazard"@en, "keineGeräuschgefährdung"@de ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
         <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/> .
-    
+
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-noSoundHazard> a skosxl:label ;
-    skosxl:literalForm "No Sound Hazard"@en .                           
+    skosxl:literalForm "No Sound Hazard"@en, "keine Gefährdung durch Geräusche"@de .
