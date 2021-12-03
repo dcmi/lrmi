@@ -17,7 +17,18 @@
         "@language": "en-US",
         "@value": "LRMI Task Group (DCMI)"
       },
-      "dc:title": "LRMI Educational Audience Role Vocabulary",
+      "dc:creator": {
+        "@language": "de",
+        "@value": "LRMI Task Group (DCMI)"
+      },
+      "dc:title": {
+        "@language": "en-US",
+        "@value": "LRMI Educational Audience Role Vocabulary"
+      },
+      "dc:title": {
+        "@language": "de",
+        "@value": "LRMI Vokabular für pädagogische Zielgruppen"
+      },
       "dct:created": {
         "@type": "xsd:date",
         "@value": "2017-03-01"
@@ -25,6 +36,10 @@
       "dct:description": {
         "@language": "en-US",
         "@value": "A concept scheme that defines the primary or intended roles of the audience (beneficiary) of the resource being described."
+      },
+      "dct:description": {
+        "@language": "de",
+        "@value": "Ein kontrolliertes Vokabular, das die primären oder zugedachten Rollen der Zielgruppe einer Lehr-/Lernressource definiert."
       },
       "dct:license": {
         "@id": "http://creativecommons.org/licenses/by/4.0/"
@@ -41,12 +56,20 @@
         "@language": "en-US",
         "@value": "A trainer or educator with administrative authority and responsibility."
       },
+      "skos:definition": {
+        "@language": "de",
+        "@value": "Trainer*innen oder Lehrpersonen mit Verwaltungsverantwortung"
+      },
       "skos:inScheme": {
         "@id": "audRole:"
       },
       "skos:prefLabel": {
         "@language": "en-US",
         "@value": "administrator"
+      },
+      "skos:prefLabel": {
+        "@language": "de",
+        "@value": "Verwaltung"
       }
     },
     {
@@ -56,12 +79,20 @@
         "@language": "en-US",
         "@value": "Someone who advises, trains, supports, and/or guides."
       },
+      "skos:definition": {
+        "@language": "de",
+        "@value": "Jemand der berät, trainiert, unterstützt und/oder anleitet."
+      },
       "skos:inScheme": {
         "@id": "audRole:"
       },
       "skos:prefLabel": {
         "@language": "en-US",
         "@value": "mentor"
+      },
+      "skos:prefLabel": {
+        "@language": "de",
+        "@value": "Mentor"
       }
     },
     {
@@ -69,7 +100,11 @@
       "@type": "skos:Concept",
       "skos:definition": {
         "@language": "en-US",
-        "@value": "A person who has been trained to implement educational methods and practices"
+        "@value": "A person who has been trained to implement educational methods and practices."
+      },
+      "skos:definition": {
+        "@language": "de",
+        "@value": "Eine Person, die ausgebildet wurde, pädagogische Methoden und Praktiken umzusetzen."
       },
       "skos:inScheme": {
         "@id": "audRole:"
@@ -77,6 +112,10 @@
       "skos:prefLabel": {
         "@language": "en-US",
         "@value": "teacher"
+      },
+      "skos:prefLabel": {
+        "@language": "de",
+        "@value": "Lehrperson"
       }
     },
     {
@@ -86,12 +125,20 @@
         "@language": "en-US",
         "@value": "The Public at large."
       },
+      "skos:definition": {
+        "@language": "de",
+        "@value": "Die breite Öffentlichkeit."
+      },
       "skos:inScheme": {
         "@id": "audRole:"
       },
       "skos:prefLabel": {
         "@language": "en-US",
         "@value": "general public"
+      },
+      "skos:prefLabel": {
+        "@language": "de",
+        "@value": "Allgemeine Öffentlichkeit"
       }
     },
     {
@@ -104,12 +151,20 @@
         "@language": "en-US",
         "@value": "The peer learner serving as tutor of another learner."
       },
+      "skos:definition": {
+        "@language": "de",
+        "@value": "Eine lernende Person gleichen Rangs, die als Tutor einer anderen Person agiert."
+      },
       "skos:inScheme": {
         "@id": "audRole:"
       },
       "skos:prefLabel": {
         "@language": "en-US",
         "@value": "peer tutor"
+      },
+      "skos:prefLabel": {
+        "@language": "de",
+        "@value": "Peer-Tutor*in"
       }
     },
     {
@@ -118,6 +173,10 @@
       "skos:definition": {
         "@language": "en-US",
         "@value": "The learner or trainee."
+      },
+      "skos:definition": {
+        "@language": "de",
+        "@value": "Lerner*in oder Trainee"
       },
       "skos:inScheme": {
         "@id": "audRole:"
@@ -128,6 +187,10 @@
       "skos:prefLabel": {
         "@language": "en-US",
         "@value": "student"
+      },
+      "skos:prefLabel": {
+        "@language": "de",
+        "@value": "Lernende"
       }
     },
     {
@@ -137,12 +200,20 @@
         "@language": "en-US",
         "@value": "Someone already practicing a profession; an industry partner, or professional development trainer."
       },
+      "skos:definition": {
+        "@language": "de",
+        "@value": "Eine Person mit Erfahrung in einem Fach; Branchenpartner*in oder Trainer*in für berufliche Weiterbildung."
+      },
       "skos:inScheme": {
         "@id": "audRole:"
       },
       "skos:prefLabel": {
         "@language": "en-US",
         "@value": "professional"
+      },
+      "skos:prefLabel": {
+        "@language": "de",
+        "@value": "Fachkraft"
       }
     },
     {
@@ -152,12 +223,20 @@
         "@language": "en-US",
         "@value": "A father, mother, or legal guardian."
       },
+      "skos:definition": {
+        "@language": "de",
+        "@value": "Eine Mutter, ein Vater oder Erziehungsberechtigter"
+      },
       "skos:inScheme": {
         "@id": "audRole:"
       },
       "skos:prefLabel": {
         "@language": "en-US",
         "@value": "parent"
+      },
+      "skos:prefLabel": {
+        "@language": "de",
+        "@value": "Eltern"
       }
     }
   ]
