@@ -11,7 +11,7 @@
 <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/> a skos:ConceptScheme ;
     dc:title "Accessibility Features"@en, "Funktionen zur Zugänglichkeit"@de ;
     dcterms:description "Content accessibility features of the resource."@en, "Merkmale zur Zugänglichkeit des Inhalts."@de ;
-    skos:example "accessible media, alternatives and supported enhancements for accessibility"@en, "barrierefreie Medien,  Darstellungsalternativen und unterstützte Erweiterungen für die Zugänglichkeit."@de
+    skos:example "accessible media, alternatives and supported enhancements for accessibility"@en, "barrierefreie Medien,  Darstellungsalternativen und unterstützte Erweiterungen für die Erhöhung der Zugänglichkeit."@de
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> .
 
 <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/alternativeText> a skos:Concept ;

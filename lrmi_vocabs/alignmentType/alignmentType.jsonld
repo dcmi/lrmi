@@ -23,7 +23,7 @@
       },
       "dc:title": {
         "@language": "de",
-        "@value": "LRMI Ausrichtungsart Vokabular"
+        "@value": "LRMI Vokabular zur Art des Alignment"
       },
       "dct:created": {
         "@type": "xsd:date",
@@ -62,7 +62,7 @@
       },
       "skos:definition": {
         "@language": "de",
-        "@value": "Die beschriebene Lernressource kann verwendet werden, um die angesprochene Kompetenz zu bewerten."
+        "@value": "Die beschriebene Lernressource kann verwendet werden, um die adressierte Kompetenz zu testen."
       },
       "skos:inScheme": {
         "@id": "alignment:"
@@ -73,7 +73,7 @@
       },
       "skos:prefLabel": {
         "@language": "de",
-        "@value": "bewertet"
+        "@value": "testet"
       }
     },
     {
@@ -85,7 +85,7 @@
       },
       "skos:definition": {
         "@language": "de",
-        "@value": "Der Punkt in dem Framework, auf den verwiesen wird, definiert ein Niveau oder einen Bereich, der die Schwierigkeit oder Herausforderung der beschriebenen Lernressource misst."
+        "@value": "Das Element in dem Framework, auf das verwiesen wird, definiert ein Niveau oder einen Bereich, der die Schwierigkeit oder Herausforderung der beschriebenen Lernressource darstellt."
       },
       "skos:inScheme": {
         "@id": "alignment:"
@@ -124,7 +124,7 @@
       },
       "skos:definition": {
         "@language": "de",
-        "@value": "Der Punkt in dem Framework, auf den verwiesen wird, definiert eine Ebene oder Stufe innerhalb eines Bildungssystems, für die die beschriebene Ressource bestimmt oder nützlich ist."
+        "@value": "Das Element in dem Framework, auf das verwiesen wird, definiert eine Ebene oder Stufe innerhalb eines Bildungssystems, für die die beschriebene Ressource bestimmt oder nützlich ist."
       },
       "skos:inScheme": {
         "@id": "alignment:"
@@ -135,7 +135,7 @@
       },
       "skos:prefLabel": {
         "@language": "de",
-        "@value": "Bildungsniveau"
+        "@value": "Bildungsstufe"
       }
     },
     {
@@ -155,7 +155,7 @@
       },
       "skos:definition": {
         "@language": "de",
-        "@value": "Der Punkt in dem Framework, auf den verwiesen wird, definiert den thematischen Kontext der beschriebenen Lernressource."
+        "@value": "Das Element in dem Framework, auf das verwiesen wird, definiert den thematischen Kontext der beschriebenen Lernressource."
       },
       "skos:inScheme": {
         "@id": "alignment:"
@@ -166,7 +166,7 @@
       },
       "skos:prefLabel": {
         "@language": "de",
-        "@value": "Unterrichtsfach"
+        "@value": "Fach"
       },
       "skos:scopeNote": {
         "@language": "en",
@@ -174,7 +174,7 @@
       },
       "skos:scopeNote": {
         "@language": "de",
-        "@value": "Das Unterrichtsfach gibt den Bildungskontext der beschriebenen Ressource an, z. B. \"Mathematik\", \"Naturwissenschaften\", \"Physik\", \"Algebra\" und \"Englische Sprachwissenschaften\". Um das/die spezielle(n) Thema/Themen der beschriebenen Ressource zu identifizieren - z. B. \"Satz des Pythagoras\", \"Abraham Lincoln\", \"Ayers Rock\" - verwenden Sie die Eigenschaft schema.org/about."
+        "@value": "Das Fach gibt den Bildungskontext der beschriebenen Ressource an, z. B. \"Mathematik\", \"Naturwissenschaften\", \"Physik\", \"Algebra\" und \"Englische Sprachwissenschaften\". Um das/die spezielle(n) Thema/Themen der beschriebenen Ressource zu identifizieren - z. B. \"Satz des Pythagoras\", \"Abraham Lincoln\", \"Ayers Rock\" - verwenden Sie die Eigenschaft schema.org/about."
       }
     },
     {
@@ -205,7 +205,7 @@
       },
       "skos:prefLabel": {
         "@language": "de",
-        "@value": "Voraussetzung"
+        "@value": "vorausgesetzt"
       }
     },
     {
@@ -225,7 +225,7 @@
       },
       "skos:definition": {
         "@language": "de",
-        "@value": "Der Punkt in dem Framework, auf den verwiesen wird, definiert ein Niveau oder einen Bereich der Lesefähigkeit, die von einer Person erwartet wird, die die beschriebene Lernressource nutzt."
+        "@value": "Das Element in dem Framework, auf das verwiesen wird, definiert ein Niveau oder einen Bereich der Lesefähigkeit, die von einer Person erwartet wird, die die beschriebene Lernressource nutzt."
       },
       "skos:inScheme": {
         "@id": "alignment:"
@@ -264,7 +264,7 @@
       },
       "skos:definition": {
         "@language": "de",
-        "@value": "Die beschriebene Lernressource kann für die Vermittlung der angesprochenen Kompetenz verwendet werden."
+        "@value": "Die beschriebene Lernressource kann für die Vermittlung der adressierten Kompetenz verwendet werden."
       },
       "skos:inScheme": {
         "@id": "alignment:"
@@ -275,7 +275,7 @@
       },
       "skos:prefLabel": {
         "@language": "de",
-        "@value": "lehrt"
+        "@value": "fördert"
       }
     }
   ]

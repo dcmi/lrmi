@@ -27,7 +27,7 @@
       },
       "dc:title": {
         "@language": "de",
-        "@value": "LRMI Vokabular für Bildungszwecke"
+        "@value": "LRMI Vokabular der Bildungszwecke"
       },
       "dct:created": {
         "@type": "xsd:date",

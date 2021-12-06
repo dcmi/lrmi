@@ -9,9 +9,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 edUse: a skos:ConceptScheme ;
-    dc:title "LRMI Educational Use vocabulary"@en-US, "LRMI Vokabular für Bildungszwecke"@de ;
+    dc:title "LRMI Educational Use vocabulary"@en-US, "LRMI Vokabular der  Bildungszwecke"@de ;
     dc:creator "LRMI Task Group (DCMI)"@en-US, "LRMI Task Group (DCMI)"@de ;
-    dct:description "A concept scheme that enumerates the educational uses of a learning resource."@en-US, "Ein kontrolliertes Vokabular, das die pädagogische Nutzung einer Lernressource aufzählt."@de ;
+    dct:description "A concept scheme that enumerates the educational uses of a learning resource."@en-US, "Ein kontrolliertes Vokabular, das die pädagogische Nutzung einer Lernressource beschreibt."@de ;
     dct:created "2017-03-01"^^xsd:date ;
     dct:modified "2017-12-20"^^xsd:date ;
     dct:license <http://creativecommons.org/licenses/by/4.0/> .
