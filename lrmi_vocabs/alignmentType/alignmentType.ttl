@@ -29,7 +29,7 @@ alignment:complexityLevel a skos:Concept ;
     skos:inScheme alignment: .
 
 alignment:educationalLevel a skos:Concept ;
-    skos:prefLabel "educational level"@en-US, "Bildungsniveau"@de ;
+    skos:prefLabel "educational level"@en-US, "Bildungsstufe"@de ;
     skos:definition "The point in the framework being referenced defines a level or stage within an education system for which the resource being described is intended or useful."@en-US, "Das Element in dem Bezugssystem, auf das verwiesen wird, definiert eine Ebene oder Stufe innerhalb eines Bildungssystems, für die die beschriebene Ressource bestimmt oder nützlich ist."@de ;
     dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalLevel."@en-US, "Basierend auf den Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalLevel"@de ;
     skos:inScheme alignment: .
