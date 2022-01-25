@@ -7,11 +7,12 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix resourceType: <http://purl.org/dcx/lrmi-vocabs/learningResourceType/> .
 @prefix bibo: <http://purl.org/ontology/bibo/status/> .
+@prefix loc: <http://id.loc.gov/authorities/genreForms/> .
 
 resourceType: a skos:ConceptScheme ;
     dc:title "LRMI Learning Resource Type Concept Scheme"@en-US ;
     dc:creator "LRMI Task Group (DCMI)"@en-US ;
-    dcterms:dateSubmitted "2021-08-26"^^xsd:date ;
+    dcterms:dateSubmitted "2022-01-25"^^xsd:date ;
     dc:description "A concept scheme that enumerates different types of learning resource. By learning resource we mean a persistent resource that has one or more physical or digital representation, and that explicitly involves, specifies or entails a learning activity or learning experience."@en-US ;
     dc:source <https://ceds.ed.gov/element/000928> ;
     adms:status bibo:draft .
@@ -21,6 +22,8 @@ resourceType:actvityPlan a skos:Concept ;
     skos:definition "A detailed description of an activity engaged in by the learner for the purpose of acquiring certain skills, concepts, or knowledge, whether guided by an instructor or not."@en-US ;
     skos:scopeNote "There may be several activities in a lesson or an activity may take place outside of a lesson." ;
     skos:inScheme resourceType: ;
+    skos:relatedMatch loc:gf2018026088 ;  #Lesson plans
+    skos:exactMatch <https://ceds.ed.gov/element/000928#LearningActivity> ;
     dcterms:source <https://ceds.ed.gov/element/000928#LearningActivity> ;
     vs:term_status "unstable" .
 
@@ -28,6 +31,12 @@ resourceType:assessment a skos:Concept ;
     skos:prefLabel "assessment"@en-US ;
     skos:definition "A set of assessment items used to evaluate or promote learning."@en-US ;
     skos:inScheme resourceType: ;
+    skos:closeMatch loc:gf2014026096 ; #Examinations
+    skos:relatedMatch loc:gf2014026154 ; # Problems and exercises
+    skos:narrowMatch <https://ceds.ed.gov/element/000928#AlternateAssessment> ,
+         <https://ceds.ed.gov/element/000928#FormativeAssessment> ,
+         <https://ceds.ed.gov/element/000928#InterimSummativeAssessment> ,
+         <https://ceds.ed.gov/element/000928#SelfAssessment> ;
     dcterms:source <https://ceds.ed.gov/element/000928#Assessment> ;
     vs:term_status "unstable" .
 
@@ -35,13 +44,18 @@ resourceType:assessmentItem a skos:Concept ;
     skos:prefLabel "assessment item"@en-US ;
     skos:definition "A specific prompt, that defines a question or protocol for a measurable activity that triggers a response from a person used to determine whether the person has mastered a learning objective."@en-US ;
     skos:inScheme resourceType: ;
-    dcterms:source "https://ceds.ed.gov/element/000928#AssessmentItem" ;
+    skos:broadMatch loc:gf2014026096 ; #Examinations
+    skos:narrowMatch loc:gf2014026154 ; # Problems and exercises
+    skos:exactMatch <https://ceds.ed.gov/element/000928#AssessmentItem> ;
+    dcterms:source <https://ceds.ed.gov/element/000928#AssessmentItem> ;
     vs:term_status "unstable" .
 
 resourceType:educatorCurriculumGuide a skos:Concept ;
     skos:prefLabel "educator curriculum guide"@en-US ;
     skos:definition "A document that defines what concepts should be taught and/or how a concept should be taught effectively."@en-US ;
     skos:inScheme resourceType: ;
+    skos:broadMatch loc:gf2014026188 ; # Teachers' guides
+    skos:exactMatch <https://ceds.ed.gov/element/000928#EducatorCurriculumGuide> ;
     dcterms:source <https://ceds.ed.gov/element/000928#EducatorCurriculumGuide> ;
     vs:term_status "unstable" .
 
@@ -50,6 +64,8 @@ resourceType:lessonPlan a skos:Concept ;
     skos:definition "A detailed description of the course of instruction for a ­short period of time that is used by a teacher to guide class instruction."@en-US ;
     skos:usageNote "Several lessons on the same topic would be a Unit. A lesson may include one or more learning activities." ;
     skos:inScheme resourceType: ;
+    skos:exactMatch loc:gf2018026088 ; # Lesson Plans
+    skos:exactMatch <https://ceds.ed.gov/element/000928#Lesson> ;
     dcterms:source <https://ceds.ed.gov/element/000928#Lesson> ;
     vs:term_status "unstable" .
 
@@ -58,12 +74,15 @@ resourceType:physicalLearningResource a skos:Concept ;
     skos:definition "A physical object, hardware or device designed to help a learner achieve some learning objective."@en-US ;
     skos:scopeNote "Examples include educational toys, programmable robots, manipulables used by learners. This does not include auxiliary resources (e.g. pencil, paper, scissors, soldering iron) required for a learning activity." ;
     skos:inScheme resourceType: ;
+    skos:narrowMatch loc:gf2018026057 ; # Manipulatives
     vs:term_status "unstable" .
 
 resourceType:recordedLesson a skos:Concept ;
     skos:prefLabel "recorded lesson"@en-US ;
     skos:definition "An audio or video recording, or a textual record (e.g. transcript or edited script) of a lesson, lecture or similar short instructional event."@en-US ;
     skos:inScheme resourceType: ;
+    skos:relatedMatch loc:gf2011026219 ; # Educational films
+    skos:relatedMatch loc:gf2014026122 ; # Lectures
     vs:term_status "unstable" .
 
 resourceType:supportingDocument a skos:Concept ;
@@ -71,12 +90,16 @@ resourceType:supportingDocument a skos:Concept ;
     skos:definition "Document with an instructional component designed to help a learner achieve some learning objective."@en-US ;
     skos:scopeNote "These are typically static text and or images that may be physical or online. Examples include training manuals, infographics, explainers, textbook chapters, slides from a lesson in whatever form. For textbooks use Textbook. This does not include supplementary/auxilliary resources (e.g. the text being studied in a language class) required for a learning activity." ;
     skos:inScheme resourceType: ;
+    skos:narrowMatch loc:gf2014026073 ; # Course materials
+    dcterms:source <http://oerschema.org/SupportingMaterial/> ;
     vs:term_status "unstable" .
 
 resourceType:textbook a skos:Concept ;
     skos:prefLabel "textbook"@en-US ;
     skos:definition "A book designed to be used as a standard source of information to facilitate learning of  a particular subject."@en-US ;
     skos:inScheme resourceType: ;
+    skos:exactMatch loc:gf2014026191 ; # Textbooks
+    skos:exactMatch <https://ceds.ed.gov/element/000928#Textbook> ;
     dcterms:source <https://ceds.ed.gov/element/000928#Textbook> ;
     vs:term_status "unstable" .
 
@@ -85,5 +108,7 @@ resourceType:unitPlan a skos:Concept ;
     skos:definition "A long-range plan of instruction on a particular concept. "@en-US ;
     skos:scopeNote "A Unit contains several lessons, activities and or assessments that are related."@en-US ;
     skos:inScheme resourceType: ;
+    skos:broadMatch loc:gf2014026114 ;# Instructional and educational works
+    skos:exactMatch <https://ceds.ed.gov/element/000928#Unit> ;
     dcterms:source <https://ceds.ed.gov/element/000928#Unit> ;
     vs:term_status "unstable" .
