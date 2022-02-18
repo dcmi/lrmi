@@ -4,11 +4,15 @@ A script to turn the ttl (Turtle, terse triple language) definition files of the
 Clone from here, create a virtual environment, pip install dependencies (readchar and rdflib).
 
 ## Usage
+Assuming the current directory is one of the lrmi_vocabs directories:
+
 `(venv) $ ../python/ttl2md.py input.ttl [output.md]`
 
 If no output filename is provided the markdown text will be displayed, otherwise it is saved to file.
 
 ## Assumptions / Limitations
+Produces a markdown fragment that can be copied and pasted into the file that runs the DCMI website. Doesn't display properly as markdown on its own.
+
 Based on how we currently describe LRMI vocaburaries this program assumes:
 
 * Vocabularies are defined as skos:Concepts in a skos:ConceptScheme
