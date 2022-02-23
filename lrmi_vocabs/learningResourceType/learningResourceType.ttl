@@ -37,7 +37,6 @@ resourceType:assessment a skos:Concept ;
          <https://ceds.ed.gov/element/000928#FormativeAssessment> ,
          <https://ceds.ed.gov/element/000928#InterimSummativeAssessment> ,
          <https://ceds.ed.gov/element/000928#SelfAssessment> ;
-    dcterms:source <https://ceds.ed.gov/element/000928#Assessment> ;
     vs:term_status "unstable" .
 
 resourceType:assessmentItem a skos:Concept ;
