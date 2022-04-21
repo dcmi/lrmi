@@ -18,7 +18,7 @@ alignment: a skos:ConceptScheme ;
 
 alignment:assesses a skos:Concept ;
     skos:prefLabel "assesses"@en-US, "testet"@de ;
-    skos:definition "The learning resource being described may be used to assess the competency being referenced."@en-US, "Die beschriebene Lernressource kann verwendet werden, um die adressierte Kompetenz zu testen."@de ;
+    skos:definition "The learning resource being described may be used to assess the competency being referenced."@en-US, "Die beschriebene Lernressource kann verwendet werden, um die referenzierte Kompetenz zu testen."@de ;
     dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Assesses."@en-US, "Basierend auf den Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Assesses"@de ;
     skos:inScheme alignment: .
 
