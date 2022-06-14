@@ -15,7 +15,7 @@ resourceType: a skos:ConceptScheme ;
     dcterms:dateSubmitted "2022-01-25"^^xsd:date ;
     dc:description "A concept scheme that enumerates different types of learning resource. By learning resource we mean a persistent resource that has one or more physical or digital representation, and that explicitly involves, specifies or entails a learning activity or learning experience."@en-US ;
     dc:source <https://ceds.ed.gov/element/000928> ;
-    adms:status bibo:draft .
+    adms:status bibo:published .
 
 resourceType:actvityPlan a skos:Concept ;
     skos:prefLabel "activity plan"@en-US ;
@@ -25,7 +25,7 @@ resourceType:actvityPlan a skos:Concept ;
     skos:relatedMatch loc:gf2018026088 ;  #Lesson plans
     skos:exactMatch <https://ceds.ed.gov/element/000928#LearningActivity> ;
     dcterms:source <https://ceds.ed.gov/element/000928#LearningActivity> ;
-    vs:term_status "unstable" .
+    vs:term_status "stable" .
 
 resourceType:assessment a skos:Concept ;
     skos:prefLabel "assessment"@en-US ;
@@ -37,7 +37,7 @@ resourceType:assessment a skos:Concept ;
          <https://ceds.ed.gov/element/000928#FormativeAssessment> ,
          <https://ceds.ed.gov/element/000928#InterimSummativeAssessment> ,
          <https://ceds.ed.gov/element/000928#SelfAssessment> ;
-    vs:term_status "unstable" .
+    vs:term_status "stable" .
 
 resourceType:assessmentItem a skos:Concept ;
     skos:prefLabel "assessment item"@en-US ;
@@ -47,7 +47,7 @@ resourceType:assessmentItem a skos:Concept ;
     skos:narrowMatch loc:gf2014026154 ; # Problems and exercises
     skos:exactMatch <https://ceds.ed.gov/element/000928#AssessmentItem> ;
     dcterms:source <https://ceds.ed.gov/element/000928#AssessmentItem> ;
-    vs:term_status "unstable" .
+    vs:term_status "stable" .
 
 resourceType:educatorCurriculumGuide a skos:Concept ;
     skos:prefLabel "educator curriculum guide"@en-US ;
@@ -56,7 +56,7 @@ resourceType:educatorCurriculumGuide a skos:Concept ;
     skos:broadMatch loc:gf2014026188 ; # Teachers' guides
     skos:exactMatch <https://ceds.ed.gov/element/000928#EducatorCurriculumGuide> ;
     dcterms:source <https://ceds.ed.gov/element/000928#EducatorCurriculumGuide> ;
-    vs:term_status "unstable" .
+    vs:term_status "stable" .
 
 resourceType:lessonPlan a skos:Concept ;
     skos:prefLabel "lesson plan"@en-US ;
@@ -66,7 +66,7 @@ resourceType:lessonPlan a skos:Concept ;
     skos:exactMatch loc:gf2018026088 ; # Lesson Plans
     skos:exactMatch <https://ceds.ed.gov/element/000928#Lesson> ;
     dcterms:source <https://ceds.ed.gov/element/000928#Lesson> ;
-    vs:term_status "unstable" .
+    vs:term_status "stable" .
 
 resourceType:physicalLearningResource a skos:Concept ;
     skos:prefLabel "physical learning resource"@en-US ;
@@ -74,7 +74,7 @@ resourceType:physicalLearningResource a skos:Concept ;
     skos:scopeNote "Examples include educational toys, programmable robots, manipulables used by learners. This does not include auxiliary resources (e.g. pencil, paper, scissors, soldering iron) required for a learning activity." ;
     skos:inScheme resourceType: ;
     skos:narrowMatch loc:gf2018026057 ; # Manipulatives
-    vs:term_status "unstable" .
+    vs:term_status "stable" .
 
 resourceType:recordedLesson a skos:Concept ;
     skos:prefLabel "recorded lesson"@en-US ;
@@ -82,7 +82,7 @@ resourceType:recordedLesson a skos:Concept ;
     skos:inScheme resourceType: ;
     skos:relatedMatch loc:gf2011026219 ; # Educational films
     skos:relatedMatch loc:gf2014026122 ; # Lectures
-    vs:term_status "unstable" .
+    vs:term_status "stable" .
 
 resourceType:supportingDocument a skos:Concept ;
     skos:prefLabel "supporting document"@en-US ;
@@ -91,7 +91,7 @@ resourceType:supportingDocument a skos:Concept ;
     skos:inScheme resourceType: ;
     skos:narrowMatch loc:gf2014026073 ; # Course materials
     dcterms:source <http://oerschema.org/SupportingMaterial/> ;
-    vs:term_status "unstable" .
+    vs:term_status "stable" .
 
 resourceType:textbook a skos:Concept ;
     skos:prefLabel "textbook"@en-US ;
@@ -100,7 +100,7 @@ resourceType:textbook a skos:Concept ;
     skos:exactMatch loc:gf2014026191 ; # Textbooks
     skos:exactMatch <https://ceds.ed.gov/element/000928#Textbook> ;
     dcterms:source <https://ceds.ed.gov/element/000928#Textbook> ;
-    vs:term_status "unstable" .
+    vs:term_status "stable" .
 
 resourceType:unitPlan a skos:Concept ;
     skos:prefLabel "unit plan"@en-US ;
@@ -110,4 +110,4 @@ resourceType:unitPlan a skos:Concept ;
     skos:broadMatch loc:gf2014026114 ;# Instructional and educational works
     skos:exactMatch <https://ceds.ed.gov/element/000928#Unit> ;
     dcterms:source <https://ceds.ed.gov/element/000928#Unit> ;
-    vs:term_status "unstable" .
+    vs:term_status "stable" .
