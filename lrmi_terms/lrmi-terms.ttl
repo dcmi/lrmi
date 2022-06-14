@@ -105,6 +105,7 @@ lrmi:educationalRole a rdf:Property ;
     skos:scopeNote "The educational function assumed or part played by the group for whom the resource is intended."@en ;
     dcterms:issued "2015-02-09"^^xsd:date ;
     skos:changeNote "2020-11-12: Added skos:Concept to rangeIncludes" ;
+    skos:changeNote "2022-06-14: Fixed error from adding skos:Concept to equivalent property instead of previous intended change" ;
     schema:domainIncludes lrmi:EducationalAudience, schema:EducationalAudience ;
     schema:rangeIncludes xsd:string, skos:Concept ;
     owl:equivalentProperty schema:educationalRole ;
@@ -117,8 +118,8 @@ lrmi:educationalUse a rdf:Property ;
     dcterms:issued "2015-02-09"^^xsd:date ;
     skos:changeNote "2020-11-12: added lrmi:LearningResource, schema:LearningResource to domain; added skos:Concept to rangeIncludes" ;
     schema:domainIncludes schema:CreativeWork, lrmi:LearningResource, schema:LearningResource ;
-    schema:rangeIncludes xsd:string ;
-    owl:equivalentProperty schema:educationalUse, skos:Concept ;
+    schema:rangeIncludes xsd:string, skos:Concept ;
+    owl:equivalentProperty schema:educationalUse ;
     rdfs:isDefinedBy <http://purl.org/dcx/lrmi-terms/> .
 
 lrmi:interactivityType a rdf:Property ;
@@ -149,8 +150,9 @@ lrmi:learningResourceType a rdf:Property ;
     skos:scopeNote "For example, 'presentation', 'handout'."@en ;
     dcterms:issued "2015-02-09"^^xsd:date ;
     skos:changeNote "2020-11-12: added lrmi:LearningResource, schema:LearningResource to domain" ;
+    skos:changeNote "2022-06-14: Added skos:Concept to rangeIncludes" ;
     schema:domainIncludes schema:CreativeWork, lrmi:LearningResource, schema:LearningResource ;
-    schema:rangeIncludes xsd:string ;
+    schema:rangeIncludes xsd:string, skos:Concept ;
     owl:equivalentProperty schema:learningResourceType ;
     rdfs:isDefinedBy <http://purl.org/dcx/lrmi-terms/> .
 
