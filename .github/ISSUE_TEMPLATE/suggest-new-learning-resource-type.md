@@ -1,5 +1,5 @@
 ---
-name: New learning resource type
+name: Suggest new learning resource type
 about: Suggest a new learning resource type
 title: "[New learning resource type]"
 labels: enhancement, LearningResourceTypes
