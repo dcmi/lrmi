@@ -18,9 +18,17 @@
         "@language": "en-US",
         "@value": "LRMI Task Group (DCMI)"
       },
+      "dc:creator": {
+        "@language": "de",
+        "@value": "LRMI Task Group (DCMI)"
+      },
       "dc:title": {
         "@language": "en-US",
         "@value": "LRMI Interact Type Vocabulary"
+      },
+      "dc:title": {
+        "@language": "de",
+        "@value": "LRMI Vokabular der Interaktivitätstypen"
       },
       "dct:created": {
         "@type": "xsd:date",
@@ -29,6 +37,10 @@
       "dct:description": {
         "@language": "en-US",
         "@value": "A concept scheme that defines the predominate interact mode of the learning resource being described."
+      },
+      "dct:description": {
+        "@language": "de",
+        "@value": "Ein kontrolliertes Vokabular, das die vorherrschende Lehr-/Lernform der zu beschreibenden Lernressource definiert."
       },
       "dct:license": {
         "@id": "http://creativecommons.org/licenses/by/4.0/"
@@ -40,8 +52,12 @@
       "dct:source": {
         "@language": "en-US",
         "@value": "Based on the IEEE Learning Object Metadata standard (IEEE/LOM - IEEE 1484.12.1-202)."
+      },
+      "dct:source": {
+        "@language": "de",
+        "@value": "Basierend auf dem IEEE Learning Object Metadata Standard (IEEE/LOM - IEEE 1484.12.1-202)."
       }
-    },  
+    },
     {
       "@id": "interact:expositive",
       "@type": "skos:Concept",
@@ -49,9 +65,17 @@
         "@language": "en-US",
         "@value": "Based on the IEEE Learning Object Metadata standard (IEEE 1484.12.1-202 (LOMv1.0))."
       },
+      "dct:source": {
+        "@language": "de",
+        "@value": "Basierend auf dem IEEE Learning Object Metadata Standard (IEEE 1484.12.1-202 (LOMv1.0))."
+      },
       "skos:definition": {
         "@language": "en-US",
         "@value": "Use of a subject-matter expert to explain a concept or give clear and concise information in a purposeful way to the passive learner."
+      },
+      "skos:definition": {
+        "@language": "de",
+        "@value": "Einsatz eines Lehrenden zur Erklärung eines Konzepts oder zur zielgerichteten Vermittlung klarer und prägnanter Informationen an den Lernenden."
       },
       "skos:inScheme": {
         "@id": "interact:"
@@ -59,6 +83,10 @@
       "skos:prefLabel": {
         "@language": "en-US",
         "@value": "expositive"
+      },
+      "skos:prefLabel": {
+        "@language": "de",
+        "@value": "erklärend (eher fremdgesteuert)"
       }
     },
     {
@@ -68,9 +96,17 @@
         "@language": "en-US",
         "@value": "Based on the IEEE Learning Object Metadata standard (IEEE 1484.12.1-202 (LOMv1.0))."
       },
+      "dct:source": {
+        "@language": "de",
+        "@value": "Basierend auf dem IEEE Learning Object Metadata Standard (IEEE 1484.12.1-202 (LOMv1.0))."
+      },
       "skos:definition": {
         "@language": "en-US",
         "@value": "Learning that engages and challenges the learner's thinking using real-life and/or imaginary situations taking advantage of the opportunities for learning presented by investigating, exploring, events, and life experiences."
+      },
+      "skos:definition": {
+        "@language": "de",
+        "@value": "Lernen, welches das Denken des Lernenden in realen und/oder imaginären Situationen anregt und herausfordert und dabei die Lernmöglichkeiten nutzt, die sich durch Untersuchungen, Erkundungen, Ereignisse und Erfahrungen ergeben."
       },
       "skos:inScheme": {
         "@id": "interact:"
@@ -78,6 +114,10 @@
       "skos:prefLabel": {
         "@language": "en-US",
         "@value": "active"
+      },
+      "skos:prefLabel": {
+        "@language": "de",
+        "@value": "aktiv (eher selbstgesteuert)"
       }
     },
     {
@@ -87,9 +127,17 @@
         "@language": "en-US",
         "@value": "Based on IEEE Learning Object Metadata standard (IEEE 1484.12.1-202 (LOMv1.0))."
       },
+      "dct:source": {
+        "@language": "de",
+        "@value": "Basierend auf dem IEEE Learning Object Metadata Standard (IEEE 1484.12.1-202 (LOMv1.0))."
+      },
       "skos:definition": {
         "@language": "en-US",
         "@value": "Instructional interactions comprised of a mix of active learning and expositive approaches."
+      },
+      "skos:definition": {
+        "@language": "de",
+        "@value": "Unterrichtliche Interaktionen, die eine Mischung aus aktivem Lernen (eher selbstgesteuert) und erklärenden Ansätzen (eher fremdgesteuert) beinhalten."
       },
       "skos:inScheme": {
         "@id": "interact:"
@@ -97,6 +145,10 @@
       "skos:prefLabel": {
         "@language": "en-US",
         "@value": "mixed"
+      },
+      "skos:prefLabel": {
+        "@language": "de",
+        "@value": "gemischt"
       }
     }
   ]

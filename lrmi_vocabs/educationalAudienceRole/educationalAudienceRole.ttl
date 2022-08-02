@@ -9,51 +9,51 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 audRole: a skos:ConceptScheme;
-  dc:title "LRMI Educational Audience Role Vocabulary" ;
+  dc:title "LRMI Educational Audience Role Vocabulary"@en-US, "LRMI Vokabular für pädagogische Zielgruppen"@de ;
   dc:creator "LRMI Task Group (DCMI)"@en-US ;
-  dct:description "A concept scheme that defines the primary or intended roles of the audience (beneficiary) of the resource being described."@en-US ;
+  dct:description "A concept scheme that defines the primary or intended roles of the audience (beneficiary) of the resource being described."@en-US, "Ein kontrolliertes Vokabular, das die primären oder zugedachten Rollen der Zielgruppe einer Lehr-/Lernressource definiert."@de ;
   dct:created "2017-03-01"^^xsd:date ;
-  dct:modified "2017-12-20"^^xsd:date ;  
-  dct:license <http://creativecommons.org/licenses/by/4.0/> .  
-  
+  dct:modified "2017-12-20"^^xsd:date ;
+  dct:license <http://creativecommons.org/licenses/by/4.0/> .
+
 audRole:administrator a skos:Concept;
-  skos:prefLabel "administrator"@en-US;
-  skos:definition "A trainer or educator with administrative authority and responsibility."@en-US;
+  skos:prefLabel "administrator"@en-US, "Verwaltung"@de;
+  skos:definition "A trainer or educator with administrative authority and responsibility."@en-US, "Trainer*innen oder Lehrpersonen mit Verwaltungsverantwortung"@de;
   skos:inScheme audRole: .
 
 audRole:generalPublic a skos:Concept;
-  skos:prefLabel "general public"@en-US;  
-  skos:definition "The public at large."@en-US;
+  skos:prefLabel "general public"@en-US, "Allgemeine Öffentlichkeit"@de;
+  skos:definition "The public at large."@en-US, "Die breite Öffentlichkeit"@de;
   skos:inScheme audRole: .
-  
+
 audRole:mentor a skos:Concept;
-  skos:prefLabel "mentor"@en-US;  
-  skos:definition "Someone who advises, trains, supports, and/or guides."@en-US;
-  skos:inScheme audRole: .  
+  skos:prefLabel "mentor"@en-US, "Mentor"@de;
+  skos:definition "Someone who advises, trains, supports, and/or guides."@en-US, "Jemand der berät, trainiert, unterstützt und/oder anleitet."@de;
+  skos:inScheme audRole: .
 
 audRole:parent a skos:Concept;
-  skos:prefLabel "parent"@en-US;  
-  skos:definition "A father, mother, or legal guardian."@en-US;
+  skos:prefLabel "parent"@en-US, "Eltern"@de;
+  skos:definition "A father, mother, or legal guardian."@en-US, "Eine Mutter, ein Vater oder Erziehungsberechtigter"@de;
   skos:inScheme audRole: .
-  
+
 audRole:peerTutor a skos:Concept;
-  skos:prefLabel "peer tutor"@en-US;   
-  skos:definition "The peer learner serving as tutor of another learner."@en-US;
+  skos:prefLabel "peer tutor"@en-US, "Peer-Tutor*in"@de;
+  skos:definition "The peer learner serving as tutor of another learner."@en-US, "Eine lernende Person gleichen Rangs, die als Tutor einer anderen Person agiert"@de;
   skos:broader audRole:student;
-  skos:inScheme audRole: .  
-       
-audRole:professional a skos:Concept;
-  skos:prefLabel "professional"@en-US;  
-  skos:definition "Someone already practicing a profession; an industry partner, or professional development trainer."@en-US;
   skos:inScheme audRole: .
-       
+
+audRole:professional a skos:Concept;
+  skos:prefLabel "professional"@en-US, "Fachkraft"@de;
+  skos:definition "Someone already practicing a profession; an industry partner, or professional development trainer."@en-US, "Eine Person mit Erfahrung in einem Fach; Branchenpartner*in oder Trainer*in für berufliche Weiterbildung"@de;
+  skos:inScheme audRole: .
+
 audRole:student a skos:Concept;
-  skos:prefLabel "student"@en-US;   
-  skos:definition "The learner or trainee."@en-US;
+  skos:prefLabel "student"@en-US, "Lernende"@de;
+  skos:definition "The learner or trainee."@en-US, "Lerner*in oder Trainee"@de;
   skos:narrower audRole:peerTutor;
   skos:inScheme audRole: .
-       
+
 audRole:teacher a skos:Concept;
-  skos:prefLabel "teacher"@en-US;  
-  skos:definition "A person who has been trained to implement educational methods and practices."@en-US ;
-  skos:inScheme audRole: .            
+  skos:prefLabel "teacher"@en-US, "Lehrperson"@de;
+  skos:definition "A person who has been trained to implement educational methods and practices."@en-US, "Eine Person, die ausgebildet wurde, pädagogische Methoden und Praktiken umzusetzen."@de ;
+  skos:inScheme audRole: .

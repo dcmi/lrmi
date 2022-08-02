@@ -10,28 +10,37 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 interact: a skos:ConceptScheme ;
-    dc:title "LRMI Interact Type Vocabulary"@en-US ;
-    dc:creator "LRMI Task Group (DCMI)"@en-US ;
+    dc:title "LRMI Interact Type Vocabulary"@en-US, "LRMI Vokabular der Interaktivitätstypen"@de ;
+    dc:creator "LRMI Task Group (DCMI)"@en-US, "LRMI Task Group (DCMI)"@de ;
     dct:description "A concept scheme that defines the predominate interact mode of the learning resource being described."@en-US ;
+    dct:description "Ein kontrolliertes Vokabular, das die vorherrschende Lehr-/Lernform der zu beschreibenden Lernressource definiert."@de ;
     dct:source "Based on the IEEE Learning Object Metadata standard (IEEE/LOM - IEEE 1484.12.1-202)."@en-US ;
+    dct:source "Basierend auf dem IEEE Learning Object Metadata Standard (IEEE/LOM - IEEE 1484.12.1-202)."@de ;
     dct:created "2017-03-01"^^xsd:date ;
-    dct:modified "2017-12-20"^^xsd:date ; 
+    dct:modified "2017-12-20"^^xsd:date ;
     dct:license <http://creativecommons.org/licenses/by/4.0/> .
 
 interact:active a skos:Concept ;
-    skos:prefLabel "active"@en-US ;
+    skos:prefLabel "active"@en-US, "aktiv (eher selbstgesteuert)"@de ;
     skos:definition "Learning that engages and challenges the learner's thinking using real-life and/or imaginary situations taking advantage of the opportunities for learning presented by investigating, exploring, events, and life experiences."@en-US ;
+    skos:definition "Lernen, welches das Denken des Lernenden in realen und/oder imaginären Situationen anregt und herausfordert und dabei die Lernmöglichkeiten nutzt, die sich durch Untersuchungen, Erkundungen, Ereignisse und Erfahrungen ergeben."@de ;
+    skos:example "Selbstlernmodul"@de, "self-learning module"@en-US ;
     dct:source "Based on the IEEE Learning Object Metadata standard (IEEE 1484.12.1-202 (LOMv1.0))."@en-US ;
+    dct:source "Basierend auf dem IEEE Learning Object Metadata Standard (IEEE 1484.12.1-202 (LOMv1.0))."@de ;
     skos:inScheme interact: .
 
 interact:expositive a skos:Concept ;
-    skos:prefLabel "expositive"@en-US ;
+    skos:prefLabel "expositive"@en-US, "erklärend (eher fremdgesteuert)"@de ;
     skos:definition "Use of a subject-matter expert to explain a concept or give clear and concise information in a purposeful way to the passive learner."@en-US ;
+    skos:definition "Einsatz eines Lehrenden zur Erklärung eines Konzepts oder zur zielgerichteten Vermittlung klarer und prägnanter Informationen an den Lernenden."@de ;
     dct:source "Based on the IEEE Learning Object Metadata standard (IEEE 1484.12.1-202 (LOMv1.0))."@en-US ;
+    dct:source "Basierend auf dem IEEE Learning Object Metadata Standard (IEEE 1484.12.1-202 (LOMv1.0))."@de ;
     skos:inScheme interact: .
-    
+
 interact:mixed a skos:Concept ;
-    skos:prefLabel "mixed"@en-US ;
+    skos:prefLabel "mixed"@en-US, "gemischt"@de ;
     skos:definition "Instructional interactions comprised of a mix of active learning and expositive approaches."@en-US ;
+    skos:definition "Unterrichtliche Interaktionen, die eine Mischung aus aktivem Lernen (eher selbstgesteuert) und erklärenden Ansätzen (eher fremdgesteuert) beinhalten."@de ;
     dct:source "Based on IEEE Learning Object Metadata standard (IEEE 1484.12.1-202 (LOMv1.0))."@en-US ;
-    skos:inScheme interact: . 
+    dct:source "Basierend auf dem IEEE Learning Object Metadata Standard (IEEE 1484.12.1-202 (LOMv1.0))."@de ;
+    skos:inScheme interact: .

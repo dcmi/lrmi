@@ -17,7 +17,18 @@
         "@language": "en-US",
         "@value": "LRMI Task Group (DCMI)"
       },
-      "dc:title": "LRMI Educational Use vocabulary",
+      "dc:creator": {
+        "@language": "de",
+        "@value": "LRMI Task Group (DCMI)"
+      },
+      "dc:title": {
+        "@language": "en-US",
+        "@value": "LRMI Educational Use vocabulary"
+      },
+      "dc:title": {
+        "@language": "de",
+        "@value": "LRMI Vokabular der Bildungszwecke"
+      },
       "dct:created": {
         "@type": "xsd:date",
         "@value": "2017-03-01"
@@ -25,6 +36,10 @@
       "dct:description": {
         "@language": "en-US",
         "@value": "A concept scheme that enumerates the educational uses of a learning resource."
+      },
+      "dct:description": {
+        "@language": "de",
+        "@value": "Ein kontrolliertes Vokabular, das die pädagogische Nutzung einer Lernressource beschreibt."
       },
       "dct:license": {
         "@id": "http://creativecommons.org/licenses/by/4.0/"
@@ -41,9 +56,17 @@
         "@language": "en-US",
         "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#Assessment"
       },
+      "dct:source": {
+        "@language": "de",
+        "@value": "Basierend auf den Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#Assessment"
+      },
       "skos:definition": {
         "@language": "en-US",
         "@value": "Primary purpose of the resource is to evaluate learning, before, during, or after instruction occurs."
+      },
+      "skos:definition": {
+        "@language": "de",
+        "@value": "Der Hauptzweck der Ressource besteht darin, das Lernen vor, während oder nach dem Unterricht zu bewerten."
       },
       "skos:inScheme": {
         "@id": "edUse:"
@@ -51,6 +74,10 @@
       "skos:prefLabel": {
         "@language": "en-US",
         "@value": "assessment"
+      },
+      "skos:prefLabel": {
+        "@language": "de",
+        "@value": "Bewertung"
       }
     },
     {
@@ -60,9 +87,17 @@
         "@language": "en-US",
         "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#ProfessionalDevelopment"
       },
+      "dct:source": {
+        "@language": "de",
+        "@value": "Basierend auf den Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#ProfessionalDevelopment"
+      },
       "skos:definition": {
         "@language": "en-US",
         "@value": "Primary purpose of the resource is to provide instruction for a teacher or other education professional including professional development."
+      },
+      "skos:definition": {
+        "@language": "de",
+        "@value": "Hauptzweck der Ressource ist die Bereitstellung einer Anleitung für Lehrer*innen oder einer anderen pädagogischen Fachkraft, einschließlich der beruflichen Weiterbildung."
       },
       "skos:inScheme": {
         "@id": "edUse:"
@@ -70,6 +105,10 @@
       "skos:prefLabel": {
         "@language": "en-US",
         "@value": "professional support"
+      },
+      "skos:prefLabel": {
+        "@language": "de",
+        "@value": "professionelle Unterstützung"
       }
     },
     {
@@ -79,9 +118,17 @@
         "@language": "en-US",
         "@value": "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#CurriculumInstruction"
       },
+      "dct:source": {
+        "@language": "de",
+        "@value": "Basierend auf den Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#CurriculumInstruction"
+      },
       "skos:definition": {
         "@language": "en-US",
         "@value": "Primary purpose of the resource is to support the instructional process, student learning, or to provide information about the curriculum."
+      },
+      "skos:definition": {
+        "@language": "de",
+        "@value": "Hauptzweck der Ressource ist die Unterstützung des Unterrichtsprozesses, das Lernen der Schüler*innen oder die Bereitstellung von Informationen über den Lehrplan."
       },
       "skos:inScheme": {
         "@id": "edUse:"
@@ -89,6 +136,10 @@
       "skos:prefLabel": {
         "@language": "en-US",
         "@value": "instruction"
+      },
+      "skos:prefLabel": {
+        "@language": "de",
+        "@value": "Anleitung"
       }
     }
   ]

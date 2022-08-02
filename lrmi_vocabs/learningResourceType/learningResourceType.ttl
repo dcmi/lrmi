@@ -10,17 +10,17 @@
 @prefix loc: <http://id.loc.gov/authorities/genreForms/> .
 
 resourceType: a skos:ConceptScheme ;
-    dc:title "LRMI Learning Resource Type Concept Scheme"@en-US ;
-    dc:creator "LRMI Task Group (DCMI)"@en-US ;
+    dc:title "LRMI Learning Resource Type Concept Scheme"@en-US, "LRMI Lernressourcentyp Vokabular"@de ;
+    dc:creator "LRMI Task Group (DCMI)"@en-US, "LRMI Task Group (DCMI)"@de ;
     dcterms:dateSubmitted "2022-01-25"^^xsd:date ;
-    dc:description "A concept scheme that enumerates different types of learning resource. By learning resource we mean a persistent resource that has one or more physical or digital representation, and that explicitly involves, specifies or entails a learning activity or learning experience."@en-US ;
+    dc:description "A concept scheme that enumerates different types of learning resource. By learning resource we mean a persistent resource that has one or more physical or digital representation, and that explicitly involves, specifies or entails a learning activity or learning experience."@en-US, "Ein kontrolliertes Vokabular, das verschiedene Arten von Lernressourcen bezeichnet. Eine solche Ressource hat ein oder mehrere physische oder digitiale Repräsentationen und beinhaltet, spezifiziert oder bedingt eine Lernaktivität or Lernerfahrung."@de ;
     dc:source <https://ceds.ed.gov/element/000928> ;
     adms:status bibo:published .
 
-resourceType:actvityPlan a skos:Concept ;
-    skos:prefLabel "activity plan"@en-US ;
-    skos:definition "Detailed description of an activity engaged in by the learner for the purpose of acquiring certain skills, concepts, or knowledge, whether guided by an instructor or not."@en-US ;
-    skos:scopeNote "There may be several activities in a lesson or an activity may take place outside of a lesson." ;
+resourceType:activityPlan a skos:Concept ;
+    skos:prefLabel "activity plan"@en-US, "Aktivitätenplan"@de ;
+    skos:definition "Detailed description of an activity engaged in by the learner for the purpose of acquiring certain skills, concepts, or knowledge, whether guided by an instructor or not."@en-US, "Eine detaillierte Beschreibung einer Aktivität, die der Lernende durchführt, um bestimmte Fähigkeiten, Konzepte oder Kenntnisse zu erlernen, unabhängig davon, ob er von einem Lehrenden angeleitet wird oder nicht."@de ;
+    skos:scopeNote "There may be several activities in a lesson or an activity may take place outside of a lesson."@en-US, "Es kann mehrere Aktivitäten in einer Lehreinheit geben oder eine Aktivität kann außerhalb einer Lerneinheit stattfinden."@de ;
     skos:inScheme resourceType: ;
     skos:relatedMatch loc:gf2018026088 ;  #Lesson plans
     skos:exactMatch <https://ceds.ed.gov/element/000928#LearningActivity> ;
@@ -28,8 +28,8 @@ resourceType:actvityPlan a skos:Concept ;
     vs:term_status "stable" .
 
 resourceType:assessment a skos:Concept ;
-    skos:prefLabel "assessment"@en-US ;
-    skos:definition "Set of assessment items used to evaluate or promote learning."@en-US ;
+    skos:prefLabel "assessment"@en-US, "Lernkontrolle"@de ;
+    skos:definition "Set of assessment items used to evaluate or promote learning."@en-US, "Eine Reihe von Aufgaben, die zur Bewertung oder Testung des Lernenerfolgs verwendet werden."@de ;
     skos:inScheme resourceType: ;
     skos:closeMatch loc:gf2014026096 ; #Examinations
     skos:relatedMatch loc:gf2014026154 ; # Problems and exercises
@@ -40,6 +40,8 @@ resourceType:assessment a skos:Concept ;
     vs:term_status "stable" .
 
 resourceType:assessmentItem a skos:Concept ;
+    skos:prefLabel "assessment item"@en-US, "Testaufgabe"@de ;
+    skos:definition "Specific prompt, that defines a question or protocol for a measurable activity that triggers a response from a person used to determine whether the person has mastered a learning objective."@en-US, "Eine spezifische Abfrage, die eine Frage oder ein Protokoll für eine messbare Aktivität darstellt, die eine Antwort von einer Person einfordert, um festzustellen, ob die Person ein Lernziel erreicht hat."@de ;
     skos:prefLabel "assessment item"@en-US ;
     skos:definition "Specific prompt, that defines a question or protocol for a measurable activity that triggers a response from a person used to determine whether the person has mastered a learning objective."@en-US ;
     skos:inScheme resourceType: ;
@@ -50,8 +52,8 @@ resourceType:assessmentItem a skos:Concept ;
     vs:term_status "stable" .
 
 resourceType:educatorCurriculumGuide a skos:Concept ;
-    skos:prefLabel "educator curriculum guide"@en-US ;
-    skos:definition "Document that defines what concepts should be taught and/or how a concept should be taught effectively."@en-US ;
+    skos:prefLabel "educator curriculum guide"@en-US, "Lehrplan"@de ;
+    skos:definition "Document that defines what concepts should be taught and/or how a concept should be taught effectively."@en-US, "Ein Dokument, das festlegt, welche Konzepte gelehrt werden sollten und/oder wie ein Konzept effektiv gelehrt werden sollte." ;
     skos:inScheme resourceType: ;
     skos:broadMatch loc:gf2014026188 ; # Teachers' guides
     skos:exactMatch <https://ceds.ed.gov/element/000928#EducatorCurriculumGuide> ;
@@ -59,9 +61,9 @@ resourceType:educatorCurriculumGuide a skos:Concept ;
     vs:term_status "stable" .
 
 resourceType:lessonPlan a skos:Concept ;
-    skos:prefLabel "lesson plan"@en-US ;
-    skos:definition "Detailed description of the course of instruction for a ­short period of time that is used by a teacher to guide class instruction."@en-US ;
-    skos:usageNote "Several lessons on the same topic would be a Unit. A lesson may include one or more learning activities." ;
+    skos:prefLabel "lesson plan"@en-US, "Unterrichtsplanung"@de ;
+    skos:definition "Detailed description of the course of instruction for a short period of time that is used by a teacher to guide class instruction."@en-US, "Eine ausführliche Beschreibung des Verlaufs der Lehreinheit, die von einer Lehrkraft zur Steuerung der  Lehr-Lernprozesse verwendet wird."@de ;
+    skos:usageNote "Several lessons on the same topic would be a Unit. A lesson may include one or more learning activities."@en-US, "Mehrere Unterrichtsstunden zum selben Thema bilden eine Einheit. Eine Lektion kann eine oder mehrere Lernaktivitäten umfassen."@en-US,   ;
     skos:inScheme resourceType: ;
     skos:exactMatch loc:gf2018026088 ; # Lesson Plans
     skos:exactMatch <https://ceds.ed.gov/element/000928#Lesson> ;
@@ -77,8 +79,8 @@ resourceType:physicalLearningResource a skos:Concept ;
     vs:term_status "stable" .
 
 resourceType:recordedLesson a skos:Concept ;
-    skos:prefLabel "recorded lesson"@en-US ;
-    skos:definition "Audio or video recording, or textual record (e.g. transcript or edited script) of a lesson, lecture or similar short instructional event."@en-US ;
+    skos:prefLabel "recorded lesson"@en-US, "aufgezeichnete Lektion"@de  ;
+    skos:definition "Audio or video recording, or a textual record (e.g. transcript or edited script) of a lesson, lecture or similar short instructional event."@en-US, "Eine Audio-,  Videoaufzeichnung oder eine textuelle Aufzeichnung (z. B. eine Abschrift oder ein bearbeitetes Skript) einer Unterrichtsstunde, eines Vortrags oder einer ähnlichen kurzen Lehrveranstaltung"@de ;
     skos:inScheme resourceType: ;
     skos:relatedMatch loc:gf2011026219 ; # Educational films
     skos:relatedMatch loc:gf2014026122 ; # Lectures
@@ -94,8 +96,8 @@ resourceType:supportingDocument a skos:Concept ;
     vs:term_status "stable" .
 
 resourceType:textbook a skos:Concept ;
-    skos:prefLabel "textbook"@en-US ;
-    skos:definition "Book designed to be used as a standard source of information to facilitate learning of  a particular subject."@en-US ;
+    skos:prefLabel "textbook"@en-US, "Lehrbuch"@de ;
+    skos:definition "Book designed to be used as a standard source of information to facilitate learning of a particular subject."@en-US, "Ein Buch, das als Standardinformationsquelle verwendet werden soll, um das Lernen in einem bestimmten Fachgebiet zu unterstützen."@de ;
     skos:inScheme resourceType: ;
     skos:exactMatch loc:gf2014026191 ; # Textbooks
     skos:exactMatch <https://ceds.ed.gov/element/000928#Textbook> ;
@@ -103,9 +105,9 @@ resourceType:textbook a skos:Concept ;
     vs:term_status "stable" .
 
 resourceType:unitPlan a skos:Concept ;
-    skos:prefLabel "unit plan"@en-US ;
-    skos:definition "Long-range plan of instruction on a particular concept. "@en-US ;
-    skos:scopeNote "A Unit contains several lessons, activities and or assessments that are related."@en-US ;
+    skos:prefLabel "unit plan"@en-US, "Reihenplan"@de ;
+    skos:definition "Long-range plan of instruction on a particular concept."@en-US, "Ein langfristiger Unterrichtsplan für ein bestimmtes Konzept."@de ;
+    skos:scopeNote "A Unit contains several lessons, activities and or assessments that are related."@en-US, "Ein Reihenplan enthält mehrere Lektionen, Aktivitäten und Erfolgskontrollen, die miteinander verbunden sind."@de ;
     skos:inScheme resourceType: ;
     skos:broadMatch loc:gf2014026114 ;# Instructional and educational works
     skos:exactMatch <https://ceds.ed.gov/element/000928#Unit> ;

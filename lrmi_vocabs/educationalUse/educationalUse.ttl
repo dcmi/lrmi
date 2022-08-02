@@ -9,27 +9,27 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 edUse: a skos:ConceptScheme ;
-    dc:title "LRMI Educational Use vocabulary" ;
-    dc:creator "LRMI Task Group (DCMI)"@en-US ;
-    dct:description "A concept scheme that enumerates the educational uses of a learning resource."@en-US ;
+    dc:title "LRMI Educational Use vocabulary"@en-US, "LRMI Vokabular der  Bildungszwecke"@de ;
+    dc:creator "LRMI Task Group (DCMI)"@en-US, "LRMI Task Group (DCMI)"@de ;
+    dct:description "A concept scheme that enumerates the educational uses of a learning resource."@en-US, "Ein kontrolliertes Vokabular, das die pädagogische Nutzung einer Lernressource beschreibt."@de ;
     dct:created "2017-03-01"^^xsd:date ;
-    dct:modified "2017-12-20"^^xsd:date ;    
+    dct:modified "2017-12-20"^^xsd:date ;
     dct:license <http://creativecommons.org/licenses/by/4.0/> .
-    
+
 edUse:assessment a skos:Concept ;
-    skos:prefLabel "assessment"@en-US ;
-    skos:definition "Primary purpose of the resource is to evaluate learning, before, during, or after instruction occurs."@en-US ;
+    skos:prefLabel "assessment"@en-US, "Bewertung"@de ;
+    skos:definition "Primary purpose of the resource is to evaluate learning, before, during, or after instruction occurs."@en-US, "Der Hauptzweck der Ressource besteht darin, das Lernen vor, während oder nach dem Unterricht zu bewerten."@de ;
     skos:inScheme edUse: ;
-    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#Assessment"@en-US .           
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#Assessment"@en-US, "Basierend auf den Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#Assessment"@de .
 
 edUse:instruction a skos:Concept ;
-    skos:prefLabel "instruction"@en-US ;
-    skos:definition "Primary purpose of the resource is to support the instructional process, student learning, or to provide information about the curriculum."@en-US ;
+    skos:prefLabel "instruction"@en-US, "Anleitung"@de ;
+    skos:definition "Primary purpose of the resource is to support the instructional process, student learning, or to provide information about the curriculum."@en-US, "Hauptzweck der Ressource ist die Unterstützung des Unterrichtsprozesses, das Lernen der Schüler*innen oder die Bereitstellung von Informationen über den Lehrplan."@de ;
     skos:inScheme edUse: ;
-    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#CurriculumInstruction"@en-US .  
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#CurriculumInstruction"@en-US, "Basierend auf den Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#CurriculumInstruction"@de .
 
 edUse:professionalSupport a skos:Concept ;
-    skos:prefLabel "professional support"@en-US ;
-    skos:definition "Primary purpose of the resource is to provide instruction for a teacher or other education professional including professional development."@en-US ;
+    skos:prefLabel "professional support"@en-US, "professionelle Unterstützung"@de ;
+    skos:definition "Primary purpose of the resource is to provide instruction for a teacher or other education professional including professional development."@en-US, "Hauptzweck der Ressource ist die Bereitstellung einer Anleitung für Lehrer*innen oder einer anderen pädagogischen Fachkraft, einschließlich der beruflichen Weiterbildung."@de ;
     skos:inScheme edUse: ;
-    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#ProfessionalDevelopment"@en-US .
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#ProfessionalDevelopment"@en-US, "Basierend auf den Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#ProfessionalDevelopment"@de .
