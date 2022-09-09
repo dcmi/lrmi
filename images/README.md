@@ -22,6 +22,4 @@ See [LRMI used here](../usedHere.md) for information on how to use these badges.
 |-------------|-----------------|-------------|
 | Long, tiny  | ![Tiny, bright version of LRMI used here badge](usedHereLong_tiny+bright.png) | ![Tiny, dark version of LRMI used here badge](usedHereLong_tiny+dark.png) |
 | Long, small | ![Small, bright version of LRMI used here badge](usedHereLong_small+bright.png) | ![Small, dark version of LRMI used here badge](usedHereLong_small+dark.png) |
-| Square      | ![Square, bright version of LRMI Used here badge](usedHereSquare_bright.png) | ![Square, bright version of LRMI Used here badge](usedHereSquare_bright.png) |
-
-
+| Square      | ![Square, bright version of LRMI Used here badge](usedHereSquare_bright.png) | ![Square, dark version of LRMI Used here badge](usedHereSquare_dark.png) |
