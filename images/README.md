@@ -16,7 +16,7 @@ LRMI_400[t|w] is the main logo with text, 400px wide, available with transparent
 ### LRMI enhanced badge
 enhanced-* are various badged that can be used to indicate a website or project that uses LRMI, available in various shapes and sizes in choice of bright or dark colors.
 
-See [LRMI enhanced](../enhanced-.md) for information on how to use these badges.
+See [LRMI enhanced](../lrmi-enhanced.md) for information on how to use these badges.
 
 | shape, size | Bright pallette | Dark pallet |
 |-------------|-----------------|-------------|
