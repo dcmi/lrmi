@@ -62,7 +62,7 @@ resourceType:educatorCurriculumGuide a skos:Concept ;
 resourceType:lessonPlan a skos:Concept ;
     skos:prefLabel "lesson plan"@en-US, "Unterrichtsplanung"@de ;
     skos:definition "Detailed description of the course of instruction for a short period of time that is used by a teacher to guide class instruction."@en-US, "Eine ausführliche Beschreibung des Verlaufs der Lehreinheit, die von einer Lehrkraft zur Steuerung der  Lehr-Lernprozesse verwendet wird."@de ;
-    skos:usageNote "Several lessons on the same topic would be a Unit. A lesson may include one or more learning activities."@en-US, "Mehrere Unterrichtsstunden zum selben Thema bilden eine Einheit. Eine Lektion kann eine oder mehrere Lernaktivitäten umfassen."@en-US   ;
+    skos:usageNote "Several lessons on the same topic would be a Unit. A lesson may include one or more learning activities."@en-US, "Mehrere Unterrichtsstunden zum selben Thema bilden eine Einheit. Eine Lektion kann eine oder mehrere Lernaktivitäten umfassen."@de   ;
     skos:inScheme resourceType: ;
     skos:exactMatch loc:gf2018026088 ; # Lesson Plans
     skos:exactMatch <https://ceds.ed.gov/element/000928#Lesson> ;
