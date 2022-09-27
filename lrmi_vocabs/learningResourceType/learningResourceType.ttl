@@ -43,7 +43,6 @@ resourceType:assessmentItem a skos:Concept ;
     skos:prefLabel "assessment item"@en-US, "Testaufgabe"@de ;
     skos:definition "Specific prompt, that defines a question or protocol for a measurable activity that triggers a response from a person used to determine whether the person has mastered a learning objective."@en-US, "Eine spezifische Abfrage, die eine Frage oder ein Protokoll für eine messbare Aktivität darstellt, die eine Antwort von einer Person einfordert, um festzustellen, ob die Person ein Lernziel erreicht hat."@de ;
     skos:prefLabel "assessment item"@en-US ;
-    skos:definition "Specific prompt, that defines a question or protocol for a measurable activity that triggers a response from a person used to determine whether the person has mastered a learning objective."@en-US ;
     skos:inScheme resourceType: ;
     skos:broadMatch loc:gf2014026096 ; #Examinations
     skos:narrowMatch loc:gf2014026154 ; # Problems and exercises
