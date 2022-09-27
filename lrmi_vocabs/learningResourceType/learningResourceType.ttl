@@ -73,7 +73,7 @@ resourceType:lessonPlan a skos:Concept ;
 resourceType:physicalLearningResource a skos:Concept ;
     skos:prefLabel "physical learning resource"@en-US ;
     skos:definition "Physical object, hardware or device designed to help a learner achieve some learning objective."@en-US ;
-    skos:scopeNote "Examples include educational toys, programmable robots, manipulables used by learners. This does not include auxiliary resources (e.g. pencil, paper, scissors, soldering iron) required for a learning activity." ;
+    skos:scopeNote "Examples include educational toys, programmable robots, manipulables used by learners. This does not include auxiliary resources (e.g. pencil, paper, scissors, soldering iron) required for a learning activity."@en-US ;
     skos:inScheme resourceType: ;
     skos:narrowMatch loc:gf2018026057 ; # Manipulatives
     vs:term_status "stable" .
