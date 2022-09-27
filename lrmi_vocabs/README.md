@@ -13,8 +13,6 @@ The LRMI concept schemes are small sets of concepts for use as values with the L
 * [educationalAudienceRole](educationalAudienceRole/)
 * [educationalUse](educationalUse/)
 * [interactivityType](interactivityType)
-
-## In development
 * [learningResourceType](learningResourceType)
 
 With all LRMI concept schemes, the intention is to provide a small number of broad, top-level concepts. Users who need to classify against more specific concepts are encouraged to declare these concepts using SKOS and to map them to the appropriate LRMI concept using skos:broadMatch. 

@@ -1,11 +1,15 @@
 # LRMI Learning Resource Type Concept Scheme
-**Status:** Incomplete draft.
+**Status:** Working draft.
 
 **creator:** [LRMI Task Group (DCMI)](https://www.dublincore.org/groups/lrmi-task-group/)
 
 **license:** http://creativecommons.org/licenses/by/4.0/
 
 A top-level concept scheme that enumerates different types of Learning Resource, designed to supplement existing more generic resource type schemes and which can support local extensions.
+
+* The latest [stable, normative version](https://www.dublincore.org/specifications/lrmi/concept_schemes/learningResourceType/) is on the DCMI website
+* See [current issues](https://github.com/dcmi/lrmi/issues?q=is%3Aissue+is%3Aopen+label%3AConcept_schemes) relating to LRMI Concept schemes.
+
 
 ## Explanatory Notes
 
