@@ -52,7 +52,7 @@ resourceType:assessmentItem a skos:Concept ;
 
 resourceType:educatorCurriculumGuide a skos:Concept ;
     skos:prefLabel "educator curriculum guide"@en-US, "Lehrplan"@de ;
-    skos:definition "Document that defines what concepts should be taught and/or how a concept should be taught effectively."@en-US, "Ein Dokument, das festlegt, welche Konzepte gelehrt werden sollten und/oder wie ein Konzept effektiv gelehrt werden sollte." ;
+    skos:definition "Document that defines what concepts should be taught and/or how a concept should be taught effectively."@en-US, "Ein Dokument, das festlegt, welche Konzepte gelehrt werden sollten und/oder wie ein Konzept effektiv gelehrt werden sollte."@de ;
     skos:inScheme resourceType: ;
     skos:broadMatch loc:gf2014026188 ; # Teachers' guides
     skos:exactMatch <https://ceds.ed.gov/element/000928#EducatorCurriculumGuide> ;
