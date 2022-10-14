@@ -70,9 +70,9 @@ resourceType:lessonPlan a skos:Concept ;
     vs:term_status "stable" .
 
 resourceType:physicalLearningResource a skos:Concept ;
-    skos:prefLabel "physical learning resource"@en-US ;
-    skos:definition "Physical object, hardware or device designed to help a learner achieve some learning objective."@en-US ;
-    skos:scopeNote "Examples include educational toys, programmable robots, manipulables used by learners. This does not include auxiliary resources (e.g. pencil, paper, scissors, soldering iron) required for a learning activity."@en-US ;
+    skos:prefLabel "physical learning resource"@en-US, "Physische Lernressource"@de ;
+    skos:definition "Physical object, hardware or device designed to help a learner achieve some learning objective."@en-US, "Physisches Objekt, Hardware oder Gerät, das dafür vorgesehen ist, Lernenden beim Erreichen eines Lernziels zu unterstützen."@de ;
+    skos:scopeNote "Examples include educational toys, programmable robots, manipulables used by learners. This does not include auxiliary resources (e.g. pencil, paper, scissors, soldering iron) required for a learning activity."@en-US, "Beispiele sind Lernspielzeug, programmierbare Roboter und sonstige manipulierbare Dinge, die von Lernenden verwendet werden. Dazu gehören nicht Hilfsmittel (z.B. Bleistift, Papier, Schere, Lötkolben), die für eine Lernaktivität benötigt werden."@de ;
     skos:inScheme resourceType: ;
     skos:narrowMatch loc:gf2018026057 ; # Manipulatives
     vs:term_status "stable" .
@@ -86,9 +86,9 @@ resourceType:recordedLesson a skos:Concept ;
     vs:term_status "stable" .
 
 resourceType:supportingDocument a skos:Concept ;
-    skos:prefLabel "supporting document"@en-US ;
-    skos:definition "Document with an instructional component designed to help a learner achieve some learning objective."@en-US ;
-    skos:scopeNote "These are typically static text and or images that may be physical or online. Examples include training manuals, infographics, explainers, textbook chapters, slides from a lesson in whatever form. For textbooks use Textbook. This does not include supplementary/auxilliary resources (e.g. the text being studied in a language class) required for a learning activity." ;
+    skos:prefLabel "supporting document"@en-US , "unterstützendes Dokument"@de ;
+    skos:definition "Document with an instructional component designed to help a learner achieve some learning objective."@en-US, "Dokument mit einer didaktischen Komponente, das dem Lernenden helfen soll, ein Lernziel zu erreichen."@de;
+    skos:scopeNote "These are typically static text and or images that may be physical or online. Examples include training manuals, infographics, explainers, textbook chapters, slides from a lesson in whatever form. For textbooks use Textbook. This does not include supplementary/auxilliary resources (e.g. the text being studied in a language class) required for a learning activity."@en-US, "Es handelt sich typischerweise um statische Texte und Bilder, die physisch oder online vorliegen. Beispiele sind Schulungshandbücher, Infografiken, Erklärungen, Lehrbuchkapitel, Folien aus einer Lektion in beliebiger Form. Für Lehrbücher ist \"Textbook\" zu verwenden. Dazu gehören nicht ergänzende/zusätzliche Ressourcen (z. B. der Text, der in einem Sprachkurs studiert wird), die für eine Lernaktivität erforderlich sind."@de ;
     skos:inScheme resourceType: ;
     skos:narrowMatch loc:gf2014026073 ; # Course materials
     dcterms:source <http://oerschema.org/SupportingMaterial/> ;
