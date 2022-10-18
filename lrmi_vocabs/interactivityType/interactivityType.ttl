@@ -5,6 +5,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -17,7 +18,8 @@ interact: a skos:ConceptScheme ;
     dct:source "Based on the IEEE Learning Object Metadata standard (IEEE/LOM - IEEE 1484.12.1-202)."@en-US ;
     dct:source "Basierend auf dem IEEE Learning Object Metadata Standard (IEEE/LOM - IEEE 1484.12.1-202)."@de ;
     dct:created "2017-03-01"^^xsd:date ;
-    dct:modified "2017-12-20"^^xsd:date ;
+    dct:modified "2022-10-18"^^xsd:date ;
+    vann:changes "https://www.dublincore.org/specifications/lrmi/concept_schemes/release-history/" ;
     dct:license <http://creativecommons.org/licenses/by/4.0/> .
 
 interact:active a skos:Concept ;
