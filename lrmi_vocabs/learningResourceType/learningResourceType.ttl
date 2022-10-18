@@ -1,18 +1,21 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix bibo: <http://purl.org/ontology/bibo/status/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix resourceType: <http://purl.org/dcx/lrmi-vocabs/learningResourceType/> .
+@prefix loc: <http://id.loc.gov/authorities/genreForms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
-@prefix adms: <http://www.w3.org/ns/adms#> .
-@prefix resourceType: <http://purl.org/dcx/lrmi-vocabs/learningResourceType/> .
-@prefix bibo: <http://purl.org/ontology/bibo/status/> .
-@prefix loc: <http://id.loc.gov/authorities/genreForms/> .
 
 resourceType: a skos:ConceptScheme ;
     dc:title "LRMI Learning Resource Type Concept Scheme"@en-US, "LRMI Lernressourcentyp Vokabular"@de ;
     dc:creator "LRMI Task Group (DCMI)"@en-US, "LRMI Task Group (DCMI)"@de ;
     dcterms:created "2022-04-05"^^xsd:date ;
+    dcterms:modified "2022-10-18"^^xsd:date ;
+    vann:changes "https://www.dublincore.org/specifications/lrmi/concept_schemes/release-history/" ;
     dc:description "A concept scheme that enumerates different types of learning resource. By learning resource we mean a persistent resource that has one or more physical or digital representation, and that explicitly involves, specifies or entails a learning activity or learning experience."@en-US, "Ein kontrolliertes Vokabular, das verschiedene Arten von Lernressourcen bezeichnet. Eine solche Ressource hat ein oder mehrere physische oder digitiale Repräsentationen und beinhaltet, spezifiziert oder bedingt eine Lernaktivität or Lernerfahrung."@de ;
     dc:source <https://ceds.ed.gov/element/000928> ;
     adms:status bibo:published .
