@@ -5,6 +5,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -13,7 +14,8 @@ edUse: a skos:ConceptScheme ;
     dc:creator "LRMI Task Group (DCMI)"@en-US, "LRMI Task Group (DCMI)"@de ;
     dct:description "A concept scheme that enumerates the educational uses of a learning resource."@en-US, "Ein kontrolliertes Vokabular, das die pädagogische Nutzung einer Lernressource beschreibt."@de ;
     dct:created "2017-03-01"^^xsd:date ;
-    dct:modified "2017-12-20"^^xsd:date ;
+    dct:modified "2022-10-18"^^xsd:date ;
+    vann:changes "https://www.dublincore.org/specifications/lrmi/concept_schemes/release-history/" ;
     dct:license <http://creativecommons.org/licenses/by/4.0/> .
 
 edUse:assessment a skos:Concept ;
