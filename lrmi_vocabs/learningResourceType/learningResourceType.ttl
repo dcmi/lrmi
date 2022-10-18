@@ -12,7 +12,7 @@
 resourceType: a skos:ConceptScheme ;
     dc:title "LRMI Learning Resource Type Concept Scheme"@en-US, "LRMI Lernressourcentyp Vokabular"@de ;
     dc:creator "LRMI Task Group (DCMI)"@en-US, "LRMI Task Group (DCMI)"@de ;
-    dcterms:dateSubmitted "2022-01-25"^^xsd:date ;
+    dcterms:created "2022-04-05"^^xsd:date ;
     dc:description "A concept scheme that enumerates different types of learning resource. By learning resource we mean a persistent resource that has one or more physical or digital representation, and that explicitly involves, specifies or entails a learning activity or learning experience."@en-US, "Ein kontrolliertes Vokabular, das verschiedene Arten von Lernressourcen bezeichnet. Eine solche Ressource hat ein oder mehrere physische oder digitiale Repräsentationen und beinhaltet, spezifiziert oder bedingt eine Lernaktivität or Lernerfahrung."@de ;
     dc:source <https://ceds.ed.gov/element/000928> ;
     adms:status bibo:published .
