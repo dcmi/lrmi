@@ -11,11 +11,11 @@ This repository provides in-development and informative resources about [LRMI](h
 
 For the stable, normative versions of the terms and concept schemes, see [LRMI Specifications](https://www.dublincore.org/specifications/lrmi/) on the DCMI website.
 
-## Show that you use LRMI 
+## Show that you use LRMI
 
-If you use LRMI metadata in your project or on your website you can help spread the word by displaying one of our "LRMI used here" badges. These are available in a range of pallettes and sizes.<img src="images/usedHereLong_small+bright.png" align="right" />
+If you use LRMI metadata in your project or on your website you can help spread the word by displaying one of our "LRMI enhanced" badges. These are available in a range of pallettes and sizes.<img src="images/enhanced-Long_small+bright.png" align="right" />
 
-For more information see [usedHere](usedHere.md).
+For more information see [LRMI Enhanced](lrmi-enhanced.md).
 
 
 ## Contribute
