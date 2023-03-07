@@ -1,4 +1,4 @@
-# LRMI Terms
+# LRMI Terms (Development Repository)
 LRMI property and class definitions in RDF ([turtle](http://purl.org/dcx/lrmi-terms/)). May include terms that are unstable.
 
 * The latest [stable, normative version](http://www.dublincore.org/specifications/lrmi/lrmi_terms/) and a [release history](https://www.dublincore.org/specifications/lrmi/release-history/) are provided on the Dublin Core website.
