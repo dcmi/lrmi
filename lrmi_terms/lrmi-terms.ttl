@@ -18,8 +18,10 @@
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:title "LRMI RDF Specification"@en ;
     skos:historyNote "2020-11-12: changes made reflecting developments in schema.org: added class LearningResource; added properties assesses, educationalLevel, teaches; fixed error in domain of timerequired; updated label and definition of isBasedOnUrl; skos:scopeNote used instead of dcterms:description for additional non-normative information; note added that rdfs:label is not considered normative; rangeIncludes statements updated to include skos:Concept for terms where there is an LRMI Concept Scheme or that reference a competence." ;
-    skos:historyNote "2022-06-14: added skos:Concept to suggested range of learningResourceType in order to allow the new LRMI Learning Resource Type vocabulary concept scheme to be used. Fixed an error in educationRole from previous edit.";
+    skos:historyNote "2022-06-14: added skos:Concept to suggested range of learningResourceType in order to allow the new LRMI Learning Resource Type vocabulary concept scheme to be used. Fixed an error in educationRole from previous edit.".
+
 # CLASSES
+
 lrmi:AlignmentObject a rdfs:Class ;
     rdfs:label "Alignment Object"@en ;
     dcterms:issued "2015-02-09"^^xsd:date ;
