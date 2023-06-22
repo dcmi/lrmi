@@ -1,5 +1,11 @@
 # What is LRMI, in one page
 
+**By:** LRMI Working Group
+
+**Date:** 2023-05-05
+
+**Status:** Draft for comment
+
 LRMI[1], an effort that has been running since 2011, seeks to allow the creation of structured data about learning resources in order to facilitate resource discovery, selection, management, and other uses. The formal definition LRMI uses for a learning resource is given below, but the important points are that such a resource is reusable (and therefore persistent) and designed for educational purposes. LRMI metadata can also be used for educational events (though such events are not usually persistent unless recorded for later availability).
 
 > **Learning Resource:**  a persistent resource that has one or more physical or digital representations, and that explicitly involves, specifies or entails a learning activity or learning experience.
