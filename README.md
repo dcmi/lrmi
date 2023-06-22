@@ -1,4 +1,4 @@
-<img src="images/LRMI_400w.png" align="right" width="200" height="80">
+<img src="./images/LRMI_400t.png" align="right" width="200" height="80">
 
 # Learning Resource Metadata Innovation Development & Guidance
 
