@@ -1,5 +1,8 @@
 # Context and Background
 
+[![hackmd-github-sync-badge](https://hackmd.io/qHforXA3Q4Cm052G98qafA/badge)](https://hackmd.io/qHforXA3Q4Cm052G98qafA)
+
+
 We take advantage of the search and retrieval capabilities of computer networks and the Internet every day, and most of the time we easily get the kind of results we expect. In education, however, the existing search and retrieval capacities of these systems are inadequate. Teachers need to find educational resources that precisely meet the distinct needs of their students. They need to be able to search based on education-specific attributes such as the student’s age, the academic subject area of interest, or the type of learning activity. Publishers need to communicate the usage rights of their content and ensure that educators can easily find exactly the resources that they are searching for. The Learning Resource Metadata Initiative (LRMI), a collaboration led by the Association of Educational Publishers (AEP) and Creative Commons, and funded by the Bill & Melinda Gates Foundation and the William and Flora Hewlett Foundation, is working to address these needs and make it easier to develop, deliver, and discover quality educational resources on the web.
 
 This document is a supplement to ongoing LRMI metatagging efforts and is intended for educational content publishers and curators, as well as those who provide metadata services to the education community.
@@ -58,20 +61,115 @@ The diagram above provides some context about the important role metatagging pla
 
 There is no one “right way” to organize your metatagging process and workflow. You will need to develop a process that works for the unique characteristics of your organization. Based on decades of metatagging experience, we recommend that you consider the best practices below during your LRMI planning and implementation process.
 
+### Step One: Planning
+
 Before you start working with LRMI, you should spend time planning the implementation and how it will fit into your existing workflow. 
 
 Here are some common issues publishers will want to consider.
 
+1. **What is the nature of your organization?** <br> Are you a “mom and pop shop” with relatively few products or are you part of a large organization with myriad disparate products and bureaucracies?
 
+* If you are part of a small organization, you’ll likely be working on LRMI in between all the other important things on your plate. Schedule a regular time to work on LRMI-related issues and stick to your schedule.
 
-| Issue to consider: | Considerations and advice |
-| -------- | -------- |
-| What is the nature of your organization?
-Are you a “mom and pop shop” with relatively few products or are you part of a large organization with myriad disparate products and bureaucracies?     | If you are part of a small organization, you’ll likely be working on LRMI in between all the other important things on your plate. Schedule a regular time to work on LRMI-related issues and stick to your schedule.
-If you are part of a large organization you may have to deal with any number of bureaucratic issues. To facilitate LRMI in a larger organization it often makes sense to have someone (or a dedicated crew) whose sole responsibility is the metatagging process, and get buy-in from every key stakeholder including managers and executives. It’s beneficial to have representation from both your content and technical team during these discussions.      |
+* If you are part of a large organization you may have to deal with any number of bureaucratic issues. To facilitate LRMI in a larger organization it often makes sense to have someone (or a dedicated crew) whose sole responsibility is the metatagging process, and get buy-in from every key stakeholder including managers and executives. It’s beneficial to have representation from both your content and technical team during these discussions. 
 
+* Regardless of whether you’re small or large, take advantage of the LRMI documents and community listed above on page 1 to ensure that you can leverage to experience of those leading and implementing LRMI.
 
-### Step One: Planning
+2. **What, if any, metatagging procedures do you currently have in place in your organization?**
+
+* Depending on the kind of metatagging you may already do, incorporating LRMI may be easy, or the existing process may include elements that are incompatible with LRMI. 
+
+* We suggest you map out the LRMI process independent of your current process, and then compare the two to see where there are synergies and disconnects. We have observed that some organizations have entrenched ideas about metatagging that can limit the efficacy of LRMI. Part of the review process should include discussions about existing approaches that are not valid for LRMI.
+
+* Creative Commons has some examples of metadata comparisons for some OER publishers that may be helpful to you as you consider how LRMI relates to your current procedures (http://wiki.creativecommons.org/LRMI/Implementation).
+
+3. **Is the educational content you produce print, digital, or both?**
+
+* To get the greatest benefit from LRMI, you’ll need to consider the nature of the content you plan to tag so that it is accurately represented to the educators searching for resources. In other words, the main goal of LRMI is to promote meaningful discovery of learning resources for teachers and students who have unique needs. Being very specific with the descriptions of your learning resources will promote greater success for the teachers and students who are searching for “just the right” resource. 
+
+* If your educational content is print, it would be in your best interested to create a unique landing page for the learning resource and incorporate LRMI metatags in the HTML of the web page. Even a simple web page with a couple of sentences describing your learning resource would suffice.
+
+3. **How do educators purchase, access and use your content?**
+
+* As the Internet becomes a more prevalent sales and distribution channel, older channels are changing or going away. Make it easy for educators to purchase, access and use your content by providing unique, public URLs for each learning resource. If the learning resource is not digital, or if it exists online behind a paywall, you should consider having unique, publicly-accessible web pages that describe the learning resource and give teachers and students the opportunity to learn about and purchase them.
+
+4. **What are your organization’s objectives for metatagging?**
+
+* Historically, publishers’ metatagging requirements - especially for alignments/correlations to curriculum standards - have been driven by sales and marketing. As LRMI and related technologies become more widespread, metatagging that is solely focused on sales and marketing is likely to have adverse results on educator’s perceptions about your products. The end user is searching for learning resources that match their unique needs, so the more specific you can be with your metatags, the better impression you will make on the end user
+
+* We propose that you think about metatagging from the perspective of personalized learning. What is the best way to represent your content when viewed through the lens of providing solutions that are personalized for individual learners? 
+
+* One approach would be to develop use cases as a way to frame your approach to metatagging. For example, imagine yourself as an overwhelmed educator who is trying to find the best resources for a new lesson plan that addresses fractions for grade four math students. Or consider the case of a high school student looking for resources about algebraic expressions.
+
+5. **Organizing the content by similar groups of metatags**
+
+* As you plan your metatagging process, incorporate steps that will make it more efficient. In many cases there is quite a bit of repetition from one learning resource to the next, which means you can simply copy/paste metadata from one learning resource to the next. 
+
+### Step Two: Organizing the Information about the Resources to be Metatagged
+
+A key step in the metatagging process is organizing the information about your content so that it can be easily referenced when coding the descriptions.
+
+### Step Three: Tagging your Content
+
+In this step the content is tagged with the appropriate metadata.
+1. **I’ve reviewed the LRMI specification and I don’t have all the metadata listed in the specification for my learning resources.**
+
+* The implementation of LRMI metadata is quite flexible.  There are no “required” elements of LRMI.  For example, if you don’t have any formal usage rights or terms of use, you can omit this element from your metatagging. 
+
+* In addition, if you wish to tag your learning resource today with some of the metadata elements, you can return to the learning resource at a later date and add or remove metadata elements.
+
+2. **Tagging curriculum standards involves selecting the best matches between the educational content and curriculum standards documents.**
+<br>**Note:** *the GIM-CCSS project listed above is developing a more granular digital representation of the Common Core State Standards.  Current digital representations of the CCSS and other curriculum standards exist and can be used to align your learning resources within the LRMI metadata.*
+
+* Tagging to curriculum standards is typically the most confusing aspect of the LRMI specification, yet alignment to curriculum standards is often THE element educators use to search for learning resources.
+
+* You can tag (“align”) your learning resource to one or more curriculum standards.  However, if you are not using a professional service to do this part of the metatagging, we recommend that you become intimately familiar with the standards documents and only select the matches that best represent the learning resource. While selecting standards that touch on concepts or skills addressed by the learning resource, be aware that educators could interpret these resources as “false positives” in their search results and your learning resources could be viewed as inaccurately aligned to the standards.
+
+3. **Subject area does not appear to be part of the LRMI specification, but it is important for me to communicate this to people searching for my educational resources.**
+
+* The 'about' property that is a part of Schema.org already adequately accomplishes this goal. LRMI only adds properties that are not already covered.  So, although it is not part of the LRMI specification, you can add this metadata for your learning resource using the existing ‘about’ property.
+
+4. **There is an element for “typicalAgeRange” within the LRMI specification but not “Grade level”**
+
+* This is partly true. To ensure that the LRMI terms that are included with schema.org are as “international” as possible it was decided to use a multi-pronged approach:
+
+    1. Use “typicalAgeRange” when that information is known and available. This can even be used when the only text visible on a webpage is the Grade level, as long as there is a known and relatively agreed upon mapping between Grade level and age range.
+
+    2. Use the “educationalAlignment” term, in combination with the alignmentObject, to model the grade level using some applicable standard in your jurisdiction/country/state/etc. To do this use the "alignmentType" term (which is a part of alignmentObject) and provide a value of "educationLevel" (in this case, “gradeLevel”). Then, with either using the targetUrl (if there exists a standard URL/URI for the grade level in question) or targetName to reference the grade level.
+
+    3. Tagging to curriculum standards often associates the learning resource to specific grade levels because the curriculum standards are often organized by grade level.
+
+5. **Usage rights**
+
+* This element of LRMI was defined to enable publishers to specifically list usage rights whether they are selected from Creative Commons or their own. Often, publishers have Terms of Use pages that can be specifically listed within this element, providing a broad applicability for multiple learning resources with a common set of usage rights.
+
+6. **Choosing the best metadata terms**
+
+* It’s important to find the recommended value, within each property, that best describes what your resource does, how learners engage with it, and how it is deployed in the classroom—include metadata dictionary (refer to publisher submission document with recommended values)
+
+* Using the “best set” of metadata to accurately describe your educational resource will improve discoverability
+
+* Map existing data or new schema.org metadata
+
+7. **Multiple metadata attributes**
+
+* The current LRMI specification does not permit multiple tagging representations for the same URL.
+
+* In rare cases, you may have a learning resource that has two or more distinct uses.  Because of these differences, you may want to create more than one web page (more than one URL) for the same resource so that you can create distinct LRMI tagging for each usage.
+
+8. **Ranges of values for metadata**
+
+* Certain LRMI elements, i.e., typicalAgeRange, permit ranges to be specified (e.g., 6-8, 8-12, etc.).  However, certain elements, i.e., “timeRequired,” require a specific designation, not a range.
+
+9. **What is the appropriate title for your resource? Should the Page title be the actual metadata "title" of the page?**
+
+* We recommend the actual title associated with the resource or product offering. 
+
+10. **Tagging output**
+
+* For learning resources that have specific web pages, the LRMI metadata can be embedded into the HTML code of the web page. As stated above, a driving force behind LRMI has been Schema.org (see information above on Schema.org). When schema.org formally adopts LRMI, web pages that have LRMI metadata within their HTML will be scanned by the major search engines for those value-added metatags. 
+
+* In addition, publishers can create JSON versions of the LRMI metadata to be published to Learning Registry node(s). [Note: see information above on Learning Registry. JSON refers to the specific syntax for representing the LRMI metadata within the Learning Registry which has formally adopted the JSON format for LRMI metadata storage].
 
 **Version history**
 
