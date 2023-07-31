@@ -98,7 +98,7 @@ lrmi:educationalLevel a rdf:Property ;
     dcterms:issued "2020-11-12"^^xsd:date ;
     schema:domainIncludes schema:CreativeWork, lrmi:LearningResource, schema:LearningResource ;
     schema:rangeIncludes schema:DefinedTerm, skos:Concept ;
-    owl:equivalentProperty schema:assesses ;
+    owl:equivalentProperty schema:educationalLevel ;
     rdfs:isDefinedBy <http://purl.org/dcx/lrmi-terms/> .
 
 lrmi:educationalRole a rdf:Property ;
