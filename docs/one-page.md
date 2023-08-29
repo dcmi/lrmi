@@ -4,7 +4,7 @@
 
 **Date:** 2023-06-21
 
-**Status:** Submitted for publishing
+**Status:** [published](https://www.dublincore.org/specifications/lrmi/resources/one-page/).
 
 LRMI[1], an effort that has been running since 2011, seeks to allow the creation of structured data about learning resources in order to facilitate resource discovery, selection, management, and other uses. The formal definition LRMI uses for a learning resource is given below, but the important points are that such a resource is reusable (and therefore persistent) and designed for educational purposes. LRMI metadata can also be used for educational events (though such events are not usually persistent unless recorded for later availability).
 
