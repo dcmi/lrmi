@@ -1,6 +1,6 @@
 <img src="../images/LRMI_400t.png" align="right" width="200" height="80">
 
-# Learning Resource Metadata Innovation Development & Guidance
+# Learning Resource Metadata Innovation Draft Resources
 
 This site holds in-development and final draft informative resources about [LRMI](https://www.dublincore.org/about/lrmi/), including:
 * [LRMI One-pager](one-page): A one-page, non-technical description of LRMI for a general audience. Status: [published](https://www.dublincore.org/specifications/lrmi/resources/one-page/).

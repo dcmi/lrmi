@@ -2,7 +2,7 @@
 
 # Learning Resource Metadata Innovation Development & Guidance
 
-This folder holds in-development informative resources about [LRMI](https://www.dublincore.org/about/lrmi/), including:
+This folder holds in-development informative resources about [LRMI](https://www.dublincore.org/about/lrmi/), that are published to https://dcmi.github.io/lrmi/ including:
 * [LRMI One-pager](one-page): A one-page, non-technical description of LRMI for a general audience. Status: [published](https://www.dublincore.org/specifications/lrmi/resources/one-page/).
 * Smart Publishers Guide to LRMI: Status in preparation.
 
