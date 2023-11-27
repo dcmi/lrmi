@@ -3,27 +3,24 @@
 # Context and Background
 
 We take advantage of the search and retrieval capabilities of computer networks and the Internet every
-day, and most of the time we easily get the kind of results we expect. In education, however, the existing
+day, and most of the time we get the kind of results we expect, whether through conventional search engine indexing of web pages or through machine learning. In education, however, the existing
 search and retrieval capacities of these systems are inadequate. Teachers need to find educational
 resources that precisely meet the distinct needs of their students. They need to be able to search based
 on education-specific attributes such as the student’s age, the academic subject area of interest, the level
-of learning, the relevance to curriculum standards or objectives, or the type of learning activity. Publishers
-need to communicate the usage rights of their content and ensure that educators can easily find the
-resources that they are searching for. The Learning Resource Metadata Initiative (LRMI), a collaboration
-led by the Association of Educational Publishers—the 501(c)(3) arm of the Association of American
-Publishers—and Creative Commons, and funded by the Bill & Melinda Gates Foundation, is working to
-address these needs and make it easier to develop, deliver, and discover quality educational resources on
-the web and other search and delivery platforms.
+of learning, the relevance to curriculum standards or objectives, or the type of learning activity. 
 
-This document is a supplement to ongoing LRMI metatagging efforts and is intended for educational content publishers and curators, as well as those who provide metadata services to the education community.
+But LRMI is not just about search, and discovery of new content alone is not enough to drive improvement in learning. Collections of data about learning resources, learning outcomes, learner information and other variables in the learning ecosystem are being analysed to monitor ongoing learning experiences and inform the design of iterative improvements for future learners. Not only does this support the selection of the best resources to support a specific learning experience, but it should also inform the development of learning resources throughout their lifecycle.
+
+This document builds on several years' of reflection on the use and potential of LRMI to provide educational content creators and publishers with the motivation and information to effectively provide data about their resources using LRMI.
 
 Other resources available for the educational content development community include:
-* **LRMI Project:** 
-The LRMI Web Site (http://www.lrmi.net) provides background information about LRMI, the Specification, details about LRMI leadership, a discussion forum, and additional resources. For those interested in the details, review the LRMI specifications at http://www.lrmi.net/the-specification.
-* **Workshops, Presentations, and Webinars:**
-The LRMI web site provides information about LRMI events, including workshops, presentations at industry conferences, and webinars: http://www.lrmi.net/category/news/events
-* **Community:**
-The LRMI discussion forum (http://www.lrmi.net/discuss) currently includes topics ranging from detailed implementation and tagging questions, to broader discussions about the Initiative. Other resources of interest include the Association of Educational Publishers (AEP), (www.aepweb.org) and the Bill & Melinda Gates Foundation (www.gatesfoundation.org). Additional related information can be found at the Creative Commons LRMI wiki site (http://wiki.creativecommons.org/LRMI) and the Common Core State Standards (http://corestandards.org)
+* LRMI in One Page
+* LRMI technical documentation (on DCMI and Schema.org)
+* LRMI community
+    * forum
+    * work group
+
+Explain same properties in the two namespaces. Other communities adopt/refine/expand for their own needs.
 
 ## About Metadata and Metatagging
 
@@ -37,36 +34,15 @@ Depending on the details of the metatagging system, the complete range of learni
 
 ## LRMI and Related Projects to Support the Search and Retrieval of Educational Content on the Web
 
-LRMI is one of several interrelated projects intended to support the search and retrieval of educational content in networked environments and on the Internet.
+LRMI is expected to be used in Application Profiles (explain - ref Singapore framework)
 
-### Schema.org http://schema.org
+ADD: 
+- P2881
+- AMB
+- K12-OCX
+- MatchMaker
 
-The LRMI project is an educational extension of Schema.org, a Bing/Google/Yahoo! collaboration to develop and encourage the use of metadata to make it easier to find web pages that more closely match search criteria. To support the objectives of Schema.org, LRMI metadata is based on contributions from experts and organizations that have worked with metadata and metatagging since the early 1990s and, as such, it is comprised of the “best” of existing systems rather than a reinvention.
-
-### Learning Registry http://www.learningregistry.org
-
-The Learning Registry is an open source technical system designed to facilitate the exchange of metadata about learning resources. The Learning Registry is creating a set of technical protocols for how to organize, exchange, and retrieve learning resource metadata in an open network, using the Internet. It serves as a platform for innovation for content authors and aggregators, including publishers, states, districts, teachers, etc. The Learning Registry’s vision is that web-based applications will harness the power of the Learning Registry metadata to allow educators to quickly find learning resources that meet their unique needs. The Learning Registry plans to leverage the LRMI standard to increase the ease of metadata usage within the education industry. In addition to storing metadata, the Learning Registry will also have a community network that will allow the sharing of ratings, comments, downloads, standards alignment, etc.
-
-The Learning Registry is not a specific destination, portal, or application that educators will “go to.”  Rather, it is an open technology framework to which any content creator can publish, and any technology vendor (e.g., learning management system, content aggregators, or application developers) can leverage for learning resource discovery and delivery within their applications.
-
-To help companies and organizations try out the tagging process in a safe, low-pressure environment,
-the LRMI is developing a unique resource that will help content publishers and curators visualize the
-benefits of LRMI-tagged content. The LRMI Sandbox Node will offer organizations a secure, private space
-to publish and review the results of their tagging efforts within the framework of the Learning Registry.
-Companies and organizations interested in learning more about the LRMI Sandbox Node can contact
-Dave Gladney, LRMI Project Director for AEP, at dgladney@publishers.org.
-
-### Shared Learning Collaborative (SLC) http://slcedu.org
-
-The SLC provides resources to help developers, courseware designers, and educators create tools and services in alignment with the Common Core State Standards. The SLC is working to make personalized learning a reality for every U.S. student by improving the usefulness, variety, and affordability of education technology. The SLC is organizing data about students and learning resources. The SLC plans to use the Learning Registry framework for discovery and delivery of learning resources, and as stated above, LRMI is an important element within the metadata definition of the learning resources.
-
-### GIM-CCSS http://www.setda.org/web/guest/Interoperability
-
-The “Granular Identifiers and Metadata for the Common Core State Standards” (GIM-CCSS) project is working to facilitate the long-term technical implementation of the Common Core State Standards (CCSS) in a digital format that preserves their conceptual and structural integrity. The LRMI specification consists of elements that permit tagging to (“aligning to”) published educational standards.  Thus, the efforts of the GIM-CCSS project will increase the ability of publishers to meaningfully tag (“align”) their learning resources to CCSS.  This project is a collaboration among the Partnership for the Assessment of Readiness for College and Careers (PARCC), the Smarter Balanced Assessment Consortium (Smarter Balanced), the State Educational Technology Directors Association (SETDA), and the Council of Chief State School Officers (CCSSO).
-
-### Schools Interoperability Framework Association (SIFA) http://www.sifinfo.org
-
-The SIF Association is comprised of K-12 organizations that have created a set of rules and definitions that enable software programs from different companies to share information. This set of platform-independent, vendor-neutral rules and definitions is called the SIF Implementation Specification. The SIF Specification makes it possible for programs within a school or district to share data without additional programming.
+Link to usage form & badges.
 
 ## Context: How it all Fits Together
 
