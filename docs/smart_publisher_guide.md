@@ -1,5 +1,47 @@
 [![hackmd-github-sync-badge](https://hackmd.io/qHforXA3Q4Cm052G98qafA/badge)](https://hackmd.io/qHforXA3Q4Cm052G98qafA)
 
+
+# Contents:
+## About LRMI
+- [What is LRMI Metadata for?]()
+- [What is LRMI Metadata?]()
+- Who uses LRMI Metadata?
+
+## Using LRMI
+- Defining the metadata you need.
+- Sourcing metadata in the content creation work flow.
+- LRMI Metadata and AI/ML/LLM.
+- Publishing LRMI Metadata.
+
+## Advanced topics
+- Developing LRMI
+
+
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+
+
+# OLD STUFF BELOW HERE
+
 # Context and Background
 
 We take advantage of the search and retrieval capabilities of computer networks and the Internet every
@@ -20,19 +62,24 @@ Other resources available for the educational content development community incl
     * forum
     * work group
 
-Explain same properties in the two namespaces. Other communities adopt/refine/expand for their own needs.
 
 ## About Metadata and Metatagging
 
-“Metadata” is simply “data about data.” Within the context of educational content, metadata is sometimes referred to as a “digital library card” that contains the detailed information that describes the learning resource. For example, simple metadata about a textbook might include the publish date, the author, the number of pages, and so on. Metadata does not include the learning resource’s content—the actual text or lesson data from the learning resource.  Rather, metadata consists of various descriptors about the learning resource. The creation of metadata is known as “metatagging.” Each “tag” is an attribute, such as the number of pages that are associated with a learning resource. Historically, and with varying success, educational content developers have used metatagging to facilitate learning resource discovery within closed systems—that is, within systems over which they have control.
+“Metadata” is simply “data about data.” 
 
-In some cases, educational content development organizations (“publishers”) use enterprise scale content management systems (CMS’s) as workflow tools to develop, manage, and distribute their learning resources, and a key part of the CMS’s success (or not) is metatagging. Since nearly every organization has developed its own approach to metatagging, educational content is not easily shareable in open network systems or over the Internet. In other words, since each content developer’s approach to metatagging has been unique, there has been no uniform way to search for content from multiple publishers. Therefore, one important objective for LRMI is to standardize a basic metatagging approach that enables the search and discovery of learning resources from multiple publishers in open networks and over the Internet.
+Within the context of educational content, metadata is sometimes referred to as a “digital library catalog card” that contains the detailed information that describes the learning resource. For example, simple metadata about a textbook might include the publication date, the author, the number of pages, and so on. Metadata does not include the learning resource’s content—the actual text or lesson data from the learning resource.  Rather, metadata consists of various descriptors about the learning resource.  Each discrptor is an charateristic of the resource, such as the number of pages or a link to information about another entity, such as the author of the resource. Historically, and with varying success, educational content creators have used metadata to facilitate learning resource discovery within closed systems—that is, within systems over which they have control·.
+
+In some cases, educational content creators use enterprise scale content management systems (CMS) as workflow tools to develop, manage, and distribute their learning resources, and a key part of the CMS’s success (or not) is metatagging. Since nearly every organization has developed its own approach to metatagging, educational content is not easily shareable in open network systems or over the Internet. In other words, since each content creator’s approach to metatagging has been unique, there has been no uniform way to search for content from multiple publishers. Therefore, one important objective for LRMI is to standardize a basic metatagging approach that enables the search and discovery of learning resources from multiple publishers in open networks and over the Internet.
 
 Another major use of metatagging in education has been the alignment (or correlation) between learning resources and state and national curriculum standards. Some publishers use this kind of mapping to guide their product development process. It is often used as a marketing tool to emphasize the depth and breadth of coverage of learning resources.  Closer to the learning activity, it is particularly important for teachers who need to find learning resources that map to curriculum standards within their district’s scope and sequence. 
 
 Depending on the details of the metatagging system, the complete range of learning resources—from textbooks to web pages to media files—can be metatagged and successfully searched and retrieved. If the learning resource is digital, then that resource’s metadata can include a URL pointer to where the asset can be retrieved. If the learning resource is not digital (like a print-only book or document), the metadata can include information about where it is physically located (like on a particular shelf in a library), how it can be purchased, or there can be a URL pointer to a unique landing page that describes the product.
 
 ## LRMI and Related Projects to Support the Search and Retrieval of Educational Content on the Web
+
+ADD:
+* Explain same properties in the two namespaces. 
+* Other communities adopt/refine/expand for their own needs.
 
 LRMI is expected to be used in Application Profiles (explain - ref Singapore framework)
 
