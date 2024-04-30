@@ -1,5 +1,8 @@
 # What is LRMI Metadata For?
 
+[![hackmd-github-sync-badge](https://hackmd.io/0Q2vMuQjSqeIC1YNaFM8tQ/badge)](https://hackmd.io/0Q2vMuQjSqeIC1YNaFM8tQ)
+
+
 **Status:** draft for comment
 
 We take advantage of the search and retrieval capabilities of computer networks and the Internet every day, and most of the time we get the kind of results we expect, whether through conventional search engine indexing of web pages or through generative AI. In education, however, the existing search and retrieval capacities of these systems are inadequate. Learners and teachers need to find educational resources that precisely meet the their own needs or those of their students. They need to be able to search based on education-specific attributes such as the learner’s age, the academic subject area of interest, the level of learning, the relevance to curriculum standards, learning objectives or competences, or the type of learning activity. LRMI enables the encoding of information that addresses these needs.
