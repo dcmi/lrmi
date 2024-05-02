@@ -4,7 +4,7 @@
 
 This site holds in-development and final draft informative resources about [LRMI](https://www.dublincore.org/about/lrmi/), including:
 * [LRMI One-pager](one-page): A one-page, non-technical description of LRMI for a general audience. Status: [published](https://www.dublincore.org/specifications/lrmi/resources/one-page/).
-* Smart Publishers Guide to LRMI: Status in preparation.
+* [Content Creator's Guide to LRMI](content-creators-guide): Status in preparation.
 
 Resources are normally published on the DCMI webiste when complete, under [specifications/lrmi/resources](https://www.dublincore.org/specifications/lrmi/resources/).
 
