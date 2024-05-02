@@ -1,9 +1,12 @@
 # What is LRMI Metadata For?
 
-[![hackmd-github-sync-badge](https://hackmd.io/0Q2vMuQjSqeIC1YNaFM8tQ/badge)](https://hackmd.io/0Q2vMuQjSqeIC1YNaFM8tQ)
-
+**Part of [The Content Creator's Guide to LRMI](content-creators-guide)**
 
 **Status:** draft for comment
+
+**By:** [LRMI Working Group](https://www.dublincore.org/groups/lrmi/)
+
+[![hackmd-github-sync-badge](https://hackmd.io/0Q2vMuQjSqeIC1YNaFM8tQ/badge)](https://hackmd.io/0Q2vMuQjSqeIC1YNaFM8tQ)
 
 We take advantage of the search and retrieval capabilities of computer networks and the Internet every day, and most of the time we get the kind of results we expect, whether through conventional search engine indexing of web pages or through generative AI. In education, however, the existing search and retrieval capacities of these systems are inadequate. Learners and teachers need to find educational resources that precisely meet the their own needs or those of their students. They need to be able to search based on education-specific attributes such as the learner’s age, the academic subject area of interest, the level of learning, the relevance to curriculum standards, learning objectives or competences, or the type of learning activity. LRMI enables the encoding of information that addresses these needs.
 
@@ -38,3 +41,4 @@ The precision with which suitable resources can be found is enhanced by LRMI all
 Particular attention has been paid to expressing the alignment (or correlation) between learning resources and state and national curriculum standards and, in the case of Competence Based Learning, with skills that are required for proficiency at certain tasks. Some content creators use this kind of mapping to guide their product development process. It is often used as a marketing tool to emphasize the depth and breadth of coverage of learning resources. Closer to the learning activity, it is particularly important for teachers who need to find learning resources that map to learning objectives or competencies addressed within their curriculum.
 
 We also believe that LRMI metadata fits into a learning engineering ecosystem that allows systematic approaches to understanding the interactions between learners, the curriculum and the resources used to learn. In such an ecosystem data on the resources and the curriculum can be matched with measurements of learning to continually identify improvements in outcomes.
+
