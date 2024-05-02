@@ -9,7 +9,7 @@
 
 ## Contents:
 ### About LRMI
-- [What is LRMI Metadata for?](what_is_lrmi_metadata_for)
+- [What is LRMI Metadata for?](what-is-lrmi-metadata-for)
 - [What is LRMI Metadata?]()
 - Who uses LRMI Metadata?
 
